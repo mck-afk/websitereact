@@ -1,11 +1,22 @@
 
+
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import PostItNote from "../components/PostItNote";
 import PageLayout from "../components/PageLayout";
+import { motion } from "framer-motion";
+import StickerPeel from '../components/StickerPeel';
 
 const Home = () => {
   const navigate = useNavigate();
+
+  const [moveDown, setMoveDown] = React.useState(false);
+
+  React.useEffect(() => {
+    if (moveDown) {
+      setTimeout(() => navigate("/weblog"), 600);
+    }
+  }, [moveDown, navigate]);
 
   return (
     <PageLayout>
@@ -15,6 +26,7 @@ const Home = () => {
           alt="Profile Picture"
           style={{ width: 350, height: 350, paddingBottom: 10, margin: "auto" }}
         />
+    
         <PostItNote
           id="noteABOUT"
           className="note pink"
@@ -42,20 +54,36 @@ const Home = () => {
           </p>
         </PostItNote>
 
-        <PostItNote
-          id="noteWEBLOG"
-          className="note red right"
-          onClick={() => navigate("/weblog")}
-          style={{ cursor: "pointer" }}
-          title="Blog"
+        <motion.div
+          initial={{ y: -50 }}
+          animate={moveDown ? { y: 25 } : { y: 0 }}
+          transition={{ duration: 0.6 }}
+          style={{ cursor: "pointer", margin: "auto"}}
+          whileHover={{ rotate: -5 }}
+          onClick={() => setMoveDown(true)}
         >
-          <p>
-            my <a href="https://en.wikipedia.org/wiki/Blog">web log</a> is an athenaeum
-            of contemplations, investigations, & imaginations ✍️
-            <br /><br />topics include: art, technology, literacy, writing, home, girl, woman, mother, other
-            
-          </p>
-        </PostItNote>
+          <PostItNote
+            id="noteWEBLOG"
+            className="note red right"
+            onClick={() => navigate("/weblog")}
+            style={{ cursor: "pointer" }}
+            title="Blog"
+          >
+            <p>
+              my <a href="https://en.wikipedia.org/wiki/Blog">web log</a> is an athenaeum
+              of contemplations, investigations, & imaginations ✍️
+              <br /><br />topics include: art, technology, literacy, writing, home, girl, woman, mother, other
+            </p>
+          </PostItNote>
+        </motion.div>
+        <motion.div
+          initial={{ y: -20 }}
+          animate={moveDown ? { y: 25 } : { y: 0 }}
+          transition={{ duration: 0.2 }}
+          style={{ cursor: "pointer", margin: "auto" }}
+          whileHover={{ rotate: 5 }}
+          onClick={() => setMoveDown(true)}
+        >
         <PostItNote
           id="noteINTERNET"
           className="note blue left"
@@ -67,6 +95,16 @@ const Home = () => {
             treasured connections and digital reciprocations 🔗 <br /><br />links to 📖 books, newsletters, communities, 📰 articles, media, movements, people, and other cool things I think you should explore 🖇️
           </p>
         </PostItNote>
+        </motion.div>
+
+        <motion.div
+          initial={{ y: -20 }}
+          animate={moveDown ? { y: 25 } : { y: 0 }}
+          transition={{ duration: 0.8 }}
+          style={{ cursor: "pointer", margin: "auto" }}
+          whileHover={{ rotate: 5 }}
+          onClick={() => setMoveDown(true)}
+        >
         <PostItNote
           id="noteFBL"
           className="note yellow right"
@@ -78,6 +116,16 @@ const Home = () => {
             for ALL audiences<br /><br />A fun, accessible, deep-dive workshop that explores and strengthens the skills of interpreting and responding to the Female Body, as it moves through a lifetime 🩸
           </p>
         </PostItNote>
+        </motion.div>
+
+        <motion.div
+          initial={{ y: -60 }}
+          animate={moveDown ? { y: 25 } : { y: 0 }}
+          transition={{ duration: 0.8 }}
+          style={{ cursor: "pointer", margin: "auto" }}
+          whileHover={{ rotate: 5 }}
+          onClick={() => setMoveDown(true)}
+        >
         <PostItNote
           id="noteASTROPROGRAM"
           className="note orange left"
@@ -92,6 +140,16 @@ const Home = () => {
             <br /><br />hear me out
           </p>
         </PostItNote>
+        </motion.div>
+
+        <motion.div
+          initial={{ y: -40 }}
+          animate={moveDown ? { y: 25 } : { y: 0 }}
+          transition={{ duration: 0.8 }}
+          style={{ cursor: "pointer", margin: "auto" }}
+          whileHover={{ rotate: 5 }}
+          onClick={() => setMoveDown(true)}
+        >
         <PostItNote
           id="noteABODE"
           className="note green right"
@@ -104,6 +162,16 @@ const Home = () => {
             <br /><br />affectionately known <br /> as the honeycomb home <br /> of my creations ⬡
           </p>
         </PostItNote>
+        </motion.div>
+
+        <motion.div
+          initial={{ y: -20 }}
+          animate={moveDown ? { y: 25 } : { y: 0 }}
+          transition={{ duration: 0.8 }}
+          style={{ cursor: "pointer", margin: "auto" }}
+          whileHover={{ rotate: 5 }}
+          onClick={() => setMoveDown(true)}
+        >
         <PostItNote
           id="noteCONTACT"
           className="note purple left"
@@ -115,6 +183,7 @@ const Home = () => {
             let's chat! 📞<br /><br /> let's grab coffee! ☕️ <br /><br /> let's go to the market! 🧺 <br /><br /> let's grab a sweet treat!  🍰
           </p>
         </PostItNote>
+        </motion.div>
       </div>
 
     </PageLayout>

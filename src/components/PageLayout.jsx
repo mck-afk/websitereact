@@ -5,14 +5,14 @@ import Nav from "../components/Nav";
 
 const PageLayout = ({ children }) => (
   <>
-    <header className="pink">
-        <Nav />
+    <header>
+
     </header>
     <main>
         {children}
     </main>
     <footer className="pink">
-        <Footer />
+        <Nav />
     </footer>
   </>
 );
