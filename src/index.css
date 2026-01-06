@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "BC";
+  src: local("BodoniCondC"), url("/fonts/BodoniCondC.otf") format("opentype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "GI";
+  src: local("GlacialIndifference-Regular"), url("/fonts/GlacialIndifference-Regular.otf") format("opentype");
+  font-weight: normal;
+}
+
+
+/* Sticky Notes */
+
+#noticeboard {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.note {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 10px 10px 2px rgba(0,0,0,0.3);
+  font-family: 'GI';
+  margin-bottom: 40px;
+}
+.note .actions {
+  display: block;
+  text-align: right;
+  margin-bottom: 15px;
+  position: absolute;
+  right: 20px;
+  bottom: 5px;
+}
+
+.right {
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  transform: rotate(2deg);
+}
+
+.left {
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  -o-transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+}
+
+.red {
+  background: #ffa0a0;
+}
+
+.orange {
+  background: #ffb169;
+}
+
+.yellow {
+  background: #ffd861;
+}
+
+.green {
+  background: #98dc9b;
+}
+
+.blue {
+  background: #b8e3ff;
+}
+
+.purple {
+  background: #d9b8ff;
+}
+
+.pink {
+  background: #fbb8ff;
+}
