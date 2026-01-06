@@ -2,13 +2,13 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import PostItNote from "../components/PostItNote";
-import Footer from "../components/Footer";
+import PageLayout from "../components/PageLayout";
 
 const Home = () => {
   const navigate = useNavigate();
 
   return (
-    <div id="content">
+    <PageLayout>
       <div id="noticeboard">
         <img
           src="/images/profile.png"
@@ -20,8 +20,8 @@ const Home = () => {
           className="note pink"
           title="annabelle grace mckenzie"
         >
-          <p style={{ textAlign: "left", paddingLeft: 20, paddingRight: 10, paddingTop: 0 }}>
-            <br /> 📍 Melbourne/Naarm
+          <p>
+            📍 Melbourne/Naarm
             <br /> 📚 reader of {" "}
             <a href="/InterNet">literature & critiques</a>
             <br /> ✍️ writer for <a href="/weblog">humans</a> & {" "}
@@ -35,18 +35,13 @@ const Home = () => {
               <img className="icon" src="/images/insta.png" alt="instagram" /> archive
             </a>
           </p>
-          <p style={{ textAlign: "left" }}>
-            ⛳︎ <span style={{ fontWeight: "bold" }}>currently:</span>
-            <br />refining <span className="orange">Astrology for Programmers</span>
-            & completing {" "}
-            <a
-              href="https://adventofcode.com/2025"
-              style={{ backgroundColor: "black", color: "greenyellow", fontFamily: "monospace" }}
-            >
-              Advent of Code
-            </a>
+          <p>
+            <img className="icon" src="https://img.icons8.com/?size=100&id=W77GEN8wSCBv&format=png&color=000000" alt="now" />
+            <span style={{ fontWeight: "bold" }}> now: </span>
+            rewriting this in React
           </p>
         </PostItNote>
+
         <PostItNote
           id="noteWEBLOG"
           className="note red right"
@@ -57,14 +52,14 @@ const Home = () => {
           <p>
             my <a href="https://en.wikipedia.org/wiki/Blog">web log</a> is an athenaeum
             of contemplations, investigations, & imaginations ✍️
-            <br /><br />topics include: art, technology, literacy, writing, home, <br />girl, woman, mother, other
+            <br /><br />topics include: art, technology, literacy, writing, home, girl, woman, mother, other
             
           </p>
         </PostItNote>
         <PostItNote
           id="noteINTERNET"
           className="note blue left"
-          onClick={() => navigate("/InterNet")}
+          onClick={() => navigate("/internet")}
           style={{ cursor: "pointer" }}
           title="InterNet"
         >
@@ -75,7 +70,7 @@ const Home = () => {
         <PostItNote
           id="noteFBL"
           className="note yellow right"
-          onClick={() => navigate("/fbl")}
+          onClick={() => navigate("/femalebodyliteracy")}
           style={{ cursor: "pointer" }}
           title="Female Body Literacy"
         >
@@ -100,7 +95,7 @@ const Home = () => {
         <PostItNote
           id="noteABODE"
           className="note green right"
-          onClick={() => navigate("/TheAbode")}
+          onClick={() => navigate("https://annas-abode.net/")}
           style={{ cursor: "pointer" }}
           title="Anna's Abode"
         >
@@ -121,10 +116,8 @@ const Home = () => {
           </p>
         </PostItNote>
       </div>
-    <footer>
-        <Footer></Footer>
-    </footer>
-    </div>
+
+    </PageLayout>
   );
 };
 

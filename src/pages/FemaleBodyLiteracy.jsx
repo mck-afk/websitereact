@@ -19,16 +19,17 @@ const FemaleBodyLiteracy = () => (
           alt="FemaleBodyLiteracy Presentation Screen"
           
         />
-        <p>This workshop willl answer questions like: <br />
+        <p>This workshop willl answer questions like:
 
-            <ul style={{textAlign: "left"}}>
+            
+        </p>
+        <ul style={{textAlign: "left"}}>
                 <li style={{textAlign: "left"}}>What happens in the 4 phases of the menstrual cycle?</li>
                 <li style={{textAlign: "left"}}>Are humans the only species who menstruate?</li>
                 <li style={{textAlign: "left"}}>Why should I care about ovulation?</li>
                 <li style={{textAlign: "left"}}>What choices of contraception are available to me?</li>
                 <li style={{textAlign: "left"}}>How can I support those going through menopause?</li>
             </ul> 
-        </p>
         <img src="/images/fbl_preso.png" style={{maxWidth: 500, maxHeight: 500}} />
 
         <p style={{fontStyle: "italic"}}>Disclaimer: <br />

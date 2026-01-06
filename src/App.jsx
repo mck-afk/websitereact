@@ -13,6 +13,7 @@ function App() {
           <Routes>
             <Route path="/astroprogram" element={<AstroProgram />} />
             <Route path="/femalebodyliteracy" element={<FemaleBodyLiteracy />} />
+            
             <Route path="/" element={<Home />} />
           </Routes>
         </Router>
