@@ -1,28 +1,12 @@
-import React from "react";
-import { useNavigate } from "react-router-dom";
+
+import React, { useContext } from "react";
+import { NoteNavContext } from "../providers/NoteNavProvider";
 import PostItNote from "../components/PostItNote";
 import PageLayout from "../components/PageLayout";
-// eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 
 const Home = () => {
-  const navigate = useNavigate();
-
-  const [movingNoteId, setMovingNoteId] = React.useState(null);
-
-
-  const handleNoteClick = (noteId, redirectPath, external) => {
-    setMovingNoteId(noteId);
-    if (redirectPath) {
-      setTimeout(() => {
-        if (external) {
-          window.location.href = redirectPath;
-        } else {
-          navigate(redirectPath);
-        }
-      }, 300);
-    }
-  };
+  const { movingNoteId, handleNoteClick } = useContext(NoteNavContext);
 
   return (
     <PageLayout>
