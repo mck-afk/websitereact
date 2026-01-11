@@ -1,6 +1,7 @@
-import React, { createContext, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
+import { createContext } from "react";
 export const NoteNavContext = createContext();
 
 export const NoteNavProvider = ({ children }) => {

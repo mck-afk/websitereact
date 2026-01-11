@@ -11,7 +11,7 @@ const Nav = () => {
         }
     };
 
-    const [enjoyment, setEnjoyment] = React.useState(11);
+    const [enjoyment, setEnjoyment] = React.useState(3);
 
     return (
         <div className="threeCol">
@@ -39,7 +39,7 @@ const Nav = () => {
                         <li role="menuitem" aria-disabled="true" className="has-divider"></li>
                         <li role="menuitem">
                             <img src="https://img.icons8.com/?size=100&id=j48RtSRtbrYi&format=png&color=98dc9b" style={{ left: 3, width: 18, height: 18 }}/>
-                            <a href="/TheAbode">Anna's Abode</a>
+                            <a href="https://annas-abode.net/">Anna's Abode</a>
                         </li>
                         <li role="menuitem">
                             <img src="https://img.icons8.com/?size=100&id=21829&format=png&color=ffd861" style={{ left: 3, width: 18, height: 18 }}/>
@@ -71,19 +71,19 @@ const Nav = () => {
                             </div>
                         </div>
                         <div className="window-body has-space">
-                            <p>installing 'Good Vibe Amplifier'</p>
+                            <p>installing '2026 Vibe Amplifier'</p>
                             <div role="progressbar" className="marquee"></div>
                             <br />
                             <section style={{display: 'flex', justifyContent: 'flex-end', gap: 6}}>
-                            <button className="default">OK</button>
-                            <button>Cancel</button>
+                            <button>OK</button>
+                            
                         </section>
                         
                         </div>
                         <div className="status-bar">
                             <p className="status-bar-field">ClassName: FireHorse</p>
-                            <p className="status-bar-field">StartFrom: 2026</p>
-                            <p className="status-bar-field">CPU: 11%</p>
+                            <p className="status-bar-field">PrepareFor: Boldness</p>
+                            <p className="status-bar-field">AlchemicalFormula: (♆&♄&⚷)→♈︎+(♅→♊︎)</p>
                         </div>
                         
                     </div>
