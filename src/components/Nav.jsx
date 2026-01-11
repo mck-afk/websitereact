@@ -1,9 +1,10 @@
 import React from "react";
 
 const Nav = () => (
-    <div style={{ "@media (minWidth: 300px)": { display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "10px" } }}>
+    <div>
         
-        <div className="win7" style={{ width: 200, margin: "auto" }}>
+        <div className="win7" style={{ width: 200 }}>
+            <br />
             <ul role="menu" className="can-hover" style={{ width: 200 }}>
                 <li role="menuitem">
                     <img src="https://img.icons8.com/?size=100&id=2797&format=png&color=fbb8ff" style={{ left: 5, width: 15, height: 15 }}/>

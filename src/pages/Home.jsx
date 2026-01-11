@@ -1,22 +1,27 @@
-
-
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import PostItNote from "../components/PostItNote";
 import PageLayout from "../components/PageLayout";
 import { motion } from "framer-motion";
-import StickerPeel from '../components/StickerPeel';
 
 const Home = () => {
   const navigate = useNavigate();
 
-  const [moveDown, setMoveDown] = React.useState(false);
+  const [movingNoteId, setMovingNoteId] = React.useState(null);
 
-  React.useEffect(() => {
-    if (moveDown) {
-      setTimeout(() => navigate("/weblog"), 600);
+
+  const handleNoteClick = (noteId, redirectPath, external) => {
+    setMovingNoteId(noteId);
+    if (redirectPath) {
+      setTimeout(() => {
+        if (external) {
+          window.location.href = redirectPath;
+        } else {
+          navigate(redirectPath);
+        }
+      }, 300);
     }
-  }, [moveDown, navigate]);
+  };
 
   return (
     <PageLayout>
@@ -55,18 +60,16 @@ const Home = () => {
         </PostItNote>
 
         <motion.div
-          initial={{ y: -50 }}
-          animate={moveDown ? { y: 25 } : { y: 0 }}
-          transition={{ duration: 0.6 }}
-          style={{ cursor: "pointer", margin: "auto"}}
+          initial={{ x: 0, y: -50 }}
+          animate={movingNoteId === "noteWEBLOG" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
+          transition={{ duration: 0.2 }}
+          style={{ cursor: "pointer", margin: "auto", zIndex: 1000, position: "relative" }}
           whileHover={{ rotate: -5 }}
-          onClick={() => setMoveDown(true)}
+          onClick={() => handleNoteClick("noteWEBLOG", "/weblog")}
         >
           <PostItNote
             id="noteWEBLOG"
             className="note red right"
-            onClick={() => navigate("/weblog")}
-            style={{ cursor: "pointer" }}
             title="Blog"
           >
             <p>
@@ -77,18 +80,16 @@ const Home = () => {
           </PostItNote>
         </motion.div>
         <motion.div
-          initial={{ y: -20 }}
-          animate={moveDown ? { y: 25 } : { y: 0 }}
+          initial={{ x: 0, y: -50 }}
+          animate={movingNoteId === "noteINTERNET" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
           transition={{ duration: 0.2 }}
-          style={{ cursor: "pointer", margin: "auto" }}
-          whileHover={{ rotate: 5 }}
-          onClick={() => setMoveDown(true)}
+          style={{ cursor: "pointer", margin: "auto", zIndex: 1000, position: "relative" }}
+          whileHover={{ rotate: -5 }}
+          onClick={() => handleNoteClick("noteINTERNET", "/InterNet")}
         >
         <PostItNote
           id="noteINTERNET"
           className="note blue left"
-          onClick={() => navigate("/internet")}
-          style={{ cursor: "pointer" }}
           title="InterNet"
         >
           <p>
@@ -99,17 +100,15 @@ const Home = () => {
 
         <motion.div
           initial={{ y: -20 }}
-          animate={moveDown ? { y: 25 } : { y: 0 }}
-          transition={{ duration: 0.8 }}
-          style={{ cursor: "pointer", margin: "auto" }}
-          whileHover={{ rotate: 5 }}
-          onClick={() => setMoveDown(true)}
+          animate={movingNoteId === "noteFBL" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
+          transition={{ duration: 0.2 }}
+          style={{ cursor: "pointer", margin: "auto", zIndex: 1000, position: "relative" }}
+          whileHover={{ rotate: -5 }}
+          onClick={() => handleNoteClick("noteFBL", "/femalebodyliteracy")}
         >
         <PostItNote
           id="noteFBL"
           className="note yellow right"
-          onClick={() => navigate("/femalebodyliteracy")}
-          style={{ cursor: "pointer" }}
           title="Female Body Literacy"
         >
           <p>
@@ -120,17 +119,15 @@ const Home = () => {
 
         <motion.div
           initial={{ y: -60 }}
-          animate={moveDown ? { y: 25 } : { y: 0 }}
-          transition={{ duration: 0.8 }}
-          style={{ cursor: "pointer", margin: "auto" }}
-          whileHover={{ rotate: 5 }}
-          onClick={() => setMoveDown(true)}
+          animate={movingNoteId === "noteASTROPROGRAM" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
+          transition={{ duration: 0.2 }}
+          style={{ cursor: "pointer", margin: "auto", zIndex: 1000, position: "relative" }}
+          whileHover={{ rotate: -5 }}
+          onClick={() => handleNoteClick("noteASTROPROGRAM", "/astroprogram")}
         >
         <PostItNote
           id="noteASTROPROGRAM"
           className="note orange left"
-          onClick={() => navigate("/astroprogram")}
-          style={{ cursor: "pointer" }}
           title="Astrology for Programmers"
         >
           <p>
@@ -144,17 +141,15 @@ const Home = () => {
 
         <motion.div
           initial={{ y: -40 }}
-          animate={moveDown ? { y: 25 } : { y: 0 }}
-          transition={{ duration: 0.8 }}
-          style={{ cursor: "pointer", margin: "auto" }}
-          whileHover={{ rotate: 5 }}
-          onClick={() => setMoveDown(true)}
+          animate={movingNoteId === "noteABODE" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
+          transition={{ duration: 0.2 }}
+          style={{ cursor: "pointer", margin: "auto", zIndex: 1000, position: "relative" }}
+          whileHover={{ rotate: -5 }}
+          onClick={() => handleNoteClick("noteABODE", "https://annas-abode.net/", true)}
         >
         <PostItNote
           id="noteABODE"
           className="note green right"
-          onClick={() => navigate("https://annas-abode.net/")}
-          style={{ cursor: "pointer" }}
           title="Anna's Abode"
         >
           <p>
@@ -166,17 +161,15 @@ const Home = () => {
 
         <motion.div
           initial={{ y: -20 }}
-          animate={moveDown ? { y: 25 } : { y: 0 }}
-          transition={{ duration: 0.8 }}
-          style={{ cursor: "pointer", margin: "auto" }}
-          whileHover={{ rotate: 5 }}
-          onClick={() => setMoveDown(true)}
+          animate={movingNoteId === "noteCONTACT" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
+          transition={{ duration: 0.2 }}
+          style={{ cursor: "pointer", margin: "auto", zIndex: 1000, position: "relative" }}
+          whileHover={{ rotate: -5 }}
+          onClick={() => handleNoteClick("noteCONTACT", "/contact")}
         >
         <PostItNote
           id="noteCONTACT"
           className="note purple left"
-          onClick={() => navigate("/contact")}
-          style={{ cursor: "pointer" }}
           title="Contact"
         >
           <p>
