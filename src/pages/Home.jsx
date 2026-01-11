@@ -2,6 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import PostItNote from "../components/PostItNote";
 import PageLayout from "../components/PageLayout";
+// eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 
 const Home = () => {

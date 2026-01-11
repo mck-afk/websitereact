@@ -1,3 +1,54 @@
+/* Three column layout for Nav */
+/* Responsive three column layout for Nav */
+.threeCol {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.threeCol > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.threeCol > div:nth-child(1),
+.threeCol > div:nth-child(2) {
+  flex: 1;
+}
+.threeCol > div:nth-child(3) {
+  flex: 2;
+}
+
+@media (max-width: 900px) {
+  .threeCol {
+    flex-direction: column;
+    min-height: unset;
+  }
+  .threeCol > div {
+    width: 100% !important;
+    max-width: 100vw;
+    margin-bottom: 2rem;
+  }
+  .threeCol > div:nth-child(3) {
+    margin-bottom: 0;
+  }
+}
+/* Dark theme for Light menu item */
+.dark-theme {
+  background: #000000 !important;
+}
+
+.dark-theme .note {
+  box-shadow: 0 10px 10px 2px #7a7a7a !important;
+  
+}
+.dark-theme * {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
 @font-face {
   font-family: "BC";
   src: local("BodoniCondC"), url("/fonts/BodoniCondC.otf") format("opentype");
