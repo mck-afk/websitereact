@@ -112,7 +112,7 @@ const Home = () => {
         >
         <PostItNote
           id="noteASTROPROGRAM"
-          className="note orange left"
+          className="note purple left"
           title="Astrology for Programmers"
         >
           <p>
@@ -154,12 +154,11 @@ const Home = () => {
         >
         <PostItNote
           id="noteCONTACT"
-          className="note purple left"
-          title="Contact"
+          className="note orange left"
+          title="TechNews Synthesis"
         >
-          <p>
-            let's chat! 📞<br /><br /> let's grab coffee! ☕️ <br /><br /> let's go to the market! 🧺 <br /><br /> let's grab a sweet treat!  🍰
-          </p>
+            <p>writing history as it impacts me.</p>
+            <p>a collection of links to news, opinions pieces, and synthesis of technology including artificial intelligence, cool projects and passions, and books of other analyses</p>
         </PostItNote>
         </motion.div>
       </div>

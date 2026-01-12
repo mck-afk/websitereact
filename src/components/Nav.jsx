@@ -121,6 +121,7 @@ const Nav = () => {
                     of sovereignty and reciprocial living, and her duty as a guest upon it today.
                     <br /><br />
                     <span>All rights reserved © 2026 Annabelle Grace McKenzie</span>
+                    <br /><br /><a href="mailto:annabelle@annabelle-grace-mckenzie.com">annabelle@annabelle-grace-mckenzie.com</a>
                 </p>
             </div>
         </div>
