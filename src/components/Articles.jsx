@@ -7,7 +7,7 @@ import { NoteNavContext } from "../providers/NoteNavProvider";
 const articlesData = [
   {
     id: "articleAICR",
-    color: "orange",
+    color: "blue",
     title: "Could AI coding assistants be privatising code repair?",
     text: "I wonder whose labour they are training on?",
     date: "20 January 2026",
@@ -24,12 +24,20 @@ const articlesData = [
   },
   {
     id: "articleDFD",
-    color: "purple",
+    color: "orange",
     title: "Dear Future Daughter",
     text: "submission to WhyNot",
     date: "01 December 2025",
     themes: ["capitalism", "mother", "external"],
     redirectPath: "https://www.whynot.org.au/voice/community-connection/dear-future-what-would-you-say-if-the-future-was-listeningdear-future/#:~:text=Dear%20Future%20Daughter"
+  },{
+    id: "articleWITC",
+    color: "pink",
+    title: "Where's that Computer?",
+    text: "She's right behind you - Hidden Figures (2016)",
+    date: "01 November 2025",
+    themes: ["feminism", "technology", "colophon"],
+    redirectPath: "/Blog_WITC"
   },
   {
     id: "articleTGAC",

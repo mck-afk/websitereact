@@ -13,6 +13,7 @@ import TGAC from './pages/Blog_TGAC';
 import SCSJ from './pages/Blog_SCSJ';
 import FWFM from './pages/Blog_FWFM';
 import AICR from './pages/Blog_AICR';
+import WITC from './pages/Blog_WITC';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
       <Route path="/Blog_SCSJ" element={<SCSJ />} />
       <Route path="/Blog_FWFM" element={<FWFM />} />
       <Route path="/Blog_AICR" element={<AICR />} />
+      <Route path="/Blog_WITC" element={<WITC />} />
       
     </Routes>
   );
