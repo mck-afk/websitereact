@@ -78,8 +78,8 @@ const articlesData = [
   {
     id: "articleSCSJ",
     color: "yellow",
-    title: "stem cells for a spiritual journey",
-    text: "its not really just blood...",
+    title: "stem cells and spiritual journeys",
+    text: "a brief overview of woman's life phases",
     date: "02 July 2025",
     themes: ["menstruation", "spirit", "science"],
     redirectPath: "/Blog_SCSJ"
