@@ -21,7 +21,7 @@ const BYDH = () => {
             <br />Some of them benign, like wanting to change the background colour or post a video that is more than 3 minutes long (idk they are always changing the accepted length of videos).
             Some compromises benefit them more than you; like the fact that <a href="https://www.facebook.com/privacy/genai/">Meta assumes consent to using your content to train their AI</a> (without financial compensation of course).
 
-            Can it really be home when Big Brother is always watching?
+            <br />Can it really be home when Big Brother is always watching? (Yes I know that AI bots are now and forevermore scraping every corner of the internet for more training content - Big Brother is always watching).
         </p>
 
         <h2>digitising the homemaker instinct</h2>
@@ -36,13 +36,7 @@ const BYDH = () => {
 
             Why should our digital homes be any different?
             <br />
-            Everything we need to build our digital homes is available for free, right now, in
-            <a href="https://uploads.html.green/files/zine-2024-08.pdf">so</a> 
-            <a href="https://veryinteractive.net/pdfs/metaphors-html-css-js.pdf">so</a> 
-            <a href="https://www.w3schools.com/html/">so</a> many places, championed by 
-            <a href="https://petrapixel.neocities.org/">so</a> 
-            <a href="https://discourse.32bit.cafe/">so</a> 
-            <a href="https://maxbo.me/html-in-hyde/index.html">so</a> many people.
+            Everything we need to build our digital homes is available for free, right now, in <a href="https://uploads.html.green/files/zine-2024-08.pdf">so</a>  <a href="https://veryinteractive.net/pdfs/metaphors-html-css-js.pdf">so</a>  <a href="https://www.w3schools.com/html/">so</a> many places, championed by <a href="https://petrapixel.neocities.org/">so</a> <a href="https://discourse.32bit.cafe/">so</a> <a href="https://maxbo.me/html-in-hyde/index.html">so</a> many people.
 
             Maybe the next time you reach for your comfort technology product (social media, video games, favourite movie), consider how it satisfies (or stimulates?) your homemaking instincts.
         </p>
