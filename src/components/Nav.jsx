@@ -71,7 +71,7 @@ const Nav = () => {
                             </div>
                         </div>
                         <div className="window-body has-space">
-                            <p>installing '2026 Vibe Amplifier'</p>
+                            <p>installing 2026</p>
                             <div role="progressbar" className="marquee"></div>
                             <br />
                             <section style={{display: 'flex', justifyContent: 'flex-end', gap: 6}}>

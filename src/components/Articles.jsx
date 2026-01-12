@@ -6,20 +6,39 @@ import { NoteNavContext } from "../providers/NoteNavProvider";
 // Article data array
 const articlesData = [
   {
+    id: "articleAICR",
+    color: "orange",
+    title: "Could AI coding assistants be privatising code repair?",
+    text: "I wonder whose labour they are training on?",
+    date: "20 January 2026",
+    themes: ["artificialintelligence", "technology", "classwar"],
+    redirectPath: "/Blog_AICR"
+  },{
+    id: "article26P",
+    color: "purple",
+    title: "2026+ Predictions",
+    text: "astrology & technology forecast",
+    date: "20 January 2026",
+    themes: ["astrology", "technology", "h"],
+    redirectPath: "/Blog_26P"
+  },
+  {
     id: "articleDFD",
-    color: "blue",
+    color: "purple",
     title: "Dear Future Daughter",
     text: "submission to WhyNot",
     date: "01 December 2025",
     themes: ["capitalism", "mother", "external"],
+    redirectPath: "https://www.whynot.org.au/voice/community-connection/dear-future-what-would-you-say-if-the-future-was-listeningdear-future/#:~:text=Dear%20Future%20Daughter"
   },
   {
-    id: "articleCAGM",
-    color: "pink",
-    title: "ComputHer by Annabelle Grace McKenzie",
-    text: "subscribe to my Substack",
-    date: "07 October 2025",
-    themes: ["technology", "women", "external"],
+    id: "articleTGAC",
+    color: "blue",
+    title: "cyber goose on the digital commons",
+    text: "till they go and steal it back",
+    date: "20 October 2025",
+    themes: ["capitalism", "technology", "englishclass"],
+    redirectPath: "/Blog_TGAC"
   },
   {
     id: "articleBYDH",
@@ -32,11 +51,12 @@ const articlesData = [
   },
   {
     id: "articleWWWW",
-    color: "purple",
+    color: "red",
     title: "world-wide word-weaving",
     text: "the loom walked so computers could run",
     date: "13 August 2025",
-    themes: ["internet", "language", "weaving"],
+    themes: ["internet", "technology", "weaving"],
+    redirectPath: "/Blog_WWWW"
   },
   {
     id: "articleFWFM",
@@ -45,6 +65,7 @@ const articlesData = [
     text: "motherwork is the root of all capital",
     date: "07 August 2025",
     themes: ["mother", "work", "feminism"],
+    redirectPath: "/Blog_FWFM"
   },
   {
     id: "articleSCSJ",
@@ -53,27 +74,21 @@ const articlesData = [
     text: "its not really just blood...",
     date: "02 July 2025",
     themes: ["menstruation", "spirit", "science"],
-  },
-  {
-    id: "article",
-    color: "red",
-    title: "coming soon",
-    text: "more poetry percolating...",
-    date: "xx xxx xxxx",
-    themes: ["xxxxxxx"],
-  },
+    redirectPath: "/Blog_SCSJ"
+  }
 ];
 
 // Utility to extract year from date string
 const getYear = (date) => date.split(" ").pop();
 
-const Articles = ({ filterTheme = null, filterYear = null }) => {
+const Articles = ({ filterTheme = null, filterYear = null, filterColor = null }) => {
   const { movingNoteId, handleNoteClick } = useContext(NoteNavContext);
   // Filter logic
   const filtered = articlesData.filter((a) => {
     const matchesTheme = !filterTheme || a.themes.includes(filterTheme);
     const matchesYear = !filterYear || getYear(a.date) === filterYear;
-    return matchesTheme && matchesYear;
+    const matchesColor = !filterColor || a.color === filterColor;
+    return matchesTheme && matchesYear && matchesColor;
   });
 
   // Sort by date descending (latest first)

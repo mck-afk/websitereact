@@ -7,7 +7,7 @@ const BYDH = () => {
     return (
         <PageLayout>
             <div className="red" style={{ paddingBottom: "5px" }}>
-                <h1 className="green">build your own digital home</h1>
+                <h1 className="green">build your digital home</h1>
                 <h2>heal your relationship to the digital world</h2>
                 <h4>25 September 2025 | internet, technology, homemaking</h4>
                 <button className="red" onClick={() => navigate(-1)}>back</button>
