@@ -6,14 +6,6 @@ import { NoteNavContext } from "../providers/NoteNavProvider";
 // Article data array
 const articlesData = [
   {
-    id: "articleAICR",
-    color: "blue",
-    title: "Could AI coding assistants be privatising code repair?",
-    text: "I wonder whose labour they are training on?",
-    date: "20 January 2026",
-    themes: ["artificialintelligence", "technology", "classwar"],
-    redirectPath: "/Blog_AICR"
-  },{
     id: "article26P",
     color: "purple",
     title: "2026+ Predictions",
@@ -31,6 +23,14 @@ const articlesData = [
     themes: ["capitalism", "mother", "external"],
     redirectPath: "https://www.whynot.org.au/voice/community-connection/dear-future-what-would-you-say-if-the-future-was-listeningdear-future/#:~:text=Dear%20Future%20Daughter"
   },{
+    id: "articleAICR",
+    color: "blue",
+    title: "Could AI coding assistants be privatising code repair?",
+    text: "I wonder whose labour they are training on?",
+    date: "10 November 2025",
+    themes: ["artificialintelligence", "technology", "classwar"],
+    redirectPath: "/Blog_AICR"
+  }, {
     id: "articleWITC",
     color: "pink",
     title: "Where's that Computer?",
