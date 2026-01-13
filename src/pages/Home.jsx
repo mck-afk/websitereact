@@ -103,27 +103,22 @@ const Home = () => {
         </motion.div>
 
         <motion.div
-          initial={{ y: -60 }}
-          animate={movingNoteId === "noteASTROPROGRAM" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
+          initial={{ y: -20 }}
+          animate={movingNoteId === "noteTechNewsSynth" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
           transition={{ duration: 0.2 }}
           style={{ cursor: "pointer", margin: "auto", zIndex: 1000, position: "relative" }}
           whileHover={{ rotate: -5 }}
-          onClick={() => handleNoteClick("noteASTROPROGRAM", "/astroprogram")}
+          onClick={() => handleNoteClick("noteTechNewsSynth", "/TechNewsSynth")}
         >
         <PostItNote
-          id="noteASTROPROGRAM"
-          className="note purple left"
-          title="Astrology for Programmers"
+          id="noteTechNewsSynth"
+          className="note orange left"
+          title="TechNews Synthesis"
         >
-          <p>
-            👽 + 🤖 = 💞
-            <br />
-            <br />to interpret (and manipulate) patterns, through the application of rules/calculations, start with the basics of the language
-            <br /><br />hear me out
-          </p>
+            <p>writing history as it impacts me. 👩‍💻</p>
+            <p>a collection of links to news, opinions pieces, and synthesis of technology including artificial intelligence, cool projects and passions, and books of other analyses 🌐</p>
         </PostItNote>
-        </motion.div>
-
+        </motion.div> 
         <motion.div
           initial={{ y: -40 }}
           animate={movingNoteId === "noteABODE" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
@@ -145,22 +140,27 @@ const Home = () => {
         </motion.div>
 
         <motion.div
-          initial={{ y: -20 }}
-          animate={movingNoteId === "noteCONTACT" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
+          initial={{ y: -60 }}
+          animate={movingNoteId === "noteASTROPROGRAM" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
           transition={{ duration: 0.2 }}
           style={{ cursor: "pointer", margin: "auto", zIndex: 1000, position: "relative" }}
           whileHover={{ rotate: -5 }}
-          onClick={() => handleNoteClick("noteCONTACT", "/contact")}
+          onClick={() => handleNoteClick("noteASTROPROGRAM", "/astroprogram")}
         >
         <PostItNote
-          id="noteCONTACT"
-          className="note orange left"
-          title="TechNews Synthesis"
+          id="noteASTROPROGRAM"
+          className="note purple left"
+          title="Astrology for Programmers"
         >
-            <p>writing history as it impacts me.</p>
-            <p>a collection of links to news, opinions pieces, and synthesis of technology including artificial intelligence, cool projects and passions, and books of other analyses</p>
+          <p>
+            👽 + 🤖 = 💞
+            <br />
+            <br />to interpret (and manipulate) patterns, through the application of rules/calculations, start with the basics of the language
+            <br /><br />hear me out
+          </p>
         </PostItNote>
         </motion.div>
+        
       </div>
 
     </PageLayout>

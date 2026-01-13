@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import AstroProgram from './pages/AstroProgram';
 import FemaleBodyLiteracy from './pages/FemaleBodyLiteracy';
 import InterNet from './pages/InterNet';
-import Contact from './pages/Contact';
+import TechNewsSynth from './pages/TechNewsSynth';
 import Weblog from './pages/Weblog';
 import Home from './pages/Home';
 import BYDH from './pages/Blog_BYDH';
@@ -23,7 +23,7 @@ function App() {
       <Route path="/femalebodyliteracy" element={<FemaleBodyLiteracy />} />
       <Route path="/internet" element={<InterNet />} />
       <Route path="/weblog" element={<Weblog />} />
-      <Route path="/contact" element={<Contact />} />
+      <Route path="/TechNewsSynth" element={<TechNewsSynth />} />
       <Route path="/Blog_BYDH" element={<BYDH />} />
       <Route path="/Blog_WWWW" element={<WWWW />} />
       <Route path="/Blog_TGAC" element={<TGAC />} />
