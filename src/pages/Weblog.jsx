@@ -4,11 +4,11 @@ import Articles from "../components/Articles";
 import React from "react";
 
 const allThemes = [
-  "capitalism", "astrology", "mother", "external", "technology", "englishclass", "internet", "homemaking", "weaving", "work", "feminism", "menstruation", "spirit", "science"
+  "technology", "capitalism", "astrology", "mother", "external", "englishclass", "internet", "homemaking", "weaving", "work", "feminism", "menstruation", "spirit", "science"
 ];
 const allYears = ["2025", "2026"];
 
-const allColors = ["red", "orange", "yellow", "green", "blue", "purple", "pink"];
+const allColors = ["orange", "yellow", "green", "blue", "purple", "pink"];
 
 const Weblog = () => {
   const [theme, setTheme] = React.useState(null);
@@ -47,6 +47,7 @@ const Weblog = () => {
               <button key={c} onClick={() => setColor(c)} style={{ marginRight: 8, fontWeight: color === c ? 'bold' : 'normal' }}>{c}</button>
             ))}
           </div>
+          
         </div>
       </div>
       <Articles filterTheme={theme} filterYear={year} filterColor={color} />

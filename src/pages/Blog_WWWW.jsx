@@ -7,7 +7,7 @@ const WWWW = () => {
     return (
         <PageLayout>
             <div className="red" style={{ paddingBottom: "5px" }}>
-                <h1 className="green">the loom walked so computers could run</h1>
+                <h1 className="blue">the loom walked so computers could run</h1>
                 <h2>world-wide word-weaving</h2>
                 <h4>25 September 2025 | internet, technology, homemaking</h4>
                 <button className="red" onClick={() => navigate(-1)}>back</button>

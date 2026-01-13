@@ -6,13 +6,13 @@ import { NoteNavContext } from "../providers/NoteNavProvider";
 // Article data array
 const articlesData = [
   {
-    id: "article26P",
+    id: "article26PS",
     color: "purple",
     title: "2026+ Predictions",
     text: "astrology & technology forecast",
-    date: "20 January 2026",
-    themes: ["astrology", "technology", "h"],
-    redirectPath: "/Blog_26P"
+    date: "13 January 2026",
+    themes: ["astrology", "technology", "predictions"],
+    redirectPath: "/Blog_26PS"
   },
   {
     id: "articleDFD",
@@ -59,9 +59,9 @@ const articlesData = [
   },
   {
     id: "articleWWWW",
-    color: "red",
-    title: "world-wide word-weaving",
-    text: "the loom walked so computers could run",
+    color: "blue",
+    title: "the loom walked so computers could run",
+    text: "world-wide word-weaving",
     date: "13 August 2025",
     themes: ["internet", "technology", "weaving"],
     redirectPath: "/Blog_WWWW"
