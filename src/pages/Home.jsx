@@ -78,7 +78,7 @@ const Home = () => {
           title="InterNet"
         >
           <p>
-            treasured connections and digital reciprocations 🔗 <br /><br />links to 📖 books, newsletters, communities, articles, media, movements, people, and other cool things I think you should explore 🖇️
+            treasured connections and digital reciprocations 🔗 <br /><br />links to 📖 books, newsletters, communities, articles, media, movements, people, and other cool things I think you should explore
           </p>
         </PostItNote>
         </motion.div>
@@ -155,7 +155,7 @@ const Home = () => {
           <p>
             👽 + 🤖 = 💞
             <br />
-            <br />to interpret (and manipulate) patterns, through the application of rules/calculations, start with the basics of the language
+            <br />to interpret (and manipulate) patterns, through the application of rules/calculations, firsrt we start with learnings the basics of the language
             <br /><br />hear me out
           </p>
         </PostItNote>
