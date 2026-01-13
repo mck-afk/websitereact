@@ -51,17 +51,17 @@
   color: #000000 !important;
 }
 
-@font-face {
+/*@font-face {
   font-family: "BC";
-  src: local("BodoniCondC"), url("/fonts/BodoniCondC.otf") format("opentype");
+  src: local("BodoniCondC"), url("./fonts/BodoniCondC.otf") format("opentype");
   font-weight: normal;
 }
 
 @font-face {
   font-family: "GI";
-  src: local("GlacialIndifference-Regular"), url("/fonts/GlacialIndifference-Regular.otf") format("opentype");
+  src: local("GlacialIndifference-Regular"), url("./fonts/GlacialIndifference-Regular.otf") format("opentype");
   font-weight: normal;
-}
+}*/
 
 .articleMetadata {
   color: #727272;
