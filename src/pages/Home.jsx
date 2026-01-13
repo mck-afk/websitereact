@@ -39,8 +39,8 @@ const Home = () => {
           </p>
           <p>
             <img className="icon" src="https://img.icons8.com/?size=100&id=W77GEN8wSCBv&format=png&color=000000" alt="now" />
-            <span style={{ fontWeight: "bold" }}> now: </span>
-            rewriting this in React
+            <span style={{ fontWeight: "bold"}}> now: </span>
+            researching AI governance in Australia & <a className="orange" href="https://annabelle-grace-mckenzie.com/TechNewsSynth">documenting said learnings</a>
           </p>
         </PostItNote>
 
@@ -78,7 +78,7 @@ const Home = () => {
           title="InterNet"
         >
           <p>
-            treasured connections and digital reciprocations 🔗 <br /><br />links to 📖 books, newsletters, communities, 📰 articles, media, movements, people, and other cool things I think you should explore 🖇️
+            treasured connections and digital reciprocations 🔗 <br /><br />links to 📖 books, newsletters, communities, articles, media, movements, people, and other cool things I think you should explore 🖇️
           </p>
         </PostItNote>
         </motion.div>
@@ -115,7 +115,7 @@ const Home = () => {
           className="note orange left"
           title="TechNews Synthesis"
         >
-            <p>writing history as it impacts me. 👩‍💻</p>
+            <p>writing the history I see 👩‍💻</p>
             <p>a collection of links to news, opinions pieces, and synthesis of technology including artificial intelligence, cool projects and passions, and books of other analyses 🌐</p>
         </PostItNote>
         </motion.div> 
@@ -134,7 +134,7 @@ const Home = () => {
         >
           <p>
             a framework for organising and exploring areas of life and creation 🎨
-            <br /><br />affectionately known <br /> as the honeycomb home <br /> of my creations ⬡
+            <br /><br />affectionately known <br /> as honeycomb home ⬡
           </p>
         </PostItNote>
         </motion.div>

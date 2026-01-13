@@ -6,54 +6,13 @@ const InterNet = () => (
         <div className="blue">
             <h1>InterNet</h1>
             <p>
-                links to newsletters, books, articles, inspirations, people, media, movements, and other treasured connections 🔗
+                links to articles, books, inspirations, people, media, movements, and other treasured connections 🔗
             </p>
         </div>
 
         <div>
-            <h2>yearning?</h2>
-            <ul>
-                <li><a href="https://www.threadings.io/">Stretch my seams of this world</a></li>
-                <li><a href="https://www.instagram.com/inspiredtowrite/">Spark my curiosity and creativity</a></li>
-                <li><a href="https://www.instagram.com/kyri.cycles/">Connect me with my female body</a></li>
-                <li><a href="https://www.bloodinthemachine.com/">Validate my critiques of big tech</a></li>
-                <li><a href="https://seedaschool.substack.com/">Help me seed a more beautiful world</a></li>
-                <li><a href="https://elenabridgers.substack.com/">Show me how to thrive mothering</a></li>
-                <li><a href="https://www.tiktok.com/@aarchor/video/7553809097213136142">My Bootlicker in Christ</a></li>
-            </ul>
-        </div>
-        
-        <div className="blue">
-            <h2>Books</h2>
-            <ul>
-                <dl>
-                <dt><a href="https://en.wikipedia.org/wiki/Parable_of_the_Sower_(novel)">Frankenstein or, The Modern Prometheus by Mary Wollstonecraft Shelley 1818</a></dt>
-                <dd>as relevant today as it was when it was written.</dd>
-                <dt><a href="https://en.wikipedia.org/wiki/Parable_of_the_Sower_(novel)">Parable of The Sower by Octavia E. Butler 1993</a></dt>
-                <dd>set in 2024-2027, Olamina leads with compassion while a president called Donner destroys the country.</dd>
-                <dt><a href="https://www.penguin.com.au/books/caliban-and-the-witch-9780241532539">Caliban and the Witch by Slivia Federici 2004</a></dt>
-                <dd>capitalism has always exploited womens labour and <a href="weblog_20250807.html">Motherwork.</a></dd>
-                <dt><a href="https://www.suzannecollinsbooks.com/">The Hunger Games (all of them!) by Suzanne Collins 2008-</a></dt>
-                <dd>art imitates life, and this series has it all: just war politics, social contracts, propaganda.</dd>
-                <dt><a href="https://metropolisbookshop.com.au/p/capitalist-realism-is-there-no-alternative">Capitalist Realism by Mark Fisher 2009</a></dt>
-                <dd>"capitalism has colonized the dreaming life of the population".</dd>
-                <dt><a href="https://en.wikipedia.org/wiki/Circe_(novel)">Circe by Madeline Miller 2018</a></dt>
-                <dd>there is so much power lying in wait in the commitment to your craft.</dd>
-                <dt><a href="https://www.penguinrandomhouse.com/books/714055/chain-gang-all-stars-a-read-with-jenna-pick-by-nana-kwame-adjei-brenyah/">Chain-Gang All-Stars by Nana Kwame Adjei-Brenyah 2023</a></dt>
-                <dd>powerful commentary on the sickening spectacle that is violence.</dd>
-                <dt><a href="https://www.penguin.com.au/books/come-together-9781785045011">Come Together by Emily Nagoski 2024</a></dt>
-                <dd>practical and emotional guidance on reclaiming pleasure.</dd>
-                <dt><a href="https://www.penguin.com.au/books/the-serviceberry-9780241721308">The Serviceberry by Robin Wall Kimmerer 2024</a></dt>
-                <dd>short, sweet, and packs a potent punch. hope-full.</dd>
-                </dl>
-            </ul>
-           
-        </div>
-
-        <div>
             <h2>Articles</h2>
-            <ul>
-                <dl>
+            <dl>
                 <dt><a href="https://www.citationneeded.news/it-matters-i-care/">It matters. I care.</a></dt>
                 <dd>Molly White</dd>
                 <dt><a href="https://www.threadings.io/youve-been-traumatized-into-hating/">you've been traumatized into hating reading (and it makes you easier to oppress)</a></dt>
@@ -68,11 +27,56 @@ const InterNet = () => (
                 <dd>Stephanie Tong</dd>
                 <dt><a href="https://publications.lawschool.cornell.edu/lawreview/wp-content/uploads/sites/2/2024/08/Adler-final.pdf">Arousal by Algorithm</a></dt>
                 <dd>Amy Adler</dd>
-                </dl>
-            </ul>
+                
+            </dl>
         </div>
         
         <div className="blue">
+            
+            <h2>Books</h2>
+            <h3>Non-Fiction (life imitates art)</h3>
+            <dl>
+                <dt><a href="https://yourbookstore.io/p/a-vindication-of-the-rights-of-woman-187002">Vindication of the Rights of Woman by Mary Wollstonecraft 1792</a></dt>
+                <dd>"Education deserves emphatically to be termed cultivation of the mind which teaches young people how to begin to think."</dd>
+                <dt><a href="https://theanarchistlibrary.org/library/audre-lorde-the-master-s-tools-will-never-dismantle-the-master-s-house">The Masters Tools will Never Dismantle the Masters House by Audre Lorde 1979</a></dt>
+                <dd>"For the master's tools will never dismantle the master's house. They may allow us temporarily to beat him at his own game, but they will never enable us to bring about genuine change. And this fact is only threatening to those women who still define the master's house as their only source of support."</dd>
+                <dt><a href="https://www.scribd.com/document/443992025/Brenda-Laurel-Utopian-Entrepreneur-pdf">Utopian Entrepreneur by Brenda Laurel 2001</a></dt>
+                <dd>"The computer ought to be human, too. As human as language. As human as a thumb, a talisman, a fairy tale, a song... Yes, we made the computer, but in its role as a cultural symbol, the computer also defines us."</dd>
+                <dt><a href="https://yourbookstore.io/p/caliban-and-the-witch-women-the-body-and-primitive-accumulation-2142013">Caliban and the Witch: Women, the Body and Primitive Accumulation by Silvia Federici 2004</a></dt>
+                <dd>"By denying women control over their bodies, the state deprived them of the most fundamental condition for physical and psychological integrity and degraded maternity to the status of forced labour."</dd>
+                <dt><a href="https://yourbookstore.io/p/the-will-to-change-men-masculinity-and-love">The Will to Change by bell hooks 2004</a></dt>
+                <dd>"Asked to give up the true self in order to realize the patriarchal ideal, boys learn self-betrayal early and are rewarded for these acts of soul murder.”</dd>
+                <dt><a href="https://yourbookstore.io/p/capitalist-realism-is-there-no-alternative-2503977">Capitalist Realism by Mark Fisher 2009</a></dt>
+                <dd>"The fact that capitalism has colonized the dreaming life of the population is so taken for granted that it is no longer worthy of comment."</dd>
+                <dt><a href="https://yourbookstore.io/p/unspeakable-things-sex-lies-and-revolution">Unspeakable Things by Laurie Penny 2014</a></dt>
+                <dd>"What the stereotype of the bra-burning, hairy-legged feminist is really supposed to suggest is that feminism, that politics itself, makes a woman ugly."</dd>
+                <dt><a href="https://yourbookstore.io/p/come-as-you-are-the-surprising-new-science-that-will-transform-your-sex-life">Come As You Are by Emily Nagoski 2015</a></dt>
+                <dd>"“The day you were born, the world had a choice about what to teach you about your body... I'm working to create a world that doesn't lie to women about their bodies anymore."</dd>
+                <dt><a href="https://yourbookstore.io/p/the-serviceberry-an-economy-of-gifts-and-abundance">The Serviceberry by Robin Wall Kimmerer 2024</a></dt>
+                <dd>"The Serviceberries show us another model, one based upon reciprocity rather than accumulation, where wealth and security come from the quality of our relationships, not from the illusion of self-sufficiency."</dd>
+                <dt><a href="https://yourbookstore.io/p/girl-on-girl-how-pop-culture-turned-women-against-themselves">Girl on Girl: How Pop Culture Turned a Generation of Women Against Themselves by Sophie Gilbert 2025</a></dt>
+                <dd>"Culture teaches us everything. And what I keep coming back to now is how few cultural representations there still are of women seeking and wielding power."</dd>
+                <dt><a href="https://yourbookstore.io/p/the-new-age-of-sexism-how-the-ai-revolution-is-reinventing-misogyny">The New Age of Sexism: How the AI Revolution is Reinventing Misogyny by Laura Bates 2025</a></dt>
+                <dd>"On the surface, this is a book about technology. But, at its root, it isn't about technology at all."</dd>
+            </dl>
+            
+            <h3>Fiction (art imitates life)</h3>
+            <dl>
+                <dt><a href="https://yourbookstore.io/p/frankenstein-puffin-clothbound-classics">Frankenstein: or, The Modern Prometheus by Mary Wollstonecraft Shelley 1818</a></dt>
+                <dd>as relevant today as it was when it was written.</dd>
+                <dt><a href="https://yourbookstore.io/p/parable-of-the-sower-a-powerful-tale-of-a-dark-and-dystopian-future">Parable of The Sower by Octavia E. Butler 1993</a></dt>
+                <dd>set in 2024-2027, Olamina leads with compassion while a president called Donner destroys the country.</dd>
+                <dt><a href="https://yourbookstore.io/catalog/search?utf8=%E2%9C%93&keyword=the+hunger+games&search_type=core%5Ekeyword">The Hunger Games (all of them!) by Suzanne Collins 2008-</a></dt>
+                <dd>art imitates life, and this series has it all: just war politics, social contracts, propaganda.</dd>
+                <dt><a href="https://yourbookstore.io/p/circe-1584057">Circe by Madeline Miller 2018</a></dt>
+                <dd>there is so much power lying in wait in the commitment to your craft.</dd>
+                <dt><a href="https://yourbookstore.io/p/chain-gang-all-stars-a-novel">Chain-Gang All-Stars by Nana Kwame Adjei-Brenyah 2023</a></dt>
+                <dd>powerful commentary on the sickening spectacle that is violence.</dd>
+            </dl>
+           
+        </div>
+
+        <div>
             <h2>Gatherings</h2>
             <ul>
                 <li><a href="https://www.instagram.com/wordcraft.wren/">Wordcraft</a></li>
@@ -85,16 +89,31 @@ const InterNet = () => (
             </ul>
         </div>
 
-        <div>
-            <h2>Websites</h2>
+        <div className="blue">
+            <h2>Cool Websites</h2>
             <ul>
                 <li><a href="https://maggieappleton.com/garden-history">Maggie Appleton</a></li>
                 <li><a href="https://inkcaps.neocities.org/home/">Inkcaps</a></li>
                 <li><a href="https://petrapixel.neocities.org/">PetraPixel</a></li>
                 <li><a href="https://maxbo.me/html-in-hyde/index.html">HTML in Hyde</a></li>
                 <li><a href="https://localghost.dev/links/">LocalGhost</a></li>
+                <li><a href="https://www.mcsweeneys.net/">McSweeney's Internet Tendency</a></li>
+                <li><a href="https://theshovel.com.au/">The Shovel</a></li>
+                <li><a href="https://theonion.com/">The Onion</a></li>
+                <li><a href="https://www.liberationtoolbox.io/">Liberation Toolbox</a></li>
+                <li><a href="https://www.computerhistory.org/timeline/computers/">Computer Timeline History</a></li>
                 <li><a href="https://www.shelaghlewins.com/tablet_weaving/TW01/TW01.htm">The Ancient Craft of Tablet Weaving</a></li>
                 <li className="green"><a href="https://annas-abode.net/">Anna's Abode</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h2>Cool People</h2>
+            <ul>
+                <li><a href="https://kyricycles.co/">Kyri Cycle Tracking Ring - Australian owned and operated, no subscription fees (ever), not sponsored just passionate</a></li>
+                <li><a href="https://www.tiktok.com/@aarchor/video/7553809097213136142">AArchor</a></li>
+                <li><a href="https://www.instagram.com/inspiredtowrite/">Amie McNee</a></li>
+                <li><a href="https://www.instagram.com/exploreyourcore_/">Explore Your Core</a></li>
             </ul>
         </div>
 
