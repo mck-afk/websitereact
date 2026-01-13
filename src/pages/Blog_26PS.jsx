@@ -25,7 +25,7 @@ const Blog_26PS = () => {
             <p>A rise in Handcrafts including: Craft workshops/apprenticeships pathways, mending clothes/repurposing fabrics, sculpture/pottery/claywork, Braiding</p>
             <p>#diditshit is a trend of just doing the thing - that at least its better than being AI-generated. Also leaning towards a lifestyle trend - the mindset of prioritising the thing, over my satisfaction with the thing.</p>
             <p>Also part of a broader <a href="https://www.youtube.com/watch?v=2XZ9z6OewR0">Art Renaissance</a>.</p>
-            <img src="/public/images/creationDigestion.png" style={{ maxWidth: "300px" }} />
+            <img src="/images/creationDigestion.png" style={{ maxWidth: "300px" }} />
             <p><a href="https://www.instagram.com/p/DQGEf9njT1v/">Source: animamundiherbals via Instagram</a></p>
             
             <h2>Health Manifestations: Gym culture, especially weightlifting</h2>
@@ -133,7 +133,7 @@ const Blog_26PS = () => {
                     </tr>
                 </tbody>
             </table>
-            <img src="/public/images/inner-and-Outer-planets-visual.png" style={{ maxWidth: "800px" }} />
+            <img src="/images/inner-and-Outer-planets-visual.png" style={{ maxWidth: "800px" }} />
             <p><a href="https://astrologercoach.com/course/chiron-healing-with-astrology/">Source: Astrologer Coach</a></p>
             
             <h2>more resources</h2>
