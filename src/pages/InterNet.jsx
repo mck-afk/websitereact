@@ -6,33 +6,11 @@ const InterNet = () => (
         <div className="blue">
             <h1>InterNet</h1>
             <p>
-                links to articles, books, inspirations, people, media, movements, and other treasured connections 🔗
+                links to books, articles, inspirations, people, gatherings, media, movements, and other treasured connections 🔗
             </p>
         </div>
 
         <div>
-            <h2>Articles</h2>
-            <dl>
-                <dt><a href="https://www.citationneeded.news/it-matters-i-care/">It matters. I care.</a></dt>
-                <dd>Molly White</dd>
-                <dt><a href="https://www.threadings.io/youve-been-traumatized-into-hating/">you've been traumatized into hating reading (and it makes you easier to oppress)</a></dt>
-                <dd>Ismatu Gwendolyn</dd>
-                <dt><a href="https://www.threadings.io/the-strip-club-did-indeed-make-me-bonkers/">The strip club did indeed make me bonkers!</a></dt>
-                <dd>Ismatu Gwendolyn</dd>
-                <dt><a href="https://www.abc.net.au/news/2025-09-21/antinatalism-child-free-climate-change-human-suffering-baby/105695328">The case against babies</a></dt>
-                <dd>Bri Lee</dd>
-                <dt><a href="https://factordaily.com/the-crying-shame-of-image-based-abuse/">The crying shame of image-based abuse</a></dt>
-                <dd>Rohini Lakshané</dd>
-                <dt><a href="https://www5.austlii.edu.au/au/journals/UNSWLawJlStuS/2022/25.html">"You Won't Believe What She Does!"</a></dt>
-                <dd>Stephanie Tong</dd>
-                <dt><a href="https://publications.lawschool.cornell.edu/lawreview/wp-content/uploads/sites/2/2024/08/Adler-final.pdf">Arousal by Algorithm</a></dt>
-                <dd>Amy Adler</dd>
-                
-            </dl>
-        </div>
-        
-        <div className="blue">
-            
             <h2>Books</h2>
             <h3>Non-Fiction (life imitates art)</h3>
             <dl>
@@ -76,21 +54,39 @@ const InterNet = () => (
            
         </div>
 
+        <div className="blue">
+            <h2>Articles</h2>
+            <dl>
+                <dt><a href="https://www.citationneeded.news/it-matters-i-care/">It matters. I care.</a></dt>
+                <dd>Molly White</dd>
+                <dt><a href="https://www.threadings.io/youve-been-traumatized-into-hating/">you've been traumatized into hating reading (and it makes you easier to oppress)</a></dt>
+                <dd>Ismatu Gwendolyn</dd>
+                <dt><a href="https://www.threadings.io/the-strip-club-did-indeed-make-me-bonkers/">The strip club did indeed make me bonkers!</a></dt>
+                <dd>Ismatu Gwendolyn</dd>
+                <dt><a href="https://www.abc.net.au/news/2025-09-21/antinatalism-child-free-climate-change-human-suffering-baby/105695328">The case against babies</a></dt>
+                <dd>Bri Lee</dd>
+                <dt><a href="https://factordaily.com/the-crying-shame-of-image-based-abuse/">The crying shame of image-based abuse</a></dt>
+                <dd>Rohini Lakshané</dd>
+                <dt><a href="https://www5.austlii.edu.au/au/journals/UNSWLawJlStuS/2022/25.html">"You Won't Believe What She Does!"</a></dt>
+                <dd>Stephanie Tong</dd>
+                <dt><a href="https://publications.lawschool.cornell.edu/lawreview/wp-content/uploads/sites/2/2024/08/Adler-final.pdf">Arousal by Algorithm</a></dt>
+                <dd>Amy Adler</dd>
+                
+            </dl>
+        </div>
         <div>
             <h2>Gatherings</h2>
             <ul>
                 <li><a href="https://www.instagram.com/wordcraft.wren/">Wordcraft</a></li>
                 <li><a href="https://authentikora.com/index.html">Authentikora</a></li>
                 <li><a href="https://www.instagram.com/subtlebodies.space/">Tea in ceremony</a></li>
-                <li><a href="https://www.centreofyou.com.au/events-offerings">Centre of You</a></li>
                 <li><a href="https://www.eclecticahub.com/">Eclectica Hub</a></li>
-                <li><a href="https://www.instagram.com/sophievsaba/">Women's Circle</a></li>
                 <li><a href="https://www.generationwomenaus.com/next-show/melbourne">Generation Women</a></li>
             </ul>
         </div>
 
         <div className="blue">
-            <h2>Cool Websites</h2>
+            <h2>Websites</h2>
             <ul>
                 <li><a href="https://maggieappleton.com/garden-history">Maggie Appleton</a></li>
                 <li><a href="https://inkcaps.neocities.org/home/">Inkcaps</a></li>
@@ -108,9 +104,9 @@ const InterNet = () => (
         </div>
 
         <div>
-            <h2>Cool People</h2>
+            <h2>People & Products (not sponsored)</h2>
             <ul>
-                <li><a href="https://kyricycles.co/">Kyri Cycle Tracking Ring - Australian owned and operated, no subscription fees (ever), not sponsored just passionate</a></li>
+                <li><a href="https://kyricycles.co/">Kyri Cycle Tracking Ring - Australian owned and operated, no subscription fees (ever)</a></li>
                 <li><a href="https://www.tiktok.com/@aarchor/video/7553809097213136142">AArchor</a></li>
                 <li><a href="https://www.instagram.com/inspiredtowrite/">Amie McNee</a></li>
                 <li><a href="https://www.instagram.com/exploreyourcore_/">Explore Your Core</a></li>
