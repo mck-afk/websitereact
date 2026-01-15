@@ -19,6 +19,21 @@ const TechNewsSynth = () => (
             </thead>
             <tbody>
                 <tr>
+                    <td>15 Jan 2026</td>
+                    <td><a href="https://newsandreviews.substack.com/p/what-are-we-good-for?utm_source=post-email-title&publication_id=423190&post_id=184518552&utm_campaign=email-post-title&isFreemail=true&r=1kta6v&triedRedirect=true&utm_medium=email">What are we good for? The AWW boycott; words versus action by Bri Lee</a></td>
+                    <td>"What are writers good for? Well, at least this week in Australia we can say we were good for some spines.". The free-speech wicked problem and the power of words are critical topics when exploring governance of technology, and by extension, AI.</td>
+                </tr>
+                <tr>
+                    <td>13 Jan 2026</td>
+                    <td><a href="https://brittanyellich.com/ai-has-an-image-problem/">AI Has an Image Problem by Brittany Ellich</a></td>
+                    <td>"The industry won’t fix AI’s image problem with shinier marketing. We’ll fix it by being honest about what we’re actually experiencing."</td>
+                </tr>
+                <tr>
+                    <td>12 Jan 2026</td>
+                    <td><a href="https://www.abc.net.au/religion/after-one-month-is-australias-social-media-ban-working/106219754">ABC OPINION - Australia’s social media age restrictions have been in place for a month — are they working? by Timothy Koskie</a></td>
+                    <td>"As a democratic exercise, a cultural movement and a test of whether credible regulation can change platform behaviour, Australia’s social media ban is so far doing what policy is meant to do."</td>
+                </tr>
+                <tr>
                     <td>11 Jan 2026</td>
                     <td><a href="https://www.theguardian.com/news/ng-interactive/2026/jan/11/how-grok-nudification-tool-went-viral-x-elon-musk">‘Add blood, forced smile’: how Grok’s nudification tool went viral</a></td>
                     <td>It has never been easier to inflict image-based-abuse.</td>
@@ -26,18 +41,18 @@ const TechNewsSynth = () => (
                 <tr><td></td></tr>
                 <tr>
                     <td>10 Dec 2025</td>
-                    <td><a href="https://medialiteracy.org.au/social-media-age-restrictions-are-in-force-but-too-many-students-are-missing-out-on-media-literacy-classes-in-school/">Social media age restrictions are in force, but too many students are missing out on media literacy classes in school.</a></td>
-                    <td>REVIEW</td>
+                    <td><a href="https://www.wheresyoured.at/nvidia-isnt-enron-so-what-is-it/">NVIDIA Isn't Enron - So What Is It? by Edward Zitron</a></td>
+                    <td>Hilarious. Horrifying. Laughing through the terror is an everyday occurance now. "NVIDIA’s customers rely on debt to buy its GPUs, and NVIDIA’s customers’ customers rely on debt to pay to rent them."</td>
                 </tr>
                 <tr>
                     <td>27 Oct 2025</td>
                     <td><a href="https://www.abc.net.au/news/2025-10-27/labor-rules-out-ai-training-copyright-exceptions/105935740">Federal government rules out changing copyright law to give AI companies free rein</a></td>
-                    <td>REVIEW</td>
+                    <td>As someone who writes every word you're reading, I am glad to see that copyright still means something (even if it didn't in the initial training).</td>
                 </tr>
                 <tr>
                     <td>27-31 Oct 2025</td>
                     <td>Media Literacy Week including<a href="https://winthefarm.dayofaiaustralia.com/">Win The Farm</a> by <a href="https://dayofaiaustralia.com/">Day of AI Australia</a></td>
-                    <td>REVIEW</td>
+                    <td>I am glad to see that there are cool, engaging projects teaching media literacy. I wish I had done something like this when I was in school and learning to navigate social media.</td>
                 </tr>
                 <tr>
                     <td>26 Sep 2025</td>
@@ -47,17 +62,19 @@ const TechNewsSynth = () => (
                 <tr>
                     <td>22 Aug 2025</td>
                     <td><a href="https://www.atse.org.au/what-we-do/strategic-advice/made-in-australia-our-ai-opportunity/">Made in Australia: Our AI opportunity by Australian Academy of Technological Sciences & Engineering</a></td>
-                    <td>REVIEW</td>
+                    <td>More recommendations on what the Government 'should' focus on. They have also released an updated version <a href='https://www.atse.org.au/what-we-do/strategic-advice/unleashing-growth-australias-ai-investment-blueprint/'>21 November 2025 Unleashing growth: Australia's AI investment blueprint</a>. This report has 6 priorities, again with the tone of missing out "other governments have invested more than 10 times the amount."</td>
                 </tr>
                 <tr>
                     <td>08 Aug 2025</td>
-                    <td><a href="https://www.acma.gov.au/sites/default/files/2025-08/Summary_4th%20report%20to%20government.pdf">Big Tech's efforts to combat disinformation and misinformation by Australian Media and Communications Authority</a></td>
-                    <td>REVIEW</td>
+                    <td><a href="https://www.acma.gov.au/sites/default/files/2025-08/Summary_4th%20report%20to%20government.pdf">Digital platforms’ efforts under voluntary arrangements to combat disinformation and misinformation: 4th report to government by Australian Media and Communications Authority (AMCA), administered by Digital Industry Group Inc. (DIGI)</a></td>
+                    <td>Accessible overview of The Australian Code of Practice on Disinformation and Misinformation by DIGI. Everyone is compliant so far.</td>
                 </tr>
                 <tr>
                     <td>30 Jun 2025</td>
                     <td><a href="https://openai.com/global-affairs/openais-australia-economic-blueprint/">AI in Australia—OpenAI's Economic Blueprint</a></td>
-                    <td>REVIEW</td>
+                    <td>I know this document functions mostly as a brochure——a persuasive piece——I just didn't expect it to be so obvious. The tone is urgent ("must keep pace"), desperate ("vital", "critical"), and FOMO ("Without it, Australia risks..."). The graphs bend over backwards to be flattering and glanceable. It's final messaging attempts to tap into the desire for 'leading a legacy' ("Australia won’t just adapt to the AI era, it will help define it.")
+                        If "AI is a transformative general purpose technology – like electricity", does that mean our regulations should be focused on the buying of chainsaws (or chainsaw batteries)? 
+                    </td>
                 </tr>
                 <tr>
                     <td>19 May 2025</td>
@@ -68,13 +85,13 @@ const TechNewsSynth = () => (
                 </tr>
                 <tr>
                     <td>16 Dec 2024</td>
-                    <td><a href="https://ministers.pmc.gov.au/mccarthy/2024/charting-course-diverse-and-sustainable-news-sector">"$3.8 million over three years from 2025-26 for the development of Australia’s first National Media Literacy Strategy, co-designed in partnership with the media literacy research sector, education sector and communities, to better equip Australians to critically engage with news and media."</a></td>
-                    <td>REVIEW</td>
+                    <td><a href="https://ministers.pmc.gov.au/mccarthy/2024/charting-course-diverse-and-sustainable-news-sector">"$3.8 million over three years from 2025-26 for the development of Australia's first National Media Literacy Strategy, co-designed in partnership with the media literacy research sector, education sector and communities, to better equip Australians to critically engage with news and media."</a></td>
+                    <td>Adding here as a reminder to check in on its progress.</td>
                 </tr>
                 <tr>
                     <td>23 Oct 2024</td>
-                    <td><a href="https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/bd/bd2425/25bd014">Bills Digest No. 14, 2024-25 - Communications Legislation Amendment (Combatting Misinformation and Disinformation) Bill 2024</a></td>
-                    <td>REVIEW</td>
+                    <td><a href="https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/bd/bd2425/25bd014">Bills Digest No. 14, 2024-25 - Communications Legislation Amendment (Combatting Misinformation and Disinformation) Bill 2024</a> <a href="https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7239">Bill History</a></td>
+                    <td>What's really fascinating is that even though there is clearly public demand, (<a href="https://www.acma.gov.au/publications/2025-11/report/communications-and-media-australia-how-we-encounter-misinformation">2025 Report, ACMA</a>, this bill couldn't get through. I am still exploring why it was withdrawn.</td>
                 </tr>
                 <tr>
                     <td>26 Jul 2024</td>
@@ -83,6 +100,7 @@ const TechNewsSynth = () => (
                 </tr>
             </tbody>
         </table>
+        <p><a href="https://artificialintelligenceact.eu/">European Union Artificial Intelligence Act</a></p>
         <p></p>
     </PageLayout>
 );
