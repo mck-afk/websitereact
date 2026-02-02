@@ -19,9 +19,24 @@ const TechNewsSynth = () => (
             </thead>
             <tbody>
                 <tr>
+                    <td>23 Jan 2026</td>
+                    <td><a href="https://www.abc.net.au/news/2026-01-23/paris-hilton-returns-to-washington-for-deepfake-porn-fight/106260660">Paris Hilton brings sex tape story to Washington for AI deepfake porn fight</a></td>
+                    <td>Lending her weighty voice to this conversation is a massive step forward for mainstream visibility, even though many women of colour have been fighting this fight for much longer, like <a href="https://www.ladbible.com/entertainment/celebrity/mia-khalifa-trap-how-much-money-made-adult-628393-20250528">Mia Khalifa</a>, <a href="https://www.noellemartin.org/">Noelle Martin</a>, and <a href="https://about.me/rohini">Rohini Lakshané</a>.</td>
+                </tr>
+                <tr>
+                    <td>15 Jan 2026</td>
+                    <td><a href="https://en.wikipedia.org/wiki/Wikipedia:25th_anniversary">Wikipedia's 25th Anniversary</a></td>
+                    <td>Supported by <a href="https://wikimedia.org.au/">Wikimedia Australia</a>.</td>
+                </tr>
+                <tr>
                     <td>15 Jan 2026</td>
                     <td><a href="https://newsandreviews.substack.com/p/what-are-we-good-for?utm_source=post-email-title&publication_id=423190&post_id=184518552&utm_campaign=email-post-title&isFreemail=true&r=1kta6v&triedRedirect=true&utm_medium=email">What are we good for? The AWW boycott; words versus action by Bri Lee</a></td>
                     <td>"What are writers good for? Well, at least this week in Australia we can say we were good for some spines.". The free-speech wicked problem and the power of words are critical topics when exploring governance of technology, and by extension, AI.</td>
+                </tr>
+                <tr>
+                    <td>14 Jan 2026</td>
+                    <td><a href="https://www.transparencycoalition.ai/news/transparency-coalition-launches-parents-playbook-for-ai-to-help-families">Parents Playbook for AI</a></td>
+                    <td>Collating accessible resources is important (it's what I'm literally doing right here) AND there's a great power in WHICH resources get selected, which end up as a Freudian slip. I hope this resource educates, and empowers. I will reach out the the parents in my community and see!</td>
                 </tr>
                 <tr>
                     <td>13 Jan 2026</td>
@@ -101,6 +116,9 @@ const TechNewsSynth = () => (
             </tbody>
         </table>
         <p><a href="https://artificialintelligenceact.eu/">European Union Artificial Intelligence Act</a></p>
+        <p><a href="https://incidentdatabase.ai/">AI Incident Database</a></p>
+        <p><a href="https://www.romecall.org/">Rome Call</a></p>
+        
         <p></p>
     </PageLayout>
 );

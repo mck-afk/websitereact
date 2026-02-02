@@ -84,6 +84,11 @@ const InterNet = () => (
                 <li><a href="https://www.generationwomenaus.com/next-show/melbourne">Generation Women</a></li>
             </ul>
         </div>
+        <a href="https://sfpc.study/"><img src="/images/recurse.png" style={{ maxWidth: "25px" }} />The School for Poetic Computation</a>
+        <a href="https://www.recurse.com/"><img src="/images/sfpc.png" style={{ maxWidth: "25px" }} />Recurse Center</a>
+        
+        
+
 
         <div className="blue">
             <h2>Websites</h2>
