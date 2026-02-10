@@ -1,5 +1,5 @@
 import React from "react";
-
+import Marquee from "react-fast-marquee";
 
 const Nav = () => {
     // Theme switcher for 'Light' menu item
@@ -73,7 +73,10 @@ const Nav = () => {
                             </div>
                         </div>
                         <div className="window-body has-space">
-                            <p>installing 2026</p>
+                            <p>booting into 2026 with expected output:</p>
+                            <Marquee direction="right" speed={50} pauseOnHover={true} style={{ fontFamily: 'italics' }}>
+                                bravery⟡vibrance⟡fizzy⟡boldness⟡real⟡rebirth⟡glittering⟡gilded⟡raw⟡
+                            </Marquee>
                             <div role="progressbar" className="marquee"></div>
                             <br />
                             <section style={{display: 'flex', justifyContent: 'flex-end', gap: 6}}>
@@ -84,9 +87,11 @@ const Nav = () => {
                         </div>
                         <div className="status-bar">
                             <p className="status-bar-field">ClassName: FireHorse</p>
-                            <p className="status-bar-field">PrepareFor: Boldness</p>
                             <p className="status-bar-field">AlchemicalFormula: (♆&♄&⚷)→♈︎+(♅→♊︎)</p>
                         </div>
+                        
+                    </div>
+                    <div>
                         
                     </div>
                     
@@ -123,7 +128,6 @@ const Nav = () => {
                     of sovereignty and reciprocial living, and her duty as a guest upon it today.
                     <br /><br />
                     <span>All rights reserved © 2026 Annabelle Grace McKenzie</span>
-                    <br /><br /><a href="mailto:annabelle@annabelle-grace-mckenzie.com">annabelle@annabelle-grace-mckenzie.com</a>
                 </p>
             </div>
         </div>

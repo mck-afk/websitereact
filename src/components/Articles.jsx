@@ -6,6 +6,15 @@ import { NoteNavContext } from "../providers/NoteNavProvider";
 // Article data array
 const articlesData = [
   {
+    id: "articleTRMR",
+    color: "blue",
+    title: "Tumblr Mother",
+    text: "bringing back mummy blogging",
+    date: "10 February 2026",
+    themes: ["internet", "mother", "health"],
+    redirectPath: "/Blog_TRMR"
+  },
+  {
     id: "article26PS",
     color: "purple",
     title: "2026+ Predictions",
@@ -81,7 +90,7 @@ const articlesData = [
     title: "stem cells and spiritual journeys",
     text: "a brief overview of woman's life phases",
     date: "02 July 2025",
-    themes: ["menstruation", "spirit", "science"],
+    themes: ["menstruation", "spirit", "health"],
     redirectPath: "/Blog_SCSJ"
   }
 ];

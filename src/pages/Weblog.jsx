@@ -4,7 +4,7 @@ import Articles from "../components/Articles";
 import React from "react";
 
 const allThemes = [
-  "technology", "capitalism", "astrology", "mother", "external", "englishclass", "internet", "homemaking", "weaving", "work", "feminism", "menstruation", "spirit", "science"
+  "technology", "internet", "capitalism", "mother", "health", "astrology", "external", "englishclass", "predictions", "homemaking", "weaving", "work", "feminism", "menstruation", "spirit" 
 ];
 const allYears = ["2025", "2026"];
 

@@ -9,7 +9,7 @@ const SCSJ = () => {
             <div className="red" style={{ paddingBottom: "5px" }}>
                 <h1 className="yellow">stem cells and spiritual journeys</h1>
                 <h2>a brief overview of woman's life phases</h2>
-                <h4>02 July 2025 | menstruation, spirit, science</h4>
+                <h4>02 July 2025 | menstruation, spirit, health</h4>
                 <button className="red" onClick={() => navigate(-1)}>back</button>
             </div>
 

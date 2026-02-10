@@ -15,6 +15,7 @@ import FWFM from './pages/Blog_FWFM';
 import AICR from './pages/Blog_AICR';
 import WITC from './pages/Blog_WITC';
 import Blog_26PS from './pages/Blog_26PS';
+import TRMR from './pages/Blog_TRMR';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
       <Route path="/Blog_AICR" element={<AICR />} />
       <Route path="/Blog_WITC" element={<WITC />} />
       <Route path="/Blog_26PS" element={<Blog_26PS />} />
+      <Route path="/Blog_TRMR" element={<TRMR />} />
 
     </Routes>
   );

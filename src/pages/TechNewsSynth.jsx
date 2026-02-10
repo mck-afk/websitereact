@@ -12,7 +12,7 @@ const TechNewsSynth = () => (
         <table style={{ width: "100%" }}>
             <thead>
                 <tr>
-                <th>Date</th>
+                <th style={{ width: '110px'}} >Date</th>
                 <th>Article</th>
                 <th>Analysis</th>
                 </tr>

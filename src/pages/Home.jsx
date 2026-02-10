@@ -4,6 +4,7 @@ import { NoteNavContext } from "../providers/NoteNavProvider";
 import PostItNote from "../components/PostItNote";
 import PageLayout from "../components/PageLayout";
 import { motion } from "framer-motion";
+import { Tooltip } from 'react-tooltip'
 
 const Home = () => {
   const { movingNoteId, handleNoteClick } = useContext(NoteNavContext);
@@ -22,25 +23,20 @@ const Home = () => {
           className="note pink"
           title="annabelle grace mckenzie"
         >
+          <p>a woman seeing the <span id="seeme" style={{ textDecoration: 'underline', color: '#0000EE'}}>technology</span> in front of me</p>
+          <Tooltip anchorSelect="#seeme" place="bottom" style={{ width: '250px', textAlign: 'center'}}>a medium for interpreting and interacting with the world... computers, internet, literacy, home, bodies, astrology, woman</Tooltip>
           <p>
-            📍 Melbourne/Naarm
+            📍 Melbourne/Naarm, Australia
             <br /> 📚 reader of {" "}
             <a href="/InterNet">literature & critiques</a>
             <br /> ✍️ writer for <a href="/weblog">humans</a> & {" "}
             <a href="https://github.com/mck-afk">computers</a>
-            <br />
-            <a href="https://bsky.app/profile/annabellemckenzie.bsky.social">
-              <img className="icon" src="/images/blsky.png" alt="bluesky" /> active
-            </a>
-            <br />
-            <a href="https://www.instagram.com/annabellegracemckenzie/">
-              <img className="icon" src="/images/insta.png" alt="instagram" /> archive
-            </a>
+            
           </p>
           <p>
             <img className="icon" src="https://img.icons8.com/?size=100&id=W77GEN8wSCBv&format=png&color=000000" alt="now" />
             <span style={{ fontWeight: "bold"}}> now: </span>
-            researching AI governance in Australia & <a className="orange" href="https://annabelle-grace-mckenzie.com/TechNewsSynth">documenting said learnings</a>
+            in the sunshine ☀️
           </p>
         </PostItNote>
 
@@ -58,10 +54,11 @@ const Home = () => {
             title="Blog"
           >
             <p>
-              my <a href="https://en.wikipedia.org/wiki/Blog">web log</a> is an athenaeum
+              <a href="https://en.wikipedia.org/wiki/Blog">web log</a> is an athenaeum
               of contemplations, investigations, & imaginations ✍️
-              <br /><br />topics include: art, technology, literacy, writing, home, girl, woman, mother, other
+              <br /><br />topics include: internet, technology, capitalism, literacy, writing, homemaking, girl, woman, mother, other
             </p>
+            <p style={{ textAlign: "right" }} ><br /><br /><img src="https://blob.gifcities.org/gifcities/LKDMD44G2M5KCZDNP3CB3C6XT46F7N2V.gif" /></p>
           </PostItNote>
         </motion.div>
         <motion.div
@@ -116,7 +113,7 @@ const Home = () => {
           title="TechNews Synthesis"
         >
             <p>writing the history I see 👩‍💻</p>
-            <p>a collection of links to news, opinions pieces, and synthesis of technology including artificial intelligence, cool projects and passions, and books of other analyses 🌐</p>
+            <p>a collection of links to news, opinions pieces, and synthesis of technology including artificial intelligence, cool projects and passions, and other analysis 🌐</p>
         </PostItNote>
         </motion.div> 
         <motion.div
