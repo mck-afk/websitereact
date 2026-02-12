@@ -6,6 +6,7 @@ const PostItNote = ({
   onClick,
   style,
   title,
+  lastUpdated,
   children
 }) => (
   <blockquote
@@ -14,9 +15,10 @@ const PostItNote = ({
     onClick={onClick}
     style={style}
   >
+    <cite className="actions">{lastUpdated}</cite>
     <h1>{title}</h1>
     {children}
-    <cite className="actions"> ⤷ </cite>
+    
   </blockquote>
 );
 

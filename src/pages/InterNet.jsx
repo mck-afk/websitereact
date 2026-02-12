@@ -67,6 +67,8 @@ const InterNet = () => (
         <div className="blue">
             <h2>Articles</h2>
             <dl>
+                <dt><a href="https://publicdomainreview.org/essay/typing-for-love-or-money/">Typing for Love or Money: The Hidden Women's Labor behind Modern Literary Masterpieces</a></dt>
+                <dd>Christine Jacobson</dd>
                 <dt><a href="https://www.theguardian.com/news/ng-interactive/2026/jan/11/how-grok-nudification-tool-went-viral-x-elon-musk">'Add blood, forced smile': how Grok's nudification tool went viral</a></dt>
                 <dd>Amelia Gentleman and Helena Horton</dd>
                 <dt><a href="https://www.citationneeded.news/it-matters-i-care/">It matters. I care.</a></dt>

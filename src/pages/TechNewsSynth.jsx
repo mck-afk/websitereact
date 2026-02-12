@@ -19,6 +19,21 @@ const TechNewsSynth = () => (
             </thead>
             <tbody>
                 <tr>
+                    <td>11 Feb 2026</td>
+                    <td><a href="https://commonslibrary.parliament.uk/research-briefings/cbp-10186/">Data (Use and Access) Bill [HL] House of Commons UK Parliament</a></td>
+                    <td>scheduled to have its second reading in the House of Commons on 12 February 2025<br/>"The bill had its third reading in the Lords on 5 February 2025. A government amendment was agreed that would protect children’s personal data and ensure that online services likely to be accessed by children would be designed with their safety and privacy in mind. <br/>Also at third reading, the Lords considered another government amendment to introduce an offence of creating of ‘deepfake’ intimate images without consent. It was agreed, but only after it had been amended (through amendments moved by Baroness Owen of Alderley Edge) to include an offence of soliciting creation, remove a defence of reasonable excuse, and allow for a custodial sentence as well as a fine."</td>
+                </tr>
+                <tr>
+                    <td>06 Feb 2026</td>
+                    <td><a href="https://finance.yahoo.com/news/amazon-google-microsoft-shares-fall-182635016.html">Amazon, Google and Microsoft Shares Fall ~3%</a></td>
+                    <td>From 02 Feb 2026, AMZN 243-210 (33), GOOGL 341-323 (18), MSFT 430-400 (30)</td>
+                </tr>
+                <tr>
+                    <td>30 Jan 2026</td>
+                    <td><a href="https://www.aljazeera.com/news/2026/1/30/us-department-of-justice-releases-three-million-new-epstein-documents">US Department of Justice releases 3 million new Epstein files</a></td>
+                    <td><a href="https://www.aljazeera.com/news/2026/2/10/struggling-to-navigate-the-epstein-files-here-is-a-visual-guide">Epstein files visual guide</a></td>
+                </tr>
+                <tr>
                     <td>23 Jan 2026</td>
                     <td><a href="https://www.abc.net.au/news/2026-01-23/paris-hilton-returns-to-washington-for-deepfake-porn-fight/106260660">Paris Hilton brings sex tape story to Washington for AI deepfake porn fight</a></td>
                     <td>Lending her weighty voice to this conversation is a massive step forward for mainstream visibility, even though many women of colour have been fighting this fight for much longer, like <a href="https://www.ladbible.com/entertainment/celebrity/mia-khalifa-trap-how-much-money-made-adult-628393-20250528">Mia Khalifa</a>, <a href="https://www.noellemartin.org/">Noelle Martin</a>, and <a href="https://about.me/rohini">Rohini Lakshané</a>.</td>

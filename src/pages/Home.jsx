@@ -22,15 +22,14 @@ const Home = () => {
           id="noteABOUT"
           className="note pink"
           title="annabelle grace mckenzie"
+          lastUpdated="10/02/2026"
         >
           <p>a woman seeing the <span id="seeme" style={{ textDecoration: 'underline', color: '#0000EE'}}>technology</span> in front of me</p>
           <Tooltip anchorSelect="#seeme" place="bottom" style={{ width: '250px', textAlign: 'center'}}>a medium for interpreting and interacting with the world... computers, internet, literacy, home, bodies, astrology, woman</Tooltip>
           <p>
             📍 Melbourne/Naarm, Australia
-            <br /> 📚 reader of {" "}
-            <a href="/InterNet">literature & critiques</a>
-            <br /> ✍️ writer for <a href="/weblog">humans</a> & {" "}
-            <a href="https://github.com/mck-afk">computers</a>
+            <br /> 📚 reader of {" "} <a href="/InterNet">literature & critiques</a>
+            <br /> ✍️ writer for <a href="/weblog">humans</a> & {" "} <a href="https://github.com/mck-afk">computers</a>
             
           </p>
           <p>
@@ -39,6 +38,27 @@ const Home = () => {
             in the sunshine ☀️
           </p>
         </PostItNote>
+
+        <motion.div
+          initial={{ x: 0, y: -50 }}
+          animate={movingNoteId === "noteINTERNET" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
+          transition={{ duration: 0.2 }}
+          style={{ cursor: "pointer", margin: "auto", zIndex: 1000, position: "relative" }}
+          whileHover={{ rotate: -5 }}
+          onClick={() => handleNoteClick("noteINTERNET", "/InterNet")}
+        >
+        <PostItNote
+          id="noteINTERNET"
+          className="note blue left"
+          title="InterNet"
+          lastUpdated="11/02/2026"
+        >
+          <p>
+            treasured connections and digital reciprocations 🔗 <br /><br />links to 📖 books, newsletters, communities, articles, media, movements, people, and other cool things I think you should explore
+          </p>
+          <p style={{ textAlign: "right" }} ><br /><img src="https://blob.gifcities.org/gifcities/RYZXTD3B7A23HN45HI47DKN2EV5D465M.gif" /></p>
+        </PostItNote>
+        </motion.div>
 
         <motion.div
           initial={{ x: 0, y: -50 }}
@@ -52,6 +72,7 @@ const Home = () => {
             id="noteWEBLOG"
             className="note red right"
             title="Blog"
+            lastUpdated="10/02/2026"
           >
             <p>
               <a href="https://en.wikipedia.org/wiki/Blog">web log</a> is an athenaeum
@@ -60,43 +81,6 @@ const Home = () => {
             </p>
             <p style={{ textAlign: "right" }} ><br /><br /><img src="https://blob.gifcities.org/gifcities/LKDMD44G2M5KCZDNP3CB3C6XT46F7N2V.gif" /></p>
           </PostItNote>
-        </motion.div>
-        <motion.div
-          initial={{ x: 0, y: -50 }}
-          animate={movingNoteId === "noteINTERNET" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
-          transition={{ duration: 0.2 }}
-          style={{ cursor: "pointer", margin: "auto", zIndex: 1000, position: "relative" }}
-          whileHover={{ rotate: -5 }}
-          onClick={() => handleNoteClick("noteINTERNET", "/InterNet")}
-        >
-        <PostItNote
-          id="noteINTERNET"
-          className="note blue left"
-          title="InterNet"
-        >
-          <p>
-            treasured connections and digital reciprocations 🔗 <br /><br />links to 📖 books, newsletters, communities, articles, media, movements, people, and other cool things I think you should explore
-          </p>
-        </PostItNote>
-        </motion.div>
-
-        <motion.div
-          initial={{ y: -20 }}
-          animate={movingNoteId === "noteFBL" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
-          transition={{ duration: 0.2 }}
-          style={{ cursor: "pointer", margin: "auto", zIndex: 1000, position: "relative" }}
-          whileHover={{ rotate: -5 }}
-          onClick={() => handleNoteClick("noteFBL", "/femalebodyliteracy")}
-        >
-        <PostItNote
-          id="noteFBL"
-          className="note yellow right"
-          title="Female Body Literacy"
-        >
-          <p>
-            for ALL audiences<br /><br />A fun, accessible, deep-dive workshop that explores and strengthens the skills of interpreting and responding to the Female Body, as it moves through a lifetime 🩸
-          </p>
-        </PostItNote>
         </motion.div>
 
         <motion.div
@@ -111,11 +95,60 @@ const Home = () => {
           id="noteTechNewsSynth"
           className="note orange left"
           title="TechNews Synthesis"
+          lastUpdated="10/02/2026" 
         >
             <p>writing the history I see 👩‍💻</p>
             <p>a collection of links to news, opinions pieces, and synthesis of technology including artificial intelligence, cool projects and passions, and other analysis 🌐</p>
+            <p style={{ textAlign: "right" }} ><br /><br /><img src="https://blob.gifcities.org/gifcities/TI6F4JDECJ2M6SOECHH57FR7HPKI3WM3.gif" /></p>
         </PostItNote>
         </motion.div> 
+
+        
+        
+        <motion.div
+          initial={{ y: -60 }}
+          animate={movingNoteId === "noteASTROPROGRAM" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
+          transition={{ duration: 0.2 }}
+          style={{ cursor: "pointer", margin: "auto", zIndex: 1000, position: "relative" }}
+          whileHover={{ rotate: -5 }}
+          onClick={() => handleNoteClick("noteASTROPROGRAM", "/astroprogram")}
+        >
+        <PostItNote
+          id="noteASTROPROGRAM"
+          className="note purple right"
+          title="Astrology for Programmers"
+          lastUpdated="03/01/2026"
+        >
+          <p>
+            👽 + 🤖 = <img src="https://blob.gifcities.org/gifcities/QOJGTLUK7YFKP26LSJJOTPNGSWKXT67C.gif" /> 
+            <br />
+            <br />to interpret (and manipulate) patterns, through the application of rules/calculations, firsrt we start with learnings the basics of the language
+            <br /><br />hear me out
+          </p>
+        </PostItNote>
+        </motion.div>
+
+        <motion.div
+          initial={{ y: -20 }}
+          animate={movingNoteId === "noteFBL" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
+          transition={{ duration: 0.2 }}
+          style={{ cursor: "pointer", margin: "auto", zIndex: 1000, position: "relative" }}
+          whileHover={{ rotate: -5 }}
+          onClick={() => handleNoteClick("noteFBL", "/femalebodyliteracy")}
+        >
+        <PostItNote
+          id="noteFBL"
+          className="note yellow left"
+          title="Female Body Literacy"
+          lastUpdated="24/07/2025"
+        >
+          <p>
+            for ALL audiences<br /><br />A fun, accessible, deep-dive workshop that explores and strengthens the skills of interpreting and responding to the Female Body, as it moves through a lifetime 🩸
+          </p>
+        </PostItNote>
+        </motion.div>
+
+        
         <motion.div
           initial={{ y: -40 }}
           animate={movingNoteId === "noteABODE" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
@@ -128,6 +161,7 @@ const Home = () => {
           id="noteABODE"
           className="note green right"
           title="Anna's Abode"
+          lastUpdated="14/09/2025"
         >
           <p>
             a framework for organising and exploring areas of life and creation 🎨
@@ -136,27 +170,7 @@ const Home = () => {
         </PostItNote>
         </motion.div>
 
-        <motion.div
-          initial={{ y: -60 }}
-          animate={movingNoteId === "noteASTROPROGRAM" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
-          transition={{ duration: 0.2 }}
-          style={{ cursor: "pointer", margin: "auto", zIndex: 1000, position: "relative" }}
-          whileHover={{ rotate: -5 }}
-          onClick={() => handleNoteClick("noteASTROPROGRAM", "/astroprogram")}
-        >
-        <PostItNote
-          id="noteASTROPROGRAM"
-          className="note purple left"
-          title="Astrology for Programmers"
-        >
-          <p>
-            👽 + 🤖 = 💞
-            <br />
-            <br />to interpret (and manipulate) patterns, through the application of rules/calculations, firsrt we start with learnings the basics of the language
-            <br /><br />hear me out
-          </p>
-        </PostItNote>
-        </motion.div>
+        
         
       </div>
 
