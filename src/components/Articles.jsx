@@ -32,7 +32,9 @@ const articlesData = [
     text: "submission to WhyNot",
     date: "01 December 2025",
     themes: ["capitalism", "mother", "external"],
-    redirectPath: "https://www.whynot.org.au/voice/community-connection/dear-future-what-would-you-say-if-the-future-was-listeningdear-future/#:~:text=Dear%20Future%20Daughter"
+    external: "true",
+    redirectPath: "https://www.whynot.org.au/voice/community-connection/dear-future-what-would-you-say-if-the-future-was-listeningdear-future/#:~:text=Dear%20Future%20Daughter",
+    image: "https://www.whynot.org.au/wp-content/uploads/2023/11/WN_Logo_NEW_Crop-2.png"
   },{
     id: "articleAICR",
     color: "blue",
@@ -125,7 +127,7 @@ const Articles = ({ filterTheme = null, filterYear = null, filterColor = null })
           transition={{ duration: 0.2 }}
           style={{ cursor: "pointer", margin: "auto", zIndex: 1000, position: "relative" }}
           whileHover={{ rotate: -5 }}
-          onClick={() => handleNoteClick(article.id, article.redirectPath)}
+          onClick={() => handleNoteClick(article.id, article.redirectPath, article.external)}
         >
           <PostItNote
             id={article.id}

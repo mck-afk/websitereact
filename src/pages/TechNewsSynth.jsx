@@ -24,9 +24,14 @@ const TechNewsSynth = () => (
                     <td>scheduled to have its second reading in the House of Commons on 12 February 2025<br/>"The bill had its third reading in the Lords on 5 February 2025. A government amendment was agreed that would protect children’s personal data and ensure that online services likely to be accessed by children would be designed with their safety and privacy in mind. <br/>Also at third reading, the Lords considered another government amendment to introduce an offence of creating of ‘deepfake’ intimate images without consent. It was agreed, but only after it had been amended (through amendments moved by Baroness Owen of Alderley Edge) to include an offence of soliciting creation, remove a defence of reasonable excuse, and allow for a custodial sentence as well as a fine."</td>
                 </tr>
                 <tr>
+                    <td>09 Feb 2026</td>
+                    <td><a href="https://abcnews.com/Technology/wireStory/arguments-begin-landmark-social-media-addiction-trial-set-129983976">Landmark trial accusing social media companies of addicting kids to platforms begins</a></td>
+                    <td>At Los Angeles County Superior Court Meta and Google's YouTube face trial, with claims that their platforms deliberately addict and harm children. TikTok and Snap, which were originally named in the lawsuit, settled for undisclosed sums.</td>
+                </tr>
+                <tr>
                     <td>06 Feb 2026</td>
                     <td><a href="https://finance.yahoo.com/news/amazon-google-microsoft-shares-fall-182635016.html">Amazon, Google and Microsoft Shares Fall ~3%</a></td>
-                    <td>From 02 Feb 2026, AMZN 243-210 (33), GOOGL 341-323 (18), MSFT 430-400 (30)</td>
+                    <td>From 02 Feb 2026, AMZN 243-210 (33), GOOG 341-323 (18), MSFT 430-400 (30)</td>
                 </tr>
                 <tr>
                     <td>30 Jan 2026</td>
@@ -134,7 +139,34 @@ const TechNewsSynth = () => (
         <p><a href="https://incidentdatabase.ai/">AI Incident Database</a></p>
         <p><a href="https://www.romecall.org/">Rome Call</a></p>
         
-        <p></p>
+        <h2>Archive/Timeline</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th style={{ width: '110px'}} >Date</th>
+                    <th>Article</th>
+                    <th>Analysis</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>12 Jun 2017</td>
+                    <td><a href="https://arxiv.org/abs/1706.03762">Attention Is All You Need</a></td>
+                    <td>Generative artifical intelligence</td>
+                </tr>
+                <tr>
+                    <td>10 Sep 2014</td>
+                    <td><a href="https://arxiv.org/abs/1409.3215">Sequence to Sequence Learning with Neural Networks - Seq2Seq</a></td>
+                    <td>Neural networks continued to yeild results</td>
+                </tr>
+                <tr>
+                    <td>16 Jan 2013</td>
+                    <td><a href="https://arxiv.org/abs/1301.3781">Efficient Estimation of Word Representations in Vector Space - Word2Vec</a></td>
+                    <td>The nail in the coffin that rules-based would fall short of neural networks</td>
+                </tr>
+                
+            </tbody>
+        </table>
     </PageLayout>
 );
 

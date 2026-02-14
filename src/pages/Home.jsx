@@ -39,6 +39,27 @@ const Home = () => {
           </p>
         </PostItNote>
 
+
+        <motion.div
+          initial={{ y: -20 }}
+          animate={movingNoteId === "noteTechNewsSynth" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
+          transition={{ duration: 0.2 }}
+          style={{ cursor: "pointer", margin: "auto", zIndex: 1000, position: "relative" }}
+          whileHover={{ rotate: -5 }}
+          onClick={() => handleNoteClick("noteTechNewsSynth", "/TechNewsSynth")}
+        >
+        <PostItNote
+          id="noteTechNewsSynth"
+          className="note orange left"
+          title="TechNews Synthesis"
+          lastUpdated="14/02/2026" 
+        >
+            <p>writing the history I see 👩‍💻</p>
+            <p>a collection of links to news, opinions pieces, and synthesis of technology including artificial intelligence, cool projects and passions, and other analysis 🌐</p>
+            <p style={{ textAlign: "right" }} ><br /><br /><img src="https://blob.gifcities.org/gifcities/TI6F4JDECJ2M6SOECHH57FR7HPKI3WM3.gif" /></p>
+        </PostItNote>
+        </motion.div> 
+
         <motion.div
           initial={{ x: 0, y: -50 }}
           animate={movingNoteId === "noteINTERNET" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
@@ -83,25 +104,6 @@ const Home = () => {
           </PostItNote>
         </motion.div>
 
-        <motion.div
-          initial={{ y: -20 }}
-          animate={movingNoteId === "noteTechNewsSynth" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
-          transition={{ duration: 0.2 }}
-          style={{ cursor: "pointer", margin: "auto", zIndex: 1000, position: "relative" }}
-          whileHover={{ rotate: -5 }}
-          onClick={() => handleNoteClick("noteTechNewsSynth", "/TechNewsSynth")}
-        >
-        <PostItNote
-          id="noteTechNewsSynth"
-          className="note orange left"
-          title="TechNews Synthesis"
-          lastUpdated="10/02/2026" 
-        >
-            <p>writing the history I see 👩‍💻</p>
-            <p>a collection of links to news, opinions pieces, and synthesis of technology including artificial intelligence, cool projects and passions, and other analysis 🌐</p>
-            <p style={{ textAlign: "right" }} ><br /><br /><img src="https://blob.gifcities.org/gifcities/TI6F4JDECJ2M6SOECHH57FR7HPKI3WM3.gif" /></p>
-        </PostItNote>
-        </motion.div> 
 
         
         
@@ -120,9 +122,9 @@ const Home = () => {
           lastUpdated="03/01/2026"
         >
           <p>
-            👽 + 🤖 = <img src="https://blob.gifcities.org/gifcities/QOJGTLUK7YFKP26LSJJOTPNGSWKXT67C.gif" /> 
+            ✧☊ <img src="https://blob.gifcities.org/gifcities/QOJGTLUK7YFKP26LSJJOTPNGSWKXT67C.gif" />  > |
             <br />
-            <br />to interpret (and manipulate) patterns, through the application of rules/calculations, firsrt we start with learnings the basics of the language
+            <br />to interpret (and manipulate) patterns, through the application of rules/calculations, we start with learning the basics of the language
             <br /><br />hear me out
           </p>
         </PostItNote>
