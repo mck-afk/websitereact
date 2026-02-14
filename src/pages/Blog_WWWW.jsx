@@ -15,7 +15,7 @@ const WWWW = () => {
             <h2>before written word there was cloth</h2>
             <p>Throughout history, humans across the globe have been weaving to keep their bodies warm and their information secure. A weave is made up of two parts: a Warp (longitudinal/vertical) and a Weft (lateral/horizontal).</p>
         
-            <img/>
+            <img src="/images/w&w.jpg" />
             <p><a href="https://en.wikipedia.org/wiki/Weaving">Source: Wikipedia</a></p>
             <p>
                 When the weave is complete, the threads become greater than the sum of their parts—cloth. 
@@ -25,7 +25,7 @@ const WWWW = () => {
             
             <h2>to compose a computer</h2>
             <p>In <a href="https://en.wikipedia.org/wiki/Jacquard_machine">1804 the Jacquard Loom</a> was patented as an automated weaving solution because it used punch cards that <a href="https://www.youtube.com/watch?v=GS2IK0dSFZ4">dictated the state of the pin</a> (up/on/1 or down/off/0) to produce repeatable patterns and sequences. </p>
-
+            <img src="/images/jlpc.jpg" />
             <p>
                 In the 1820’s, <a href="https://en.wikipedia.org/wiki/Charles_Babbage">“using a principle openly borrowed from the Jacquard loom”, Charles Babbage</a> invented the first mechanical computer that could perform calculations called the Difference Engine. The basic architecture was similar to that of a modern computer, in that it was a composition of on or off switches (1 or 0 respectively).
             </p>
@@ -45,7 +45,7 @@ Hidden Figures (2016) </p>
             <p>
                 In the <a href="https://en.wikipedia.org/wiki/Apollo_Guidance_Computer">1960’s, as part of the Apollo 11 Space Mission</a>, weaving was the foundation of both compute and storage. <a href="https://www.sciencenews.org/article/core-memory-weavers-navajo-apollo-raytheon-computer-nasa">Navajo weavers were making NASA’s microchips in Shiprock</a>, whilst <a href="https://www.sciencenews.org/article/core-memory-weavers-navajo-apollo-raytheon-computer-nasa">“Little Old Lady” programmers were threading metal wires through tiny ferrite rings</a> to create <a href="https://en.wikipedia.org/wiki/Core_rope_memory">‘core rope memory’</a>.
             </p>
-
+            <img src="/images/microchip.png" />
             <p><a href="https://archive.computerhistory.org/resources/access/text/2017/01/102770254-05-01-acc.pdf">Source: Fairchild Semiconductor</a></p>
             <p>
                 The next major weaving-related technological innovation came in <a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee">1990’s when Tim Berners-Lee invented the World Wide Web</a> with “the original idea... was that it should be a collaborative space where you can communicate through sharing information”. Irrevocably, the internet as we know it today was woven.
@@ -82,7 +82,7 @@ This is what the internet feels like to me, and is what I mean when I say:</p>
 <p>Like this blog for example. The sum of parts might seem messy to some and coherent to others. Maybe I’ve hidden syntactical rebellions to further demonstrate my points. Actually, it’s not a ‘maybe’—it’s a ‘definitely and deliberately’.
 
 Just like the threads of a weave, each word within a sentence within a paragraph within a publication, contribute to the composition of the piece and more broadly its place in the internet.</p>
-
+<img src="/images/why_have_diary.png" />
 
             <div className="red" style={{ paddingBottom: "5px" }}>
                 <h1>thank you for reading</h1>

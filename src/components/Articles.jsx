@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import PostItNote from "./PostItNote";
 import { motion } from "framer-motion";
 import { NoteNavContext } from "../providers/NoteNavProvider";
+import { image } from "framer-motion/client";
 
 // Article data array
 const articlesData = [
@@ -12,7 +13,8 @@ const articlesData = [
     text: "bringing back mummy blogging",
     date: "10 February 2026",
     themes: ["internet", "mother", "health"],
-    redirectPath: "/Blog_TRMR"
+    redirectPath: "/Blog_TRMR",
+    image: "https://64.media.tumblr.com/f3e9641d017c09807cec4551aaff036f/tumblr_inline_p6mjwiePKI1rnzqup_1280.pnj"
   },
   {
     id: "article26PS",
@@ -55,7 +57,8 @@ const articlesData = [
     text: "till they go and steal it back",
     date: "20 October 2025",
     themes: ["capitalism", "technology", "englishclass"],
-    redirectPath: "/Blog_TGAC"
+    redirectPath: "/Blog_TGAC",
+    image: "http://www.thegoosesmother.com/sitebuildercontent/sitebuilderpictures/.pond/Maggiecomputer.jpg.w300h232.jpg"
   },
   {
     id: "articleBYDH",
@@ -73,7 +76,8 @@ const articlesData = [
     text: "world-wide word-weaving",
     date: "13 August 2025",
     themes: ["internet", "technology", "weaving"],
-    redirectPath: "/Blog_WWWW"
+    redirectPath: "/Blog_WWWW",
+    image: "images/why_have_diary.png"
   },
   {
     id: "articleFWFM",
@@ -132,6 +136,7 @@ const Articles = ({ filterTheme = null, filterYear = null, filterColor = null })
             <p className="articleMetadata">
               {article.date} | {article.themes.join(", ")}
             </p>
+            <img src={article.image} style={{ maxWidth: "300px", maxHeight: "100px" }}/>
           </PostItNote>
         </motion.div>
       ))}
