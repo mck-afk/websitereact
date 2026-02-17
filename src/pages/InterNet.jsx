@@ -121,6 +121,7 @@ const InterNet = () => (
                 <li><a href="https://www.computerhistory.org/timeline/computers/">Computer Timeline History</a></li>
                 <li><a href="https://www.shelaghlewins.com/tablet_weaving/TW01/TW01.htm">The Ancient Craft of Tablet Weaving</a></li>
                 <li className="green"><a href="https://annas-abode.net/">Anna's Abode</a></li>
+                <li><a href="https://ossinsight.io/">Open Source Software Insight</a></li>
             </ul>
         </div>
 

@@ -1,5 +1,6 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
+import Oracle from "../components/Oracle";
 
 const Nav = () => {
     // Theme switcher for 'Light' menu item
@@ -91,9 +92,7 @@ const Nav = () => {
                         </div>
                         
                     </div>
-                    <div>
-                        
-                    </div>
+                    
                     
                     <div style={{ maxWidth: 300, display: 'flex', alignItems: 'center', gap: 0.5 }}>
                         
@@ -116,6 +115,7 @@ const Nav = () => {
                         <option>2 - Incredible! (I prefer the number 2)</option>
                         <option>1 - I hate interactivity</option>
                     </select>
+                    
                 </div>
             </div>
             {/* Third column (double size) */}
@@ -129,6 +129,7 @@ const Nav = () => {
                     <br /><br />
                     <span>All rights reserved © 2026 Annabelle Grace McKenzie</span>
                 </p>
+                <Oracle />
             </div>
         </div>
     );
