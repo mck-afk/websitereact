@@ -23,7 +23,7 @@ export default function Oracle() {
 
   return (
     
-      <div onClick={generateOracle}>
+      <div onClick={generateOracle} style={{ cursor: "pointer" }}>
         <img
               src={selectedGif || "oracle/oracle.gif"}
               alt="Oracle"

@@ -44,6 +44,8 @@ const InterNet = () => (
                 <dd>"Culture teaches us everything. And what I keep coming back to now is how few cultural representations there still are of women seeking and wielding power."</dd>
                 <dt><a href="https://yourbookstore.io/p/the-new-age-of-sexism-how-the-ai-revolution-is-reinventing-misogyny">The New Age of Sexism: How the AI Revolution is Reinventing Misogyny by Laura Bates 2025</a></dt>
                 <dd>"On the surface, this is a book about technology. But, at its root, it isn't about technology at all."</dd>
+                <dt><a href="https://yourbookstore.io/p/vulture-capitalism-corporate-crimes-backdoor-bailouts-and-the-death-of-freedom-2834172">Vulture Capitalism by Grace Blakeley 2025</a></dt>
+                <dd>"The choice isn't 'free markets' or 'planning'. Planning and free markets exist alongside one another in capitalist societies - indeed in any society. The choice is whether the planning that inevitably does take place in any complex social system is democratic or oligarchic... Capitalism is a hybrid system based on a fusion between markets and planning."</dd>
             </dl>
             
             <h3>Fiction (art imitates life)</h3>
@@ -67,6 +69,8 @@ const InterNet = () => (
         <div className="blue">
             <h2>Articles</h2>
             <dl>
+                <dt><a href="https://publicdomainreview.org/essay/typing-for-love-or-money/">women's clothing sizing choas: the fashion industry doesn't make sizes for you</a></dt>
+                <dd>The Pudding</dd>
                 <dt><a href="https://publicdomainreview.org/essay/typing-for-love-or-money/">Typing for Love or Money: The Hidden Women's Labor behind Modern Literary Masterpieces</a></dt>
                 <dd>Christine Jacobson</dd>
                 <dt><a href="https://www.theguardian.com/news/ng-interactive/2026/jan/11/how-grok-nudification-tool-went-viral-x-elon-musk">'Add blood, forced smile': how Grok's nudification tool went viral</a></dt>

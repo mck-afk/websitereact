@@ -1,6 +1,7 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
 import Oracle from "../components/Oracle";
+import { small } from "framer-motion/client";
 
 const Nav = () => {
     // Theme switcher for 'Light' menu item
@@ -127,7 +128,8 @@ const Nav = () => {
                     <a href="https://www.nma.gov.au/defining-moments/resources/evidence-of-first-peoples"> 65,000+ years </a>
                     of sovereignty and reciprocial living, and her duty as a guest upon it today.
                     <br /><br />
-                    <span>All rights reserved © 2026 Annabelle Grace McKenzie</span>
+                    <span style={{ textDecoration: 'italic'}}>All rights reserved © 2026 Annabelle Grace McKenzie</span>
+                    
                 </p>
                 <Oracle />
             </div>

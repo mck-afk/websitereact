@@ -12,6 +12,7 @@ const WWWW = () => {
                 <h4>25 September 2025 | internet, technology, homemaking</h4>
                 <button className="red" onClick={() => navigate(-1)}>back</button>
             </div>
+            <div className="notepad">
             <h2>before written word there was cloth</h2>
             <p>Throughout history, humans across the globe have been weaving to keep their bodies warm and their information secure. A weave is made up of two parts: a Warp (longitudinal/vertical) and a Weft (lateral/horizontal).</p>
         
@@ -83,7 +84,7 @@ This is what the internet feels like to me, and is what I mean when I say:</p>
 
 Just like the threads of a weave, each word within a sentence within a paragraph within a publication, contribute to the composition of the piece and more broadly its place in the internet.</p>
 <img src="/images/why_have_diary.png" />
-
+</div>
             <div className="red" style={{ paddingBottom: "5px" }}>
                 <h1>thank you for reading</h1>
                 <button className="red" onClick={() => navigate(-1)}>one more?</button>

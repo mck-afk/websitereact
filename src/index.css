@@ -37,7 +37,7 @@
     margin-bottom: 0;
   }
 }
-/* Dark theme for Light menu item */
+/* Dark theme*/
 .dark-theme {
   background: #000000 !important;
 }
@@ -74,6 +74,7 @@ table, th, td {
   padding: 8px;
   vertical-align: top;
 }
+
 /* Sticky Notes */
 
 #noticeboard {
@@ -115,6 +116,16 @@ table, th, td {
   -o-transform: rotate(-2deg);
   -ms-transform: rotate(-2deg);
   transform: rotate(-2deg);
+}
+
+.notepad {
+  background-color: #ffffff;
+  background-image: 
+    linear-gradient(to bottom, transparent 30px, #cce0ff 15px),
+    linear-gradient(to right, #ffa0a0 5px, transparent 5px);
+
+ background-size: 100% 32px, 100% 100%;
+ padding-left: 10px;
 }
 
 .red {
