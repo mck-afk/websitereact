@@ -12,7 +12,7 @@ const Blog_26PS = () => {
                 <h4>13 January 2026 | astrology, technology, predictions</h4>
                 <button className="red" onClick={() => navigate(-1)}>back</button>
             </div>
-            <p className="purple">Updates will be dated and highlighted in Purple</p>
+            <p className="red">Updates will be dated and highlighted in Red</p>
             <h2>Most valuable commodity for the next 10 years = Physical Presence</h2>
             <p>The <a href="https://en.wikipedia.org/wiki/Attention_economy">age of attention</a> will decay. Digital spaces are <a href="https://www.theguardian.com/news/ng-interactive/2026/jan/11/how-grok-nudification-tool-went-viral-x-elon-musk">becoming increasingly hostile</a>, thus we are turning back to the physical world for entertainment, and comfort.</p>
             <p>The servicing of those bodies (temperature, food, water, comfort, transport, entertaining stimuli) will be fruitful endeavours.</p>
@@ -32,10 +32,21 @@ const Blog_26PS = () => {
             <p>Athletics wear but heavier/chunkier than the skin tight athleisure. More of the bulkier, thicker, loose fitting. Also bold colours: vibrant reds, royal blues, and jet blacks.</p>
             
             <h2>Technology Manifestations: Individually, Together</h2>
-            <p>A new kind of technology that opens doors to express individuality and connect through those expressions with others. A complete overhaul (or even disavowal) of social media, in favour of building of a new kind of market/exchange network. Some people are already innovating: <a href="https://www.ystrickler.com/start-darkforest/">Dark Forest Theory of the Internet by Yancey Strickler</a> and <a href="https://discourse.32bit.cafe/">32-Bit Cafe</a>. Expect more.</p>
-            <p className="purple">On Feb 9 2026, Discord annouced their <a href="https://discord.com/press-releases/discord-launches-teen-by-default-settings-globally">Teen-by-Default Settings Globally</a>, which stimulated users to consider alternatives.</p>
+            <p>A new kind of technology that opens doors to express individuality and connect through those expressions with others. A complete overhaul (or even disavowal) of <a href="https://susam.net/attention-media-vs-social-networks.html">"attention media"</a>, in favour of building of a new kind of market/exchange network.</p>
+            <p> Some budding innovations: <span className="red">last update 23/02/2026</span></p>
+            <ul>
+                <li><a href="https://www.ystrickler.com/start-darkforest/">Dark Forest Operating System</a></li>
+                <li><a href="https://discourse.32bit.cafe/">32-Bit Cafe</a></li>
+                <li><a href="https://github.com/BilalG1/openslack">open source competitor to Slack</a></li>
+                <li><a href="https://matrix.org/"> open source competitor to Discord</a></li>
+                <li><a href="https://github.com/KyleKun/one_second_diary">open source competitor One Second Everyday</a></li>
+                <li><a href="https://joinloops.org/">open-source competitor to TikTok</a></li>
+                <li><a href="https://www.weare8.com/">WeAre8</a></li>
+                
+            </ul>
+            <p className="red">On Feb 9 2026, Discord annouced their <a href="https://discord.com/press-releases/discord-launches-teen-by-default-settings-globally">Teen-by-Default Settings Globally</a>, which stimulated users to consider alternatives.</p>
 
-            <h2 className="purple">19 Feb 2026 - Economy Manifestations: Financial Collapse leading to a crackdown on Businesses Becoming Banks</h2>
+            <h2 className="red">19 Feb 2026 - Economy Manifestations: Financial Collapse leading to a crackdown on Businesses Becoming Banks</h2>
             <p>The most succesful businesses in this iteration of capitalism are the ones who become banks.</p>
             <p>Every gift card, every points scheme; <a href="https://youtu.be/ggUduBmvQ_4?si=eWmqP96cEEV4IZCD">airlines</a>, <a href="https://youtu.be/7u0_nrsfxXs?si=tOAWFjssni9EBvia">trains</a>, <a href="https://www.afterpay.com/en-AU">Afterpay 'buy now pay later'</a>, and <a href="https://www.apple.com/apple-card/">Apple credit cards</a>.</p>
             <p>Ford is a shining example of the effects of neoliberal policies and disaster capitalism; as after world war 2 their "profitability came to hinge on lending and financial engineering rather than production itself" (Vulture Capitalism, Grace Blakey 2025). The automative manufacturing company that <a href="https://www.factcheck.org/2011/09/ford-motor-co-does-u-turn-on-bailouts/"> received government financial assitance in the aftermath of the 2008 financial crisis</a> and has, as of <a href="https://www.reuters.com/world/fdic-clears-way-ford-general-motors-set-up-industrial-banks-2026-01-22/">Jan 23 2026, gotten FDIC approval to become a 'industrial bank'.</a></p>
@@ -142,7 +153,7 @@ const Blog_26PS = () => {
                     </tr>
                 </tbody>
             </table>
-            <img src="/images/inner-and-Outer-planets-visual.png" style={{ maxWidth: "800px" }} />
+            <img src="/images/Inner-and-Outer-planets-visual.png" style={{ maxWidth: "800px" }} />
             <p><a href="https://astrologercoach.com/course/chiron-healing-with-astrology/">Source: Astrologer Coach</a></p>
             
             <h2>more resources</h2>

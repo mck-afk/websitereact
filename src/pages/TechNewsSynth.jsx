@@ -19,6 +19,16 @@ const TechNewsSynth = () => (
             </thead>
             <tbody>
                 <tr>
+                    <td>12 Feb 2026</td>
+                    <td><a href="https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/">An AI Agent Published a Hit Piece on Me</a></td>
+                    <td>"This is about much more than software. A human googling my name and seeing that post would probably be extremely confused about what was happening, but would (hopefully) ask me about it or click through to github and understand the situation. What would another agent searching the internet think? When HR at my next job asks ChatGPT to review my application, will it find the post, sympathize with a fellow AI, and report back that I’m a prejudiced hypocrite?"</td>
+                </tr>
+                <tr>
+                    <td>11 Feb 2026</td>
+                    <td><a href="https://www.nytimes.com/2026/02/11/opinion/openai-ads-chatgpt.html?unlocked_article_code=1.LVA.L5JX.YWVrwH-_6Xoh&smid=re-nytopinion">OpenAI Is Making the Mistakes Facebook Made. I Quit.</a> by <a href="https://www.zoehitzig.com/">Zoë Hitzig, former researcher at OpenAI.</a></td>
+                    <td>"the company is building an economic engine that creates strong incentives to override its own rules." <br />"So the real question is not ads or no ads. It is whether we can design structures that avoid excluding people from these tools and potentially manipulating them as consumers. I think we can."</td>
+                </tr>
+                <tr>
                     <td>11 Feb 2026</td>
                     <td><a href="https://commonslibrary.parliament.uk/research-briefings/cbp-10186/">Data (Use and Access) Bill [HL] House of Commons UK Parliament</a></td>
                     <td>scheduled to have its second reading in the House of Commons on 12 February 2025<br/>"The bill had its third reading in the Lords on 5 February 2025. A government amendment was agreed that would protect children’s personal data and ensure that online services likely to be accessed by children would be designed with their safety and privacy in mind. <br/>Also at third reading, the Lords considered another government amendment to introduce an offence of creating of ‘deepfake’ intimate images without consent. It was agreed, but only after it had been amended (through amendments moved by Baroness Owen of Alderley Edge) to include an offence of soliciting creation, remove a defence of reasonable excuse, and allow for a custodial sentence as well as a fine."</td>

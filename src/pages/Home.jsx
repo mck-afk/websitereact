@@ -24,13 +24,13 @@ const Home = () => {
           title="annabelle grace mckenzie"
           lastUpdated="10/02/2026"
         >
-          <p>a woman seeing the <span id="seeme" style={{ textDecoration: 'underline', color: '#0000EE'}}>technology</span> in front of me</p>
+          <p>seeing the <span id="seeme" style={{ textDecoration: 'underline', color: '#0000EE'}}>technology</span> in front of me</p>
           <Tooltip anchorSelect="#seeme" place="bottom" style={{ width: '250px', textAlign: 'center'}}>a medium for interpreting and interacting with the world... computers, internet, literacy, home, bodies, astrology, woman</Tooltip>
           <p>
             📍 Melbourne/Naarm, Australia
             <br /> 📚 reader of {" "} <a href="/InterNet">literature & critiques</a>
             <br /> ✍️ writer for <a href="/weblog">humans</a> & {" "} <a href="https://github.com/mck-afk">computers</a>
-            
+            <br /><i>all views are my own</i>
           </p>
           <p>
             <img className="icon" src="https://img.icons8.com/?size=100&id=W77GEN8wSCBv&format=png&color=000000" alt="now" />
@@ -39,6 +39,28 @@ const Home = () => {
           </p>
         </PostItNote>
 
+        <motion.div
+          initial={{ x: 0, y: -50 }}
+          animate={movingNoteId === "noteWEBLOG" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
+          transition={{ duration: 0.2 }}
+          style={{ cursor: "pointer", margin: "auto", zIndex: 1000, position: "relative" }}
+          whileHover={{ rotate: -5 }}
+          onClick={() => handleNoteClick("noteWEBLOG", "/weblog")}
+        >
+          <PostItNote
+            id="noteWEBLOG"
+            className="note red right"
+            title="Blog"
+            lastUpdated="19/02/2026"
+          >
+            <p>
+              <a href="https://en.wikipedia.org/wiki/Blog">web log</a> is an athenaeum
+              of contemplations, investigations, & imaginations ✍️
+              <br /><br />topics include: internet, technology, capitalism, literacy, writing, homemaking, girl, woman, mother, other
+            </p>
+            <p style={{ textAlign: "right" }} ><br /><br /><img src="https://blob.gifcities.org/gifcities/LKDMD44G2M5KCZDNP3CB3C6XT46F7N2V.gif" /></p>
+          </PostItNote>
+        </motion.div>
 
         <motion.div
           initial={{ y: -20 }}
@@ -81,28 +103,7 @@ const Home = () => {
         </PostItNote>
         </motion.div>
 
-        <motion.div
-          initial={{ x: 0, y: -50 }}
-          animate={movingNoteId === "noteWEBLOG" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
-          transition={{ duration: 0.2 }}
-          style={{ cursor: "pointer", margin: "auto", zIndex: 1000, position: "relative" }}
-          whileHover={{ rotate: -5 }}
-          onClick={() => handleNoteClick("noteWEBLOG", "/weblog")}
-        >
-          <PostItNote
-            id="noteWEBLOG"
-            className="note red right"
-            title="Blog"
-            lastUpdated="10/02/2026"
-          >
-            <p>
-              <a href="https://en.wikipedia.org/wiki/Blog">web log</a> is an athenaeum
-              of contemplations, investigations, & imaginations ✍️
-              <br /><br />topics include: internet, technology, capitalism, literacy, writing, homemaking, girl, woman, mother, other
-            </p>
-            <p style={{ textAlign: "right" }} ><br /><br /><img src="https://blob.gifcities.org/gifcities/LKDMD44G2M5KCZDNP3CB3C6XT46F7N2V.gif" /></p>
-          </PostItNote>
-        </motion.div>
+        
 
 
         
