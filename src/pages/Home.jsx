@@ -22,7 +22,7 @@ const Home = () => {
           id="noteABOUT"
           className="note pink"
           title="annabelle grace mckenzie"
-          lastUpdated="10/02/2026"
+          lastUpdated="17/03/2026"
         >
           <p>seeing the <span id="seeme" style={{ textDecoration: 'underline', color: '#0000EE'}}>technology</span> in front of me</p>
           <Tooltip anchorSelect="#seeme" place="bottom" style={{ width: '250px', textAlign: 'center'}}>a medium for interpreting and interacting with the world... computers, internet, literacy, home, bodies, astrology, woman</Tooltip>
@@ -30,14 +30,60 @@ const Home = () => {
             📍 Melbourne/Naarm, Australia
             <br /> 📚 reader of {" "} <a href="/InterNet">literature & critiques</a>
             <br /> ✍️ writer for <a href="/weblog">humans</a> & {" "} <a href="https://github.com/mck-afk">computers</a>
-            <br /><i>all views are my own</i>
+            <br /><i>all opinions are my own</i>
           </p>
           <p>
             <img className="icon" src="https://img.icons8.com/?size=100&id=W77GEN8wSCBv&format=png&color=000000" alt="now" />
             <span style={{ fontWeight: "bold"}}> now: </span>
-            in the sunshine ☀️
+            reading Walkaway by Cory Doctorow
           </p>
         </PostItNote>
+
+
+        <motion.div
+          initial={{ x: 0, y: -50 }}
+          animate={movingNoteId === "noteINTERNET" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
+          transition={{ duration: 0.2 }}
+          style={{ cursor: "pointer", margin: "auto", zIndex: 1000, position: "relative" }}
+          whileHover={{ rotate: -5 }}
+          onClick={() => handleNoteClick("noteINTERNET", "/InterNet")}
+        >
+        <PostItNote
+          id="noteINTERNET"
+          className="note blue left"
+          title="InterNet"
+          lastUpdated="17/03/2026"
+        >
+          <p>
+            treasured connections and digital reciprocations 🔗 <br /><br />links to 📖 books, newsletters, communities, articles, media, movements, people, and other cool things I think you should explore
+          </p>
+          <p style={{ textAlign: "right" }} ><br /><img src="https://blob.gifcities.org/gifcities/RYZXTD3B7A23HN45HI47DKN2EV5D465M.gif" /></p>
+        </PostItNote>
+        </motion.div>
+
+        <motion.div
+          initial={{ y: -20 }}
+          animate={movingNoteId === "noteFBL" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
+          transition={{ duration: 0.2 }}
+          style={{ cursor: "pointer", margin: "auto", zIndex: 1000, position: "relative" }}
+          whileHover={{ rotate: -5 }}
+          onClick={() => handleNoteClick("noteFBL", "/femalebodyliteracy")}
+        >
+        <PostItNote
+          id="noteFBL"
+          className="note yellow right"
+          title="Feminine Literacy"
+          lastUpdated="17/03/2026"
+        >
+          <p>
+            resources for:
+            <br /><br />- exploring the female experience
+            <br />- interpreting the signals of the body
+            <br />- appreciating 🌻
+            <br /><br />
+          </p>
+        </PostItNote>
+        </motion.div>
 
         <motion.div
           initial={{ x: 0, y: -50 }}
@@ -58,7 +104,7 @@ const Home = () => {
               of contemplations, investigations, & imaginations ✍️
               <br /><br />topics include: internet, technology, capitalism, literacy, writing, homemaking, girl, woman, mother, other
             </p>
-            <p style={{ textAlign: "right" }} ><br /><br /><img src="https://blob.gifcities.org/gifcities/LKDMD44G2M5KCZDNP3CB3C6XT46F7N2V.gif" /></p>
+            <p style={{ display: "none", textAlign: "right" }} ><br /><br /><img src="https://blob.gifcities.org/gifcities/LKDMD44G2M5KCZDNP3CB3C6XT46F7N2V.gif" /></p>
           </PostItNote>
         </motion.div>
 
@@ -78,35 +124,9 @@ const Home = () => {
         >
             <p>writing the history I see 👩‍💻</p>
             <p>a collection of links to news, opinions pieces, and synthesis of technology including artificial intelligence, cool projects and passions, and other analysis 🌐</p>
-            <p style={{ textAlign: "right" }} ><br /><br /><img src="https://blob.gifcities.org/gifcities/TI6F4JDECJ2M6SOECHH57FR7HPKI3WM3.gif" /></p>
+            <p style={{ display: "none", textAlign: "right" }} ><br /><br /><img src="https://blob.gifcities.org/gifcities/TI6F4JDECJ2M6SOECHH57FR7HPKI3WM3.gif" /></p>
         </PostItNote>
         </motion.div> 
-
-        <motion.div
-          initial={{ x: 0, y: -50 }}
-          animate={movingNoteId === "noteINTERNET" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
-          transition={{ duration: 0.2 }}
-          style={{ cursor: "pointer", margin: "auto", zIndex: 1000, position: "relative" }}
-          whileHover={{ rotate: -5 }}
-          onClick={() => handleNoteClick("noteINTERNET", "/InterNet")}
-        >
-        <PostItNote
-          id="noteINTERNET"
-          className="note blue left"
-          title="InterNet"
-          lastUpdated="11/02/2026"
-        >
-          <p>
-            treasured connections and digital reciprocations 🔗 <br /><br />links to 📖 books, newsletters, communities, articles, media, movements, people, and other cool things I think you should explore
-          </p>
-          <p style={{ textAlign: "right" }} ><br /><img src="https://blob.gifcities.org/gifcities/RYZXTD3B7A23HN45HI47DKN2EV5D465M.gif" /></p>
-        </PostItNote>
-        </motion.div>
-
-        
-
-
-        
         
         <motion.div
           initial={{ y: -60 }}
@@ -123,7 +143,7 @@ const Home = () => {
           lastUpdated="03/01/2026"
         >
           <p>
-            ✧☊ <img src="https://blob.gifcities.org/gifcities/QOJGTLUK7YFKP26LSJJOTPNGSWKXT67C.gif" />  > |
+            ✧☊ <img src="https://blob.gifcities.org/gifcities/QOJGTLUK7YFKP26LSJJOTPNGSWKXT67C.gif" />  &gt; |
             <br />
             <br />to interpret (and manipulate) patterns, through the application of rules/calculations, we start with learning the basics of the language
             <br /><br />hear me out
@@ -131,27 +151,6 @@ const Home = () => {
         </PostItNote>
         </motion.div>
 
-        <motion.div
-          initial={{ y: -20 }}
-          animate={movingNoteId === "noteFBL" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
-          transition={{ duration: 0.2 }}
-          style={{ cursor: "pointer", margin: "auto", zIndex: 1000, position: "relative" }}
-          whileHover={{ rotate: -5 }}
-          onClick={() => handleNoteClick("noteFBL", "/femalebodyliteracy")}
-        >
-        <PostItNote
-          id="noteFBL"
-          className="note yellow left"
-          title="Female Body Literacy"
-          lastUpdated="24/07/2025"
-        >
-          <p>
-            for ALL audiences<br /><br />A fun, accessible, deep-dive workshop that explores and strengthens the skills of interpreting and responding to the Female Body, as it moves through a lifetime 🩸
-          </p>
-        </PostItNote>
-        </motion.div>
-
-        
         <motion.div
           initial={{ y: -40 }}
           animate={movingNoteId === "noteABODE" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
@@ -162,18 +161,18 @@ const Home = () => {
         >
         <PostItNote
           id="noteABODE"
-          className="note green right"
+          className="note green left"
           title="Anna's Abode"
           lastUpdated="14/09/2025"
         >
           <p>
-            a framework for organising and exploring areas of life and creation 🎨
-            <br /><br />affectionately known <br /> as honeycomb home ⬡
+            a honeycomb home ⬡ <br /> <br /> organising and exploring areas of life and creation 🎨
+            
           </p>
+          
         </PostItNote>
         </motion.div>
 
-        
         
       </div>
 

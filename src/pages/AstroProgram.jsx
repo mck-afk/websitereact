@@ -1,16 +1,27 @@
 import React from "react";
 import PageLayout from "../components/PageLayout";
 import ZodiacWheel from "../components/ZodiacWheel";
+import PostItNote from "../components/PostItNote";
 
 const AstroProgram = () => (
     <PageLayout>
         <div>
         <div className="purple">
             <h1>Astrology for Programmers</h1>
-            <p>a playful exploration of Astrology ✧☊ through the lens of Programming > |</p>
+            <p>a playful exploration of Astrology ✧☊ through the lens of Programming {'>'} |</p>
         </div>
-        
+        <PostItNote
+          id="noteVICRESOURCES"
+          className="note purple"
+          title="Did You Know?"
+          lastUpdated=""
+        >
+            <p>
+                Steve Job wrote a Horoscope Program in 1975 on Atari and you can run it <a href="https://blog.adafruit.com/2026/01/06/we-recreated-steve-jobss-1975-atari-horoscope-program-and-you-can-run-it/">here!</a></p>
+        <img src="https://cdn-blog.adafruit.com/uploads/2026/01/header.png" style={{maxWidth: "180px", height: "auto"}} />
+        </PostItNote>
         <div id="tableOfContents">
+            
             <h2>Prerequisites</h2>
             <ul>
                 <li>The Date, Time, and Place of an event</li>
@@ -40,19 +51,19 @@ const AstroProgram = () => (
                 </thead>
                 <tbody>
                     <tr>
-                        <td colSpan={2}>A <a href="#language">language</a>, consisting of keywords and syntax</td>
+                        <td  colSpan={2}>A <a href="#language">language</a>, consisting of keywords and syntax</td>
                     </tr>
                     <tr>
-                        <td colSpan={2}>Used to interpret (and manipulate) instructions and patterns</td>
+                        <td className="purple" colSpan={2}>Used to interpret (and manipulate) instructions and patterns</td>
                     </tr>
                     <tr>
                         <td colSpan={2}>Enriched through mathematical calucalutions and application of rules</td>
                     </tr>
                     <tr>
-                        <td colSpan={2}>Operate in intangible contexts:</td>
+                        <td className="purple"colSpan={2}>Operate in intangible contexts:</td>
                     </tr>
-                    <tr>
-                        <td>Digital/Virtual</td>
+                    <tr className="purple">
+                        <td >Digital/Virtual</td>
                         <td>Celestial/Energetic</td>
                     </tr>
                     <tr>
@@ -69,20 +80,20 @@ const AstroProgram = () => (
         
             <h3>1.2 Resistance</h3>
             <p>Who taught you to dismiss Astrology? Why did they do that?</p>
-            <p>It's okay. We've all been there. Capitalism is invested in shaping our beliefs about Astrology, because it is one of the ways we can imagine a world without Capitalism.</p>
+            <p>It's okay. We've all been there. Capitalism is invested in shaping our beliefs about Astrology, because it is one of the frameworks that can help us imagine a world without Capitalism.</p>
             <p>Capitalism benefits from degrading and infantilising Astrology. It also does so to women, which could be one of the reasons it resonates.</p>
             
-            <p>The thing about Magazine/Newspaper horoscopes is that, even if they were written with pure intentions, they would only be describing, at best 1/12th of the current situation they attempt to divine.</p>
-            <p>Western Astrology is the practice of analysing the placements and relative angles of the planets in the sky, based on a particular viewpoint on earth.</p>
+            <p>The thing about Magazine/Newspaper horoscopes is that, even if they were written with pure intentions, they would only be describing, at best, 1/12th of the current situation they attempt to divine.</p>
+            <p>Western Astrology is the practice of analysing the placements and relative angles of the planets in the sky, based on a particular viewpoint on earth. From this earth vantage point, we can get a snpashot of the sky at that moment in time - this is caleld a Horoscope.</p>
             <p>As Wikipedia succintly says: <a href="https://en.wikipedia.org/wiki/Astrology">"The horoscope visually expresses the set of relationships for the time and place of the chosen event."</a></p>
-            <p>In other words, the value in pattern recognition of Astrology lies in the unique combination of multiple factors at a point in time, which are likely to influence the physical reality we move through.</p>
+            <h4>Western Astrology is a framework for pattern reocgnition.</h4>
             <p>Like programming (and machine learning) which analyses multiple dimensions and finds patterns.</p>
-            <p>The Zodiac is a set of 12 archetypes. it is a symbolic and narrative reflection of aspects/dimensions of the human experience.</p>
+            <p>The Zodiac is a set of 12 archetypes. It is a symbolic and narrative reflection of the human experience.</p>
             <p>What this means is that, you and your astrology, contains multitudes that simply cannot be captured in 100 words in the back of a newspaper.</p>
-            <p>Western Astrology and natal chart reading, because it is anlaysing the relationships at a certain point in time and space, can also be used for non-people divination too - such as financial markets, company cycles of boom and bust, and weather and poloitical events. We will look at these examples in Part 3.</p>
+            <p>Western Astrology and horoscope reading, because it is anlaysing the relationships at a certain point in time and space, can also be used for non-people divination too - such as financial markets, scientific discoveries, weather, and political events. We will look at these examples in Part 3.</p>
             
             <h3>1.3 Radio waves impact the world around you, regardless of your belief in them. Astrological forces are the same. Why not add this language to your toolkit?</h3>
-            <p>astrology is a viewpoint for perception. Like the differences between programming languages forces you to structure your questions, manipulations differently. Astrology is another way of doing that.</p>
+            <p>Western Astrology is a framework for pattern reocgnition and application. Like the differences between programming languages forces you to structure your questions, manipulations differently. Astrology is another way of doing that.</p>
         
         </div>
         <div id="part2">
@@ -145,15 +156,16 @@ const AstroProgram = () => (
 
             <div>
                 <p>The 12 Zodiac signs are instances of the Archetype object.</p>
-                <code>Hello I amgoing to print the archetype class</code>
-                <p>Properties</p>
-                <p>archetype, planet, house</p>
-                <p>and Methods</p>
-                <p>embolden(), amplify(), illuminate(), express()</p>
+                <code>class Archetype  {" { constructor(theme, planet, house) "}</code><br />
+                <code>.  #Properties {"{ this.theme = theme; this.planet = planet; this.house = house; }"}</code><br />
+                <code>.  #Method {" amplify() { return this.theme * this.theme; }"}</code><br />
+                <code>.  {"}"}</code>
             </div>
+
             <div id="12signtable"></div>
             <h3>2.3 Here's the Maths</h3>
-            <p>Because the horoscopes are depicted as a calucation of the distance of pplanets between each iother - these angles are grouped into the following for ease of reference. The second Maths aspect here is that, for a Western Zodiac horoscope, each Zodiac sign is spilt in 30 degrees (addin12 = 360 degrees). The numbers themselves have numerological origins. </p>
+            <img src="images/key_aspects.png" alt="Key Aspects" />
+            <p>Horoscopes are a snapshot of the distances between. These are 6 key angles (aspects) which describe the relationship. In a Western Zodiac horoscope, each Zodiac sign corresponds with 30 degrees (*12 = 360 degrees).</p>
         </div>
     
         <h3>Let's put this language into practice.</h3>
@@ -178,11 +190,11 @@ const AstroProgram = () => (
             <img src="images/astro_turing.png" alt="Astrology Chart Turing Test October 1 1950" className="astroChart" />
             
             <div>
-                <p>The 10th house has the most focus, which makes sense because Alan turing's Turing Test would become one of the most recogniable achievements of his career, and public image.</p>
+                <p>The 10th house has the most focus, which makes sense because Alan Turing's Turing Test would become one of the most recogniable achievements of his career, and public image.</p>
                 <p>The zodiac sign most associated with Technology is Aquarius. In this chart, Jupiter (the planet of luck and expansion) is in Aquarius, clearly indicating that this piece of work would be a breakthrough in terms of how we understand technology.</p>
-                <p>One thing that stands out to me is the opposition between Jupiter in Aquarius and Pluto in Leo. This suggests there was a tension between these great breakthroughs of understanding, and the ways of expressing them to the people at the time. Whilst many artists conject over Turing's state of mind during his life, and esepically his feelings towards his work, I think this shows us that he was driven by a powerful force; to express these breakthroughs in ideas even when the language or mediums he was using were not quite 'final'.</p>
-                <p>The thesis of this work is creating a disinction between the human and the machine. This is obvious in the Libra placements (where Libra is the archetpye of the 'other'). Neptune in libra flows through Turing in this test; asking what could we as a collective do to differentiate ourselves from machines.</p>
-                <p>The inquisition into the nature of intelleignece feels very Virgo to me (archtpye of the Aligner). Speaking in simply words, that describe with uncanny boldness. at the time is may have seemed like a very shrewd and natural extension of the philsophy of computers and machine thinking.</p>
+                <p>One thing that stands out to me is the opposition between Jupiter (luck) in Aquarius (technology) and Pluto (secrets) in Leo (creativity). This suggests there was a tension between these great breakthroughs of understanding, and the ways of expressing them to the people at the time. Whilst many artists conject over Turing's state of mind during his life, and especially his feelings towards his work, I think this shows us that he was driven by a powerful force; to express these breakthroughs in ideas even when the language or mediums he was using were not quite 'final'.</p>
+                <p>The thesis of this work is exploring the distinction between the human and the machine. This is obvious in the Libra placements. Neptune (blurring of boundaries) in Libra (the other) conjunct the Sun (visiblity) describes how Turing questions whether the boundary that defines us as human, often cited as 'intelligence', survives in the presence of a, newly made public, other: 'artificial intelligence'.</p>
+                <p>The inquisition into the nature of intelligence feels very Virgo to me (archetype of the Aligner). Speaking in simply words, that describe with uncanny boldness. at the time is may have seemed like a very shrewd and natural extension of the philosophy of computers and machine thinking.</p>
             </div>
         </div>
         <h3 className="purple">Example Case Study: <a href="https://arxiv.org/abs/1706.03762">Attention Is All You Need</a> - June 12 2017, 12:00 PM PST, Mountain View California, U.S.</h3>
@@ -191,7 +203,13 @@ const AstroProgram = () => (
             <img src="images/astro_attention.png" alt="Astrology Chart Attention Is All You Need June 12 2017" className="astroChart" />
             
             <div>
-                <p></p>
+                <p>This paper represents a landmark moment in computer science history as the public introduction and patenting of the Transformer, a neural network structure that would revitalise the Artifical Intelligence research industry.</p>
+                <p>Like the Turing Test, 10th house of public image, visiblity and reputation has the most planets. This aligns with the fact that this date was when the paper was published to the public.</p>
+                <p>The Sun and Mercury in Gemini is almost too on the nose with the title using the keyword 'attention'. Gemini is archetype of intellectual stimulation, communication, and can be described as. a felt feeling of sudden realisation. Futhermore, the North Node in Leo also empahsises this, as Leo is associated with the performer, the center stage, and self-expression.</p>
+                <p>One thing that is fascinating is the rest of the title "is all you need" aligning itself with the obsession with individuality that Western civilisations (and consumerism under capitalism) has bred. This sentence fragment feels very Saturnian, and when we look at Saturn in Sagiatrrius in the 4th house, we can see that the rules of boundaries of this ideology necessiate the solo (Saturn is the only planet in that sign and hosue) journey to find meaning (Saiggartius) and belonging/basic survival resources (4th house). The fact that Saturn is opposite the Sun intensifies this.</p>
+                <p>Coming back to the name of this technologyas "Transformer", I'm going to epxlore thhose threads. Even though transformation can occur stimulated by and through any of the signs, there are some that have transofrmation mythology built into their archetypes, and these include: Pisces/Aries (espeically anything on the cusp), Scorpio, and the planet Pluto.</p>
+                <p>Pluto in Capricorn in the 5th house is signalling a transformation of the way materials are used for the collective - the way thechnologyical resources are used to process datapoints on the collective.</p>
+                <p>At the cusp of Pisces/Aries is Chiron, the wounded healer, which is followingt he path set Uranus in Aries. Whenever we are looking at technoloigcal/scientifc breakthrough we need to consider Uranus. Any planet int he final 5 degrees of a signs has amplified intensity of that particular sign, as the energy ramps up before coming to a close.</p>
                 
             </div>
         </div>

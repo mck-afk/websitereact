@@ -37,7 +37,7 @@ const Nav = () => {
                         <li role="menuitem" aria-disabled="true" className="has-divider"></li>
                         <li role="menuitem">
                             <img src="https://img.icons8.com/?size=100&id=21829&format=png&color=ffd861" style={{ left: 3, width: 18, height: 18 }}/>
-                            <a href="/#/femalebodyliteracy">FemaleBodyLiteracy</a>
+                            <a href="/#/femalebodyliteracy">FeminineLiteracy</a>
                         </li>
                         <li role="menuitem">
                             <img src="https://img.icons8.com/?size=100&id=9913&format=png&color=ffb169" style={{ left: 5, width: 15, height: 15 }}/>

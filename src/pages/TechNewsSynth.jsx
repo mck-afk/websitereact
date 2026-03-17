@@ -19,6 +19,16 @@ const TechNewsSynth = () => (
             </thead>
             <tbody>
                 <tr>
+                    <td>7 Mar 2026</td>
+                    <td><a href="https://www.reuters.com/world/middle-east/kalshi-sued-over-ouster-iran-leader-prediction-market-2026-03-06/">Kalshi sued over ouster of Iran leader prediction market</a></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>27 Feb 2026</td>
+                    <td><a href="https://www.mcsweeneys.net/articles/january-2026-atrocities-658-730">Lest We Forget the Horrors: An Unending Catalog of Trump’s Cruelties, Collusions, Corruptions, and Crimes by Emily Greenberg and Cliff Mayotte for McSweeney’s Internet Tendency</a></td>
+                    <td></td>
+                </tr>
+                <tr>
                     <td>12 Feb 2026</td>
                     <td><a href="https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/">An AI Agent Published a Hit Piece on Me</a></td>
                     <td>"This is about much more than software. A human googling my name and seeing that post would probably be extremely confused about what was happening, but would (hopefully) ask me about it or click through to github and understand the situation. What would another agent searching the internet think? When HR at my next job asks ChatGPT to review my application, will it find the post, sympathize with a fellow AI, and report back that I’m a prejudiced hypocrite?"</td>
@@ -32,6 +42,11 @@ const TechNewsSynth = () => (
                     <td>11 Feb 2026</td>
                     <td><a href="https://commonslibrary.parliament.uk/research-briefings/cbp-10186/">Data (Use and Access) Bill [HL] House of Commons UK Parliament</a></td>
                     <td>scheduled to have its second reading in the House of Commons on 12 February 2025<br/>"The bill had its third reading in the Lords on 5 February 2025. A government amendment was agreed that would protect children’s personal data and ensure that online services likely to be accessed by children would be designed with their safety and privacy in mind. <br/>Also at third reading, the Lords considered another government amendment to introduce an offence of creating of ‘deepfake’ intimate images without consent. It was agreed, but only after it had been amended (through amendments moved by Baroness Owen of Alderley Edge) to include an offence of soliciting creation, remove a defence of reasonable excuse, and allow for a custodial sentence as well as a fine."</td>
+                </tr>
+                <tr>
+                    <td>10 Feb 2026</td>
+                    <td><a href="https://www.audd.digital/audc-granted-afsl-by-asic-for-non-cash-payment-facilities/">AUDC Granted AFSL by ASIC for Non-Cash Payment Facilities</a></td>
+                    <td>"Australia is moving towards an AFSL-based framework to regulate parts of the digital asset sector, with new requirements expected to be phased in over time. AUDC has moved early to secure AFSL authorisation now, so AUDD is already operating on the regulatory footing Australia is moving towards, rather than waiting for future reforms to take effect."</td>
                 </tr>
                 <tr>
                     <td>09 Feb 2026</td>
@@ -148,6 +163,7 @@ const TechNewsSynth = () => (
         <p><a href="https://artificialintelligenceact.eu/">European Union Artificial Intelligence Act</a></p>
         <p><a href="https://incidentdatabase.ai/">AI Incident Database</a></p>
         <p><a href="https://www.romecall.org/">Rome Call</a></p>
+        <p><a href="https://openai.com/index/introducing-stargate-uae/">StarGate UAE expected to go live in 2026</a></p>
         
         <h2>Archive/Timeline</h2>
         <table>
