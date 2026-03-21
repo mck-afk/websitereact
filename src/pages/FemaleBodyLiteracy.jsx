@@ -4,7 +4,7 @@ import PostItNote from "../components/PostItNote";
 
 const FemaleBodyLiteracy = () => (
   <PageLayout>
-    <h1 class="yellow">Feminine Literacy</h1>
+    <h1 className="yellow">Feminine Literacy</h1>
     <div id="noticeboard">
         <PostItNote
           id="noteVICRESOURCES"
@@ -12,7 +12,7 @@ const FemaleBodyLiteracy = () => (
           title="In Victoria, Australia"
           lastUpdated=""
         >
-          <ul style={{"list-style-type": "none", margin: 0, padding: 0}}>
+          <ul style={{"listStyleType": "none", margin: 0, padding: 0}}>
             
             
             <li><a href="https://www.betterhealth.vic.gov.au/free-pads-and-tampons"><img className="icon" src="https://content.dhhs.vic.gov.au/sites/default/files/2024-10/pat-menstrual-cycle.png" alt="free menstrual products" /> Free Menstrual Products</a></li>
@@ -35,7 +35,7 @@ const FemaleBodyLiteracy = () => (
           title="International/Virtual"
           lastUpdated=""
         >
-          <ul style={{"list-style-type": "none", margin: 0, padding: 0}}>
+          <ul style={{"listStyleType": "none", margin: 0, padding: 0}}>
             <li><a href="https://www.maternalgifteconomymovement.org/"><img className="icon" src="https://www.maternalgifteconomymovement.org/wp-content/uploads/2020/10/sun-solo.png" alt="Maternal Gift Economy Movement" /> Maternal Gift Economy Movement</a></li>
             <li><a href="https://elenabridgers.substack.com/"><img className="icon" src="https://substackcdn.com/image/fetch/$s_!TyZ2!,w_80,h_80,c_fill,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4efc2419-ff84-4da8-ab63-b9bada3b18e6_728x728.png" alt="Motherhood Until Yesterday by Elena Bridgers" /> Motherhood Until Yesterday by Elena Bridgers</a></li>
             <li><a href="https://www.parentsworkcollective.org.au/"><img className="icon" src="https://static.wixstatic.com/media/c7caf6_cd16b033ed504b33be2f444db11f7b8a~mv2.png/v1/fill/w_978,h_908,al_c,q_90,usm_0.66_1.00_0.01/c7caf6_cd16b033ed504b33be2f444db11f7b8a~mv2.webp" alt="Parents Work Collective" /> Parents Work Collective</a></li>
@@ -57,6 +57,25 @@ const FemaleBodyLiteracy = () => (
           <img src="/images/fbl_preso.png" style={{maxWidth: 150, maxHeight: 150, marginLeft: 80}} />
         </PostItNote>
       </div>
+      <div className="bookshelf">
+        
+        <a href="https://yourbookstore.io/p/vagina-a-new-biography"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/001/962/309/large_9781844086887.jpg?1770413625" /></a>
+        <a href="https://yourbookstore.io/p/existential-kink-unmask-your-shadow-and-embrace-your-power"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/925/033/large_9781578636471.jpg?1760403821" /></a>
+        <a href="https://www.press.uillinois.edu/books/?id=p078767"><img className="book" src="https://m.media-amazon.com/images/I/71R9I2s+MWL._SL1500_.jpg" /></a>
+        <a href="https://yourbookstore.io/p/women-who-run-with-the-wolves-contacting-the-power-of-the-wild-woman"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/013/042/large_temp_img.jpg20260226-38-wpy321?1772090023" /></a>
+        <a href="https://www.parentsworkcollective.org.au/product-page/all-mothers-work"><img className="book" src="https://m.media-amazon.com/images/I/61edzRcw+bL._SL1360_.jpg" /></a>
+        <a href="https://yourbookstore.io/p/come-as-you-are-the-surprising-new-science-that-will-transform-your-sex-life"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/953/023/large_temp_img.jpg20260214-33-hlmowl?1771046834" /></a>
+        <a href="https://yourbookstore.io/p/the-great-cosmic-mother-rediscovering-the-religion-of-the-earth"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/001/846/266/large_temp_img.jpg20250623-1-yor5ib?1750642106" /></a>
+        <a href="https://yourbookstore.io/p/what-s-my-body-telling-me-your-body-isn-t-the-problem-it-s-the-solution"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/230/359/large_9781925452815.jpg?1771126809" /></a>
+        <a href="https://yourbookstore.io/p/the-night-house-a-curious-course-in-mysteries-for-the-wise-and-wild"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/384/623/large_9781608689798.jpg?1744511197" /></a>
+        <a href="https://yourbookstore.io/p/the-barefoot-investor-2022-edition"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/166/473/large_temp_img.jpg20260225-33-abv2wz?1771989804" /></a>
+        
+        
+        <a href="https://yourbookstore.io/p/your-driver-is-waiting-a-novel-2917244"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/475/745/large_cover.jpg?1755816500" /></a>
+        <a href="https://yourbookstore.io/p/frankenstein-popular-penguins"><img className="book" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Christie%27s_auction_scan_of_Frankenstein_1818.jpg/500px-Christie%27s_auction_scan_of_Frankenstein_1818.jpg" /></a>
+      </div>
+      
+                        
   </PageLayout>
 );
 

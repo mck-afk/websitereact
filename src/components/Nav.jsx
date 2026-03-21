@@ -64,6 +64,7 @@ const Nav = () => {
             </div>
             {/* Second column */}
             <div style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', paddingLeft: '10px' }}>
+                <p></p>
                 <div className="win7">
                     <div className="window active" style={{ width: 300, textAlign: "center"}}>
                         <div className="title-bar">
@@ -122,7 +123,7 @@ const Nav = () => {
             {/* Third column (double size) */}
             <div style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', paddingLeft:'10px' }}>
                 <p>
-                    Annabelle Grace McKenzie lives, works, and plays on the land of the
+                    <br />Annabelle Grace McKenzie lives, works, and plays on the land of 
                     <a href="https://www.wurundjeri.com.au/"> the Wurundjeri Woi Wurrung people of the Kulin Nation.</a>
                     <br />She recognises their 
                     <a href="https://www.nma.gov.au/defining-moments/resources/evidence-of-first-peoples"> 65,000+ years </a>
@@ -131,7 +132,9 @@ const Nav = () => {
                     <span style={{ textDecoration: 'italic'}}>All rights reserved © 2026 Annabelle Grace McKenzie</span>
                     
                 </p>
+                <h4>⌄⌄ click me ⌄⌄</h4>
                 <Oracle />
+                
             </div>
         </div>
     );
