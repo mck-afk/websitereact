@@ -28,14 +28,14 @@ const Home = () => {
           <Tooltip anchorSelect="#seeme" place="bottom" style={{ width: '250px', textAlign: 'center'}}>a medium for interpreting and interacting with the world... computers, internet, literacy, home, bodies, astrology, woman</Tooltip>
           <p>
             📍 Melbourne/Naarm, Australia
-            <br /> 📚 reader of {" "} <a href="/InterNet">literature & critiques</a>
-            <br /> ✍️ writer for <a href="/weblog">humans</a> & {" "} <a href="https://github.com/mck-afk">computers</a>
+            <br /> 📚 reader of {" "} <a href="#/InterNet">literature</a> & <a href="#/TechNewsSynth">critiques</a>
+            <br /> ✍️ writer for <a href="#/weblog">humans</a> & {" "} <a href="https://github.com/mck-afk">computers</a>
             <br /><i>all opinions are my own</i>
           </p>
           <p>
             <img className="icon" src="https://img.icons8.com/?size=100&id=W77GEN8wSCBv&format=png&color=000000" alt="now" />
             <span style={{ fontWeight: "bold"}}> now: </span>
-            reading Walkaway by Cory Doctorow
+            thinking critically and hopefully
           </p>
         </PostItNote>
 

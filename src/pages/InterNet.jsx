@@ -26,6 +26,7 @@ const InterNet = () => (
             <li><HashLink to="#worldbuildings">Worldbuildings</HashLink></li>
             <li className="blue"><HashLink to="#websites">Websites</HashLink></li>
             <li><HashLink to="#people">People</HashLink></li>
+            <li><HashLink to="#crafts">Crafts</HashLink></li>
         </ul>
 
         <div>
@@ -102,6 +103,10 @@ const InterNet = () => (
         <div className="blue" id="articles">
             <h2>Articles</h2>
             <dl>
+                <dt><a href="https://woemaniyah.substack.com/p/why-brown-daughters-dont-burn-the">Why Brown Daughters Don’t Burn The House Down</a></dt>
+                <dd>Swarna Bhatnagar</dd>
+                <dt><a href="https://abiawomosu.substack.com/p/what-they-call-niche-is-the-only">What They Call 'Niche' Is the Only Thing That Scales | Eighteen women who’ve never met are building the only AI infrastructure that works.</a></dt>
+                <dd>Abi Awomosu</dd>
                 <dt><a href="https://publicdomainreview.org/essay/typing-for-love-or-money/">women's clothing sizing choas: the fashion industry doesn't make sizes for you</a></dt>
                 <dd>The Pudding</dd>
                 <dt><a href="https://publicdomainreview.org/essay/typing-for-love-or-money/">Typing for Love or Money: The Hidden Women's Labor behind Modern Literary Masterpieces</a></dt>
@@ -176,6 +181,14 @@ const InterNet = () => (
                 <li><a href="https://www.tiktok.com/@aarchor/video/7553809097213136142">AArchor</a></li>
                 <li><a href="https://www.instagram.com/inspiredtowrite/">Amie McNee</a></li>
                 <li><a href="https://www.instagram.com/exploreyourcore_/">Elise Marcianti</a></li>
+            </ul>
+        </div>
+
+        <div id="crafts" className="blue">
+            <h2>Crafts</h2>
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=41FHinAHCOs"> Crochet Rubber Duck</a></li>
+                <li><a href="https://www.youtube.com/watch?v=mL26rcvLNwo"> Crochet "Spiral Sun" Granny Square</a></li>
             </ul>
         </div>
 

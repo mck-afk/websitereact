@@ -19,6 +19,16 @@ const TechNewsSynth = () => (
             </thead>
             <tbody>
                 <tr>
+                    <td>25 Mar 2026</td>
+                    <td><a href="https://www.aljazeera.com/economy/2026/3/25us-jury-finds-meta-alphabet-liable-in-landmark-social-media-addiction-case">US jury finds Meta, Alphabet liable in landmark social media addiction case</a></td>
+                    <td>It's been a long time coming. Personally, I am disappointed the plaintiff settled with Snap and TikTok for undisclosed terms before the trial began. It still sends the message that money can absolve responsilbity, accountability, justice.</td>
+                </tr>
+                <tr>
+                    <td>25 Mar 2026</td>
+                    <td><a href="https://www.aljazeera.com/">Aljazeera Homepage</a></td>
+                    <td><img src="images/aljazeera.png" alt="Aljazeera Logo" style={{ width: "500px" }} /></td>
+                </tr>
+                <tr>
                     <td>7 Mar 2026</td>
                     <td><a href="https://www.reuters.com/world/middle-east/kalshi-sued-over-ouster-iran-leader-prediction-market-2026-03-06/">Kalshi sued over ouster of Iran leader prediction market</a></td>
                     <td></td>
