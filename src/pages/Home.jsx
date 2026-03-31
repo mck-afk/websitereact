@@ -22,7 +22,7 @@ const Home = () => {
           id="noteABOUT"
           className="note pink"
           title="annabelle grace mckenzie"
-          lastUpdated="17/03/2026"
+          lastUpdated="31/03/2026"
         >
           <p>seeing the <span id="seeme" style={{ textDecoration: 'underline', color: '#0000EE'}}>technology</span> in front of me</p>
           <Tooltip anchorSelect="#seeme" place="bottom" style={{ width: '250px', textAlign: 'center'}}>a medium for interpreting and interacting with the world... computers, internet, literacy, home, bodies, astrology, woman</Tooltip>
@@ -52,7 +52,7 @@ const Home = () => {
           id="noteINTERNET"
           className="note blue left"
           title="InterNet"
-          lastUpdated="17/03/2026"
+          lastUpdated="31/03/2026"
         >
           <p>
             treasured connections and digital reciprocations 🔗 <br /><br />links to 📖 books, newsletters, communities, articles, media, movements, people, and other cool things I think you should explore

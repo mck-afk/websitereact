@@ -41,7 +41,7 @@ const InterNet = () => (
                         <dd>"For the master's tools will never dismantle the master's house. They may allow us temporarily to beat him at his own game, but they will never enable us to bring about genuine change. And this fact is only threatening to those women who still define the master's house as their only source of support."</dd>
                         <dt><img className="book" src="https://cdn11.bigcommerce.com/s-vrffsdcwm/products/223907/images/242460/1086977__63081.1750260648.386.513.jpg?c=2" /><a href="https://www.scribd.com/document/443992025/Brenda-Laurel-Utopian-Entrepreneur-pdf">Utopian Entrepreneur by Brenda Laurel 2001</a></dt>
                         <dd>"The computer ought to be human, too. As human as language. As human as a thumb, a talisman, a fairy tale, a song... Yes, we made the computer, but in its role as a cultural symbol, the computer also defines us."</dd>
-                        <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/605/860/large_temp_img.jpg20250110-1-782v2n?1736471565" /><a href="https://yourbookstore.io/p/caliban-and-the-witch-women-the-body-and-primitive-accumulation-2142013">Caliban and the Witch: Women, the Body and Primitive Accumulation by Silvia Federici 2004</a></dt>
+                        <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/605/860/large_9780241532539.jpg?1774349129" /><a href="https://yourbookstore.io/p/caliban-and-the-witch-women-the-body-and-primitive-accumulation-2142013">Caliban and the Witch: Women, the Body and Primitive Accumulation by Silvia Federici 2004</a></dt>
                         <dd>"By denying women control over their bodies, the state deprived them of the most fundamental condition for physical and psychological integrity and degraded maternity to the status of forced labour."</dd>
                         <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/001/942/373/large_temp_img.jpg20251031-44-oxwwib?1761869050" /><a href="https://yourbookstore.io/p/the-will-to-change-men-masculinity-and-love">The Will to Change by bell hooks 2004</a></dt>
                         <dd>"Asked to give up the true self in order to realize the patriarchal ideal, boys learn self-betrayal early and are rewarded for these acts of soul murder.”</dd>
@@ -55,6 +55,8 @@ const InterNet = () => (
                         <dd>"The day you were born, the world had a choice about what to teach you about your body... I'm working to create a world that doesn't lie to women about their bodies anymore."</dd>
                         <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/566/790/large_temp_img.jpg20220322-1-17mzfhf?1718166081" /><a href="https://yourbookstore.io/p/why-women-have-better-sex-under-socialism-and-other-arguments-for-economic-independence-1670855">Why Women Have Better Sex Under Socialism by Kristen Ghodsee 2018</a></dt>
                         <dd>"In general state socialist governments reduced women's economic dependence on men by making men and women equal recipients of services from the socialist state. These policies helped to decouple love and intimacy from economic considerations."<br /> "Although they may not realize it, sexual economics theorists basically embrace a long-standing socialist critique of capitalism: that it commodifies all human interactions and reduces women to chattel."</dd>
+                        <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/956/705/large_temp_img.jpg20240517-1-vmadm3?1718167100" /><a href="https://yourbookstore.io/p/man-made-how-the-bias-of-the-past-is-being-built-into-the-future">Man-Made: How the bias of the past is being built into the future by Tracey Spicer 2023</a></dt>
+                        <dd>"."</dd>
                         <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/335/764/large_9780241721308.jpg?1760308510" /><a href="https://yourbookstore.io/p/the-serviceberry-an-economy-of-gifts-and-abundance">The Serviceberry by Robin Wall Kimmerer 2024</a></dt>
                         <dd>"The Serviceberries show us another model, one based upon reciprocity rather than accumulation, where wealth and security come from the quality of our relationships, not from the illusion of self-sufficiency."</dd>
                         <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/356/364/large_temp_img.jpg20260118-28-gy6fiv?1768778430" /><a href="https://yourbookstore.io/p/girl-on-girl-how-pop-culture-turned-women-against-themselves">Girl on Girl: How Pop Culture Turned a Generation of Women Against Themselves by Sophie Gilbert 2025</a></dt>
@@ -70,17 +72,19 @@ const InterNet = () => (
                     <h3>Fiction (art imitates life)</h3>
                     <dl>
                         <dt><img className="book" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Christie%27s_auction_scan_of_Frankenstein_1818.jpg/500px-Christie%27s_auction_scan_of_Frankenstein_1818.jpg" /><a href="https://yourbookstore.io/p/frankenstein-popular-penguins">Frankenstein: or, The Modern Prometheus by Mary Wollstonecraft Shelley 1818</a></dt>
-                        <dd>as relevant today as it was when it was written.</dd>
+                        <dd>obsession creates reality, despite compassion in the face of cruelty.</dd>
                         <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/077/368/large_9781328869333.jpg?1718101170" /><a href="https://yourbookstore.io/p/1984-hb">1984</a> by George <a href="https://www.goodreads.com/book/show/62802741-wifedom">and</a> <a href="https://www.goodreads.com/book/show/52745524-eileen">Eileen</a> Orwell 1949</dt>
                         <dd>there is a reason this book has become such a cultural phenomenon. it is astounding, relevant, and haunting.</dd>
                         <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/568/631/large_temp_img.jpg20251022-33-g7uutp?1761096268" /><a href="https://yourbookstore.io/p/parable-of-the-sower-a-powerful-tale-of-a-dark-and-dystopian-future">Parable of The Sower by Octavia E. Butler 1993</a></dt>
                         <dd>set in 2024-2027, Olamina leads with compassion while a president called Donner destroys the country.</dd>
                         <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/347/128/large_9780439023528.jpg?1773177171" /><a href="https://yourbookstore.io/catalog/search?utf8=%E2%9C%93&keyword=the+hunger+games&search_type=core%5Ekeyword">The Hunger Games (all of them!) by Suzanne Collins 2008-</a></dt>
-                        <dd>art imitates life, and this series has it all: just war politics, social contracts, propaganda.</dd>
+                        <dd>just war politics, social contracts, propaganda.</dd>
                         <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/002/627/950/large_9781786693068.jpg?1718147610"/><a href="https://yourbookstore.io/p/walkaway">Walkaway by Cory Doctorow 2017</a></dt>
-                        <dd>read it the way you would read 1984 - with one eye on the meta-commentary.</dd>
+                        <dd>keep one eye on the meta-commentary.</dd>
                         <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/379/171/large_9781408890042.jpg?1765262550" /><a href="https://yourbookstore.io/p/circe-1584057">Circe by Madeline Miller 2018</a></dt>
                         <dd>everything you need is within you. you have your gift and you have what it costs.</dd>
+                        <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/593/785/large_temp_img.jpg20240315-1-jyh0m?1718129702" /><a href="https://yourbookstore.io/p/nervous-conditions">Nervous Conditions by Tsitsi Dangarembga 2021</a></dt>
+                        <dd>coming-of-age under cultural imperialism within the female body.</dd>
                         <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/139/425/large_9781529920567.jpg?1752736479" /><a href="https://yourbookstore.io/p/chain-gang-all-stars-a-novel">Chain-Gang All-Stars by Nana Kwame Adjei-Brenyah 2023</a></dt>
                         <dd>powerful commentary on the sickening spectacle that is violence.</dd>
                     </dl>
@@ -107,14 +111,18 @@ const InterNet = () => (
                 <dd>Swarna Bhatnagar</dd>
                 <dt><a href="https://abiawomosu.substack.com/p/what-they-call-niche-is-the-only">What They Call 'Niche' Is the Only Thing That Scales | Eighteen women who’ve never met are building the only AI infrastructure that works.</a></dt>
                 <dd>Abi Awomosu</dd>
-                <dt><a href="https://publicdomainreview.org/essay/typing-for-love-or-money/">women's clothing sizing choas: the fashion industry doesn't make sizes for you</a></dt>
+                <dt><a href="https://pudding.cool/2026/02/womens-sizing/">women's clothing sizing choas: the fashion industry doesn't make sizes for you</a></dt>
                 <dd>The Pudding</dd>
+                <dt><a href="https://www.wheresyoured.at/the-ai-bubble-is-an-information-war/">The AI Bubble Is An Information War</a></dt>
+                <dd>Ed Zitron</dd>
                 <dt><a href="https://publicdomainreview.org/essay/typing-for-love-or-money/">Typing for Love or Money: The Hidden Women's Labor behind Modern Literary Masterpieces</a></dt>
                 <dd>Christine Jacobson</dd>
                 <dt><a href="https://www.theguardian.com/news/ng-interactive/2026/jan/11/how-grok-nudification-tool-went-viral-x-elon-musk">'Add blood, forced smile': how Grok's nudification tool went viral</a></dt>
                 <dd>Amelia Gentleman and Helena Horton</dd>
                 <dt><a href="https://www.citationneeded.news/it-matters-i-care/">It matters. I care.</a></dt>
                 <dd>Molly White</dd>
+                <dt><a href="https://dark.properties/recommoning/">Introducing: Recommoning</a></dt>
+                <dd>Dark Properties</dd>
                 <dt><a href="https://www.threadings.io/youve-been-traumatized-into-hating/">you've been traumatized into hating reading (and it makes you easier to oppress)</a></dt>
                 <dd>Ismatu Gwendolyn</dd>
                 <dt><a href="https://www.threadings.io/the-strip-club-did-indeed-make-me-bonkers/">The strip club did indeed make me bonkers!</a></dt>
@@ -161,6 +169,7 @@ const InterNet = () => (
                 <li><a href="https://www.mcsweeneys.net/">McSweeney's Internet Tendency</a></li>
                 <li><a href="https://theshovel.com.au/">The Shovel</a></li>
                 <li><a href="https://theonion.com/">The Onion</a></li>
+                <li><a href="https://www.door.link/">[ door ]</a></li>
                 <li><a href="https://www.liberationtoolbox.io/">Liberation Toolbox</a></li>
                 <li><a href="https://www.computerhistory.org/timeline/computers/">Computer Timeline History</a></li>
                 <li><a href="https://www.shelaghlewins.com/tablet_weaving/TW01/TW01.htm">The Ancient Craft of Tablet Weaving</a></li>
@@ -169,6 +178,7 @@ const InterNet = () => (
                 <li><a href="https://noncompliant.fun/">noncompliantfun</a></li>
                 <li><a href="https://structuredlabs.github.io/threebodyproblem/">Three Body Problem Sandbox</a></li>
                 <li><a href="https://susam.net/wander/">Wander the Small Web by Susam</a></li>
+                <li><a href="https://marginalia-search.com/">Marginalia Search</a></li>
             </ul>
         </div>
 
@@ -178,6 +188,7 @@ const InterNet = () => (
                 <li><a href="https://www.threadings.io/">Ismatu Gwendolyn</a></li>
                 <li><a href="https://abiawomosu.substack.com/">Abi Awomosu</a></li>
                 <li><a href="https://woemaniyah.substack.com/">Swarna Bhatnagar</a></li>
+                <li><a href="https://carolinesinders.com/">Caroline Sinders</a></li>
                 <li><a href="https://www.tiktok.com/@aarchor/video/7553809097213136142">AArchor</a></li>
                 <li><a href="https://www.instagram.com/inspiredtowrite/">Amie McNee</a></li>
                 <li><a href="https://www.instagram.com/exploreyourcore_/">Elise Marcianti</a></li>
