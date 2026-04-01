@@ -93,8 +93,11 @@ const InterNet = () => (
                 <div id="memoir">
                     <h3>Biography (life is art)</h3>
                     <dl>
+                        <dt><a href="https://yourbookstore.io/p/thick-and-other-essays"><img className="book" src="https://m.media-amazon.com/images/I/61h3TdW1eYL._AC_UF1000,1000_QL80_.jpg" />Thick and Other Essays by Tressie McMillan Cottom 2019</a></dt>
+                        <dt><a href="https://yourbookstore.io/p/trick-mirror-reflections-on-self-delusion-1797949"><img className="book" src="https://thumbs.readings.com.au/7I4E1oguZw18VMEeNs5aK4V6xAY=/0x500/https://readings-v4-production.s3.amazonaws.com/assets/b64/dec/861/b64dec8611a3fc509156c616fdc39984de1b2682/978000829495320230103-4-m9e50u.jpg" />Trick Mirror: Reflections on Self-Delusion by Jia Tolentino 2020</a></dt>
                         <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/018/468/large_temp_img.jpg20260314-1-odm4ho?1773455881" /><a href="https://yourbookstore.io/p/braiding-sweetgrass-indigenous-wisdom-scientific-knowledge-and-the-teachings-of-plants">Braiding Sweetgrass by Robin Wall Kimmerer 2020</a></dt>
                         <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/589/096/large_9780141996479.jpg?1757214930" /><a href="https://yourbookstore.io/p/my-grandmother-s-hands-racialized-trauma-and-the-pathway-to-mending-our-hearts-and-bodies">My Grandmother's Hands by Resmaa Menakem 2021</a></dt>
+                        <dt><a href="https://yourbookstore.io/p/black-friend-essays-2812977"><img className="book" src="https://m.media-amazon.com/images/I/51TAwpIbIDL._AC_UF1000,1000_QL80_.jpg" />Black Friend: Essays by Ziwe Fumudoh 2023</a></dt>
                         <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/019/756/large_temp_img.jpg20241219-1-zcbppn?1734584454" /><a href="https://yourbookstore.io/p/the-woman-in-me">The Woman in Me by Britney Spears 2023</a></dt>
                         <dt><img className="book" src="/images/ismatu.png" /><a href="https://www.threadings.io/the-uses-of-insanity-an-overture/">The Uses of Insanity (an Overture) by Ismatu Gwendolyn 2026</a></dt>
                         
@@ -189,6 +192,7 @@ const InterNet = () => (
                 <li><a href="https://abiawomosu.substack.com/">Abi Awomosu</a></li>
                 <li><a href="https://woemaniyah.substack.com/">Swarna Bhatnagar</a></li>
                 <li><a href="https://carolinesinders.com/">Caroline Sinders</a></li>
+                <li><a href="https://www.lizthe.dev/">LizTheDeveloper</a></li>
                 <li><a href="https://www.tiktok.com/@aarchor/video/7553809097213136142">AArchor</a></li>
                 <li><a href="https://www.instagram.com/inspiredtowrite/">Amie McNee</a></li>
                 <li><a href="https://www.instagram.com/exploreyourcore_/">Elise Marcianti</a></li>
