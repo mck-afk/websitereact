@@ -60,20 +60,25 @@ const FemaleBodyLiteracy = () => (
       <div className="bookshelf">
         
         <a href="https://yourbookstore.io/p/vagina-a-new-biography"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/001/962/309/large_9781844086887.jpg?1770413625" /></a>
+        <a href="https://yourbookstore.io/p/what-s-my-body-telling-me-your-body-isn-t-the-problem-it-s-the-solution"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/230/359/large_temp_img.jpg20260331-61-i8mpuz?1774926221" /></a>
+        <a href="https://yourbookstore.io/p/come-as-you-are-the-surprising-new-science-that-will-transform-your-sex-life"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/953/023/large_temp_img.jpg20260214-33-hlmowl?1771046834" /></a>
         <a href="https://yourbookstore.io/p/existential-kink-unmask-your-shadow-and-embrace-your-power"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/925/033/large_9781578636471.jpg?1760403821" /></a>
         <a href="https://www.press.uillinois.edu/books/?id=p078767"><img className="book" src="https://m.media-amazon.com/images/I/71R9I2s+MWL._SL1500_.jpg" /></a>
-        <a href="https://yourbookstore.io/p/women-who-run-with-the-wolves-contacting-the-power-of-the-wild-woman"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/013/042/large_temp_img.jpg20260226-38-wpy321?1772090023" /></a>
-        <a href="https://www.parentsworkcollective.org.au/product-page/all-mothers-work"><img className="book" src="https://m.media-amazon.com/images/I/61edzRcw+bL._SL1360_.jpg" /></a>
-        <a href="https://yourbookstore.io/p/come-as-you-are-the-surprising-new-science-that-will-transform-your-sex-life"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/953/023/large_temp_img.jpg20260214-33-hlmowl?1771046834" /></a>
-        <a href="https://yourbookstore.io/p/the-great-cosmic-mother-rediscovering-the-religion-of-the-earth"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/001/846/266/large_temp_img.jpg20250623-1-yor5ib?1750642106" /></a>
-        <a href="https://yourbookstore.io/p/what-s-my-body-telling-me-your-body-isn-t-the-problem-it-s-the-solution"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/230/359/large_9781925452815.jpg?1771126809" /></a>
-        <a href="https://yourbookstore.io/p/the-night-house-a-curious-course-in-mysteries-for-the-wise-and-wild"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/384/623/large_9781608689798.jpg?1744511197" /></a>
-        <a href="https://yourbookstore.io/p/the-barefoot-investor-2022-edition"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/166/473/large_temp_img.jpg20260225-33-abv2wz?1771989804" /></a>
         
+        <a href="https://yourbookstore.io/p/the-great-cosmic-mother-rediscovering-the-religion-of-the-earth"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/001/846/266/large_temp_img.jpg20250623-1-yor5ib?1750642106" /></a>
+        <a href="https://yourbookstore.io/p/women-who-run-with-the-wolves-contacting-the-power-of-the-wild-woman"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/013/042/large_temp_img.jpg20260226-38-wpy321?1772090023" /></a>
+        
+        <a href="https://www.amazon.com.au/Lost-Goddesses-Early-Greece-Pre-Hellenic/dp/0807013439"><img className="book" src="https://m.media-amazon.com/images/I/71hnbcAAc+L._AC_UF1000,1000_QL80_.jpg" /></a>
+        <a href="https://yourbookstore.io/p/women-and-other-monsters-building-a-new-mythology"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/542/416/large_9780807054932.jpg?1718156060" /></a>
+        <a href="https://yourbookstore.io/p/the-night-house-a-curious-course-in-mysteries-for-the-wise-and-wild"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/384/623/large_9781608689798.jpg?1744511197" /></a>
+        
+        
+        <a href="https://yourbookstore.io/p/the-barefoot-investor-2022-edition"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/166/473/large_temp_img.jpg20260225-33-abv2wz?1771989804" /></a>
+        <a href="https://www.parentsworkcollective.org.au/product-page/all-mothers-work"><img className="book" src="https://m.media-amazon.com/images/I/61edzRcw+bL._SL1360_.jpg" /></a>
         
         <a href="https://yourbookstore.io/p/your-driver-is-waiting-a-novel-2917244"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/475/745/large_cover.jpg?1755816500" /></a>
         <a href="https://yourbookstore.io/p/conjure-women"><img className="book" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564443046l/51220325.jpg" /></a>
-        <a href="https://yourbookstore.io/p/parable-of-the-sower-a-powerful-tale-of-a-dark-and-dystopian-future"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/568/631/large_temp_img.jpg20251022-33-g7uutp?1761096268" /></a>
+        <a href="https://yourbookstore.io/p/parable-of-the-sower-a-powerful-tale-of-a-dark-and-dystopian-future"><img className="book" src="https://m.media-amazon.com/images/I/81cccWWMQmL._AC_UF1000,1000_QL80_.jpg" /></a>
         <a href="https://yourbookstore.io/p/weyward-2805206"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/347/456/large_9781250842725.jpg?1739614726" /></a>
         <a href="https://yourbookstore.io/p/circe-1584057"><img className="book" src="https://m.media-amazon.com/images/I/91NTfXP3+AL._AC_UF1000,1000_QL80_.jpg" /></a>
         <a href="https://yourbookstore.io/p/hello-beautiful-2633749"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/092/436/original_9780241998496.jpg?1765262500" /></a>

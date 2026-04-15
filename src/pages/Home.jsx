@@ -22,7 +22,7 @@ const Home = () => {
           id="noteABOUT"
           className="note pink"
           title="annabelle grace mckenzie"
-          lastUpdated="31/03/2026"
+          lastUpdated="15/04/2026"
         >
           <p>seeing the <span id="seeme" style={{ textDecoration: 'underline', color: '#0000EE'}}>technology</span> in front of me</p>
           <Tooltip anchorSelect="#seeme" place="bottom" style={{ width: '250px', textAlign: 'center'}}>a medium for interpreting and interacting with the world... computers, internet, literacy, home, bodies, astrology, woman</Tooltip>
@@ -35,7 +35,7 @@ const Home = () => {
           <p>
             <img className="icon" src="https://img.icons8.com/?size=100&id=W77GEN8wSCBv&format=png&color=000000" alt="now" />
             <span style={{ fontWeight: "bold"}}> now: </span>
-            thinking critically and hopefully
+            utterly v o r a c i o u s
           </p>
         </PostItNote>
 
@@ -52,7 +52,7 @@ const Home = () => {
           id="noteINTERNET"
           className="note blue left"
           title="InterNet"
-          lastUpdated="31/03/2026"
+          lastUpdated="15/04/2026"
         >
           <p>
             treasured connections and digital reciprocations 🔗 <br /><br />links to 📖 books, newsletters, communities, articles, media, movements, people, and other cool things I think you should explore
@@ -73,7 +73,7 @@ const Home = () => {
           id="noteFBL"
           className="note yellow right"
           title="Feminine Literacy"
-          lastUpdated="17/03/2026"
+          lastUpdated="15/04/2026"
         >
           <p>
             resources for:
@@ -81,6 +81,7 @@ const Home = () => {
             <br />- interpreting the signals of the body
             <br />- appreciating 🌻
             <br /><br />
+            <p style={{ textAlign: "right" }} ><br /><br /><img src="https://blob.gifcities.org/gifcities/LKDMD44G2M5KCZDNP3CB3C6XT46F7N2V.gif" /></p>
           </p>
         </PostItNote>
         </motion.div>
@@ -123,7 +124,7 @@ const Home = () => {
           lastUpdated="14/02/2026" 
         >
             <p>writing the history I see 👩‍💻</p>
-            <p>a collection of links to news, opinions pieces, and synthesis of technology including artificial intelligence, cool projects and passions, and other analysis 🌐</p>
+            <p>scrutinising the intersection of <i>adopting</i> and <i>equipping</i> technology 🌐</p>
             <p style={{ display: "none", textAlign: "right" }} ><br /><br /><img src="https://blob.gifcities.org/gifcities/TI6F4JDECJ2M6SOECHH57FR7HPKI3WM3.gif" /></p>
         </PostItNote>
         </motion.div> 

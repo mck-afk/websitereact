@@ -42,7 +42,9 @@ const InterNet = () => (
                         <dt><img className="book" src="https://cdn11.bigcommerce.com/s-vrffsdcwm/products/223907/images/242460/1086977__63081.1750260648.386.513.jpg?c=2" /><a href="https://www.scribd.com/document/443992025/Brenda-Laurel-Utopian-Entrepreneur-pdf">Utopian Entrepreneur by Brenda Laurel 2001</a></dt>
                         <dd>"The computer ought to be human, too. As human as language. As human as a thumb, a talisman, a fairy tale, a song... Yes, we made the computer, but in its role as a cultural symbol, the computer also defines us."</dd>
                         <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/605/860/large_9780241532539.jpg?1774349129" /><a href="https://yourbookstore.io/p/caliban-and-the-witch-women-the-body-and-primitive-accumulation-2142013">Caliban and the Witch: Women, the Body and Primitive Accumulation by Silvia Federici 2004</a></dt>
-                        <dd>"By denying women control over their bodies, the state deprived them of the most fundamental condition for physical and psychological integrity and degraded maternity to the status of forced labour."</dd>
+                        <dd>"By denying women control over their bodies, the state deprived them of the most fundamental condition for physical and psychological integrity and degraded maternity to the status of forced labour."
+                            <br /> Key Takeaway: Capitalism is an economic system based on the private ownership (man) of the means of production (women) and their operation for profit (mother).
+                        </dd>
                         <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/001/942/373/large_temp_img.jpg20251031-44-oxwwib?1761869050" /><a href="https://yourbookstore.io/p/the-will-to-change-men-masculinity-and-love">The Will to Change by bell hooks 2004</a></dt>
                         <dd>"Asked to give up the true self in order to realize the patriarchal ideal, boys learn self-betrayal early and are rewarded for these acts of soul murder.”</dd>
                         <dt><img className="book" src="https://www.quarterlyessay.com.au/sites/default/files/styles/cover_large/public/covers/qe29_0.jpg?itok=_tJl9U75" /><a href="https://www.quarterlyessay.com.au/essay/2008/03/love-and-money">Quarterly Essay 29 Love and Money by Anne Manne 2008</a></dt>
@@ -56,7 +58,7 @@ const InterNet = () => (
                         <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/566/790/large_temp_img.jpg20220322-1-17mzfhf?1718166081" /><a href="https://yourbookstore.io/p/why-women-have-better-sex-under-socialism-and-other-arguments-for-economic-independence-1670855">Why Women Have Better Sex Under Socialism by Kristen Ghodsee 2018</a></dt>
                         <dd>"In general state socialist governments reduced women's economic dependence on men by making men and women equal recipients of services from the socialist state. These policies helped to decouple love and intimacy from economic considerations."<br /> "Although they may not realize it, sexual economics theorists basically embrace a long-standing socialist critique of capitalism: that it commodifies all human interactions and reduces women to chattel."</dd>
                         <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/956/705/large_temp_img.jpg20240517-1-vmadm3?1718167100" /><a href="https://yourbookstore.io/p/man-made-how-the-bias-of-the-past-is-being-built-into-the-future">Man-Made: How the bias of the past is being built into the future by Tracey Spicer 2023</a></dt>
-                        <dd>"."</dd>
+                        <dd>"Intersectional bias is being built into the machines runnning our futures. Consequently our activism <i>must</i> be focused at the confluence of technology, race, gender, age, sexuality and disability."</dd>
                         <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/335/764/large_9780241721308.jpg?1760308510" /><a href="https://yourbookstore.io/p/the-serviceberry-an-economy-of-gifts-and-abundance">The Serviceberry by Robin Wall Kimmerer 2024</a></dt>
                         <dd>"The Serviceberries show us another model, one based upon reciprocity rather than accumulation, where wealth and security come from the quality of our relationships, not from the illusion of self-sufficiency."</dd>
                         <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/356/364/large_temp_img.jpg20260118-28-gy6fiv?1768778430" /><a href="https://yourbookstore.io/p/girl-on-girl-how-pop-culture-turned-women-against-themselves">Girl on Girl: How Pop Culture Turned a Generation of Women Against Themselves by Sophie Gilbert 2025</a></dt>
@@ -73,18 +75,22 @@ const InterNet = () => (
                     <dl>
                         <dt><img className="book" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Christie%27s_auction_scan_of_Frankenstein_1818.jpg/500px-Christie%27s_auction_scan_of_Frankenstein_1818.jpg" /><a href="https://yourbookstore.io/p/frankenstein-popular-penguins">Frankenstein: or, The Modern Prometheus by Mary Wollstonecraft Shelley 1818</a></dt>
                         <dd>obsession creates reality, despite compassion in the face of cruelty.</dd>
+                        <dt><img className="book" src="https://upload.wikimedia.org/wikipedia/en/5/57/OctaviaEButler_Kindred.jpg"/><a href="https://yourbookstore.io/p/kindred-1348590"> Kindred by Octavia E. Butler 1979</a></dt>
+                        <dd>our stories are, and have always been, intertwined.</dd>
+                        
                         <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/077/368/large_9781328869333.jpg?1718101170" /><a href="https://yourbookstore.io/p/1984-hb">1984</a> by George <a href="https://www.goodreads.com/book/show/62802741-wifedom">and</a> <a href="https://www.goodreads.com/book/show/52745524-eileen">Eileen</a> Orwell 1949</dt>
-                        <dd>there is a reason this book has become such a cultural phenomenon. it is astounding, relevant, and haunting.</dd>
-                        <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/568/631/large_temp_img.jpg20251022-33-g7uutp?1761096268" /><a href="https://yourbookstore.io/p/parable-of-the-sower-a-powerful-tale-of-a-dark-and-dystopian-future">Parable of The Sower by Octavia E. Butler 1993</a></dt>
+                        <dd>astounding, relevant, haunting.</dd>
+                        <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/593/785/large_temp_img.jpg20240315-1-jyh0m?1718129702" /><a href="https://yourbookstore.io/p/nervous-conditions">Nervous Conditions by Tsitsi Dangarembga 1988</a></dt>
+                        <dd>the richness and horror of the female body coming-of-age within cultural imperialism.</dd>
+                        <dt><img className="book" src="https://m.media-amazon.com/images/I/81cccWWMQmL._AC_UF1000,1000_QL80_.jpg" /><a href="https://yourbookstore.io/p/parable-of-the-sower-a-powerful-tale-of-a-dark-and-dystopian-future">Parable of The Sower by Octavia E. Butler 1993</a></dt>
                         <dd>set in 2024-2027, Olamina leads with compassion while a president called Donner destroys the country.</dd>
-                        <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/347/128/large_9780439023528.jpg?1773177171" /><a href="https://yourbookstore.io/catalog/search?utf8=%E2%9C%93&keyword=the+hunger+games&search_type=core%5Ekeyword">The Hunger Games (all of them!) by Suzanne Collins 2008-</a></dt>
+                        <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/347/128/large_9780439023528.jpg?1773177171" /><a href="https://yourbookstore.io/catalog/search?utf8=%E2%9C%93&keyword=the+hunger+games&search_type=core%5Ekeyword">The Hunger Games by Suzanne Collins 2008-</a></dt>
                         <dd>just war politics, social contracts, propaganda.</dd>
-                        <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/002/627/950/large_9781786693068.jpg?1718147610"/><a href="https://yourbookstore.io/p/walkaway">Walkaway by Cory Doctorow 2017</a></dt>
+                        <dt><img className="book" src="https://m.media-amazon.com/images/I/81fhL0ZJ2WL._AC_UF1000,1000_QL80_.jpg"/><a href="https://yourbookstore.io/p/walkaway">Walkaway by Cory Doctorow 2017</a></dt>
                         <dd>keep one eye on the meta-commentary.</dd>
-                        <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/379/171/large_9781408890042.jpg?1765262550" /><a href="https://yourbookstore.io/p/circe-1584057">Circe by Madeline Miller 2018</a></dt>
+                        <dt><img className="book" src="https://m.media-amazon.com/images/I/B1eAVSHxJ4L._AC_UF1000,1000_QL80_.jpg" /><a href="https://yourbookstore.io/p/circe-1584057">Circe by Madeline Miller 2018</a></dt>
                         <dd>everything you need is within you. you have your gift and you have what it costs.</dd>
-                        <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/593/785/large_temp_img.jpg20240315-1-jyh0m?1718129702" /><a href="https://yourbookstore.io/p/nervous-conditions">Nervous Conditions by Tsitsi Dangarembga 2021</a></dt>
-                        <dd>coming-of-age under cultural imperialism within the female body.</dd>
+                        
                         <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/139/425/large_9781529920567.jpg?1752736479" /><a href="https://yourbookstore.io/p/chain-gang-all-stars-a-novel">Chain-Gang All-Stars by Nana Kwame Adjei-Brenyah 2023</a></dt>
                         <dd>powerful commentary on the sickening spectacle that is violence.</dd>
                     </dl>
@@ -93,13 +99,56 @@ const InterNet = () => (
                 <div id="memoir">
                     <h3>Biography (life is art)</h3>
                     <dl>
-                        <dt><a href="https://yourbookstore.io/p/thick-and-other-essays"><img className="book" src="https://m.media-amazon.com/images/I/61h3TdW1eYL._AC_UF1000,1000_QL80_.jpg" />Thick and Other Essays by Tressie McMillan Cottom 2019</a></dt>
-                        <dt><a href="https://yourbookstore.io/p/trick-mirror-reflections-on-self-delusion-1797949"><img className="book" src="https://thumbs.readings.com.au/7I4E1oguZw18VMEeNs5aK4V6xAY=/0x500/https://readings-v4-production.s3.amazonaws.com/assets/b64/dec/861/b64dec8611a3fc509156c616fdc39984de1b2682/978000829495320230103-4-m9e50u.jpg" />Trick Mirror: Reflections on Self-Delusion by Jia Tolentino 2020</a></dt>
-                        <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/018/468/large_temp_img.jpg20260314-1-odm4ho?1773455881" /><a href="https://yourbookstore.io/p/braiding-sweetgrass-indigenous-wisdom-scientific-knowledge-and-the-teachings-of-plants">Braiding Sweetgrass by Robin Wall Kimmerer 2020</a></dt>
-                        <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/589/096/large_9780141996479.jpg?1757214930" /><a href="https://yourbookstore.io/p/my-grandmother-s-hands-racialized-trauma-and-the-pathway-to-mending-our-hearts-and-bodies">My Grandmother's Hands by Resmaa Menakem 2021</a></dt>
-                        <dt><a href="https://yourbookstore.io/p/black-friend-essays-2812977"><img className="book" src="https://m.media-amazon.com/images/I/51TAwpIbIDL._AC_UF1000,1000_QL80_.jpg" />Black Friend: Essays by Ziwe Fumudoh 2023</a></dt>
-                        <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/019/756/large_temp_img.jpg20241219-1-zcbppn?1734584454" /><a href="https://yourbookstore.io/p/the-woman-in-me">The Woman in Me by Britney Spears 2023</a></dt>
-                        <dt><img className="book" src="/images/ismatu.png" /><a href="https://www.threadings.io/the-uses-of-insanity-an-overture/">The Uses of Insanity (an Overture) by Ismatu Gwendolyn 2026</a></dt>
+                        <dt>
+                            <a href="https://yourbookstore.io/p/thick-and-other-essays">
+                            <img className="book" src="https://m.media-amazon.com/images/I/61h3TdW1eYL._AC_UF1000,1000_QL80_.jpg" />
+                            Thick and Other Essays by Tressie McMillan Cottom 2019</a>
+                        </dt>
+                        <dt>
+                            <a href="https://yourbookstore.io/p/trick-mirror-reflections-on-self-delusion-1797949">
+                            <img className="book" src="https://thumbs.readings.com.au/7I4E1oguZw18VMEeNs5aK4V6xAY=/0x500/https://readings-v4-production.s3.amazonaws.com/assets/b64/dec/861/b64dec8611a3fc509156c616fdc39984de1b2682/978000829495320230103-4-m9e50u.jpg" />
+                            Trick Mirror: Reflections on Self-Delusion by Jia Tolentino 2020</a>
+                        </dt>
+                        <dt>
+                            <a href="https://yourbookstore.io/p/braiding-sweetgrass-indigenous-wisdom-scientific-knowledge-and-the-teachings-of-plants">
+                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/018/468/large_temp_img.jpg20260314-1-odm4ho?1773455881" />
+                            Braiding Sweetgrass by Robin Wall Kimmerer 2020</a>
+                        </dt>
+                        <dt>
+                            <a href="https://yourbookstore.io/p/my-grandmother-s-hands-racialized-trauma-and-the-pathway-to-mending-our-hearts-and-bodies">
+                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/589/096/large_9780141996479.jpg?1757214930" />
+                            My Grandmother's Hands by Resmaa Menakem 2021</a>
+                        </dt>
+                        <dt>
+                            <a href="https://yourbookstore.io/p/black-friend-essays-2812977">
+                            <img className="book" src="https://m.media-amazon.com/images/I/51TAwpIbIDL._AC_UF1000,1000_QL80_.jpg" />
+                            Black Friend: Essays by Ziwe Fumudoh 2023</a>
+                        </dt>
+                        <dt>
+                            <a href="https://yourbookstore.io/p/the-woman-in-me">
+                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/019/756/large_temp_img.jpg20241219-1-zcbppn?1734584454" />
+                            The Woman in Me by Britney Spears 2023</a>
+                        </dt>
+                        <dt>
+                            <a href="https://yourbookstore.io/p/paris-the-memoir-2739102">
+                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/149/625/large_temp_img.jpg20240807-1-gz6jnq?1722994347" />
+                            Paris: The Memoir by Paris Hilton 2024</a>
+                        </dt>
+                        <dt>
+                            <a href="https://yourbookstore.io/p/one-day-everyone-will-have-always-been-against-this">
+                            <img className="book" src="https://m.media-amazon.com/images/I/71qLrLcsKQL.jpg" />
+                            One Day, Everyone Will Have Always Been Against This by Omar El Akkad 2025</a>
+                        </dt>
+                        <dt>
+                            <a href="https://yourbookstore.io/p/raising-hare-the-heart-warming-true-story-of-an-unlikely-friendship-2923089">
+                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/388/436/large_9781837260867.jpg?1771552050" />
+                            Raising Hare by Chloe Dalton 2025</a>
+                        </dt>
+                        <dt>
+                            <a href="https://www.threadings.io/the-uses-of-insanity-an-overture/">
+                            <img className="book" src="/images/ismatu.png" />
+                            The Uses of Insanity by Ismatu Gwendolyn 2026</a>
+                        </dt>
                         
                     </dl>
                 </div>
@@ -110,6 +159,8 @@ const InterNet = () => (
         <div className="blue" id="articles">
             <h2>Articles</h2>
             <dl>
+                <dt><a href="https://davidoks.blog/p/how-the-spreadsheet-reshaped-america">Seeing like a spreadsheet: How the commercial spreadsheet reshaped America</a></dt>
+                <dd>David Oks</dd>
                 <dt><a href="https://woemaniyah.substack.com/p/why-brown-daughters-dont-burn-the">Why Brown Daughters Don’t Burn The House Down</a></dt>
                 <dd>Swarna Bhatnagar</dd>
                 <dt><a href="https://abiawomosu.substack.com/p/what-they-call-niche-is-the-only">What They Call 'Niche' Is the Only Thing That Scales | Eighteen women who’ve never met are building the only AI infrastructure that works.</a></dt>
@@ -155,8 +206,11 @@ const InterNet = () => (
             <ul style={{"listStyleType": "none", margin: 0, padding: 0}}>
                 <li><a href="https://sfpc.study/"><img src="/images/sfpc.png" style={{ maxWidth: "25px" }} /> The School for Poetic Computation</a></li>
                 <li><a href="https://www.recurse.com/"><img src="/images/recurse.png" style={{ maxWidth: "25px" }} /> Recurse Center</a></li>
+                <li><a href="https://storywork.studio/worldbuilding-school"><img src="https://images.squarespace-cdn.com/content/v1/606273c432143d029dbc4211/1750345647016-2ZVUDA1DWIH9KQ0J8NJE/7.jpg?format=2500w" style={{ maxWidth: "25px" }} /> Storywork Studio Worldbuilding School</a></li>
+                <li><a href="https://www.seedaschool.com/"><img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2152474834/settings_images/01b76d-e345-e375-c8fa-ef63f54b2b_cryptorows-back.jpeg" style={{ width: "25px", height: "25px" }} /> Seeda School</a></li>
+                
                 <li><a href="https://www.dair-institute.org/"><img src="https://cdn.sanity.io/images/wc2kmxvk/rebrand/d6387b27a49793826f94fc79416482bf8f9ec3a7-54x56.svg" style={{ maxWidth: "25px" }} /> Dair Institute</a></li>
-                <li><a href="https://shado-mag.com/education/toolkits/"><img src="https://shado-mag.com/wp-content/uploads/2024/11/shado-logo-anim-mob-240.gif" style={{ maxWidth: "25px" }} /> Shado Mag's Radical Futures Toolkits</a></li>
+                <li><a href="https://shado-mag.com/education/toolkits/"><img src="https://shado-mag.com/wp-content/uploads/2026/01/040725-shado-Radical-Futures-toolkits-banner-1.png" style={{ maxWidth: "25px", height: "25px" }} /> Shado Mag's Radical Futures Toolkits</a></li>
             </ul>
         </div>
 
@@ -169,19 +223,24 @@ const InterNet = () => (
                 <li><a href="https://petrapixel.neocities.org/">PetraPixel</a></li>
                 <li><a href="https://maxbo.me/html-in-hyde/index.html">HTML in Hyde</a></li>
                 <li><a href="https://localghost.dev/links/">LocalGhost</a></li>
-                <li><a href="https://www.mcsweeneys.net/">McSweeney's Internet Tendency</a></li>
-                <li><a href="https://theshovel.com.au/">The Shovel</a></li>
-                <li><a href="https://theonion.com/">The Onion</a></li>
-                <li><a href="https://www.door.link/">[ door ]</a></li>
+                <li className="orange"><a href="https://www.mcsweeneys.net/">McSweeney's Internet Tendency</a></li>
+                <li className="orange"><a href="https://theshovel.com.au/">The Shovel</a></li>
+                <li className="orange"><a href="https://theonion.com/">The Onion</a></li>
+                <li><a href="https://30u30.fyi/">The Forbes 30 Under 30 Fraud Watch</a></li>
                 <li><a href="https://www.liberationtoolbox.io/">Liberation Toolbox</a></li>
                 <li><a href="https://www.computerhistory.org/timeline/computers/">Computer Timeline History</a></li>
-                <li><a href="https://www.shelaghlewins.com/tablet_weaving/TW01/TW01.htm">The Ancient Craft of Tablet Weaving</a></li>
                 <li className="green"><a href="https://annas-abode.net/">Anna's Abode</a></li>
-                <li><a href="https://ossinsight.io/">Open Source Software Insight</a></li>
                 <li><a href="https://noncompliant.fun/">noncompliantfun</a></li>
-                <li><a href="https://structuredlabs.github.io/threebodyproblem/">Three Body Problem Sandbox</a></li>
+                <li className="purple"><a href="https://theskylive.com/planetarium">The Sky Live</a></li>
+                <li className="purple"><a href="https://structuredlabs.github.io/threebodyproblem/">Three Body Problem Sandbox</a></li>
                 <li><a href="https://susam.net/wander/">Wander the Small Web by Susam</a></li>
                 <li><a href="https://marginalia-search.com/">Marginalia Search</a></li>
+                
+                <li className="red"><a href="https://commonslibrary.org/">The Commons Social Change Library</a></li>
+                <li className="red"><a href="https://ossinsight.io/">Open Source Software Insight</a></li>
+                <li className="red"><a href="https://www.theconsciouscitizens.org/">The Conscious Citizens (US focus)</a></li>
+
+                <li><a href="https://www.door.link/">[ door ]</a></li>
             </ul>
         </div>
 
@@ -196,6 +255,7 @@ const InterNet = () => (
                 <li><a href="https://www.tiktok.com/@aarchor/video/7553809097213136142">AArchor</a></li>
                 <li><a href="https://www.instagram.com/inspiredtowrite/">Amie McNee</a></li>
                 <li><a href="https://www.instagram.com/exploreyourcore_/">Elise Marcianti</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Lina_Khan">Lina Khan</a></li>
             </ul>
         </div>
 
@@ -204,6 +264,8 @@ const InterNet = () => (
             <ul>
                 <li><a href="https://www.youtube.com/watch?v=41FHinAHCOs"> Crochet Rubber Duck</a></li>
                 <li><a href="https://www.youtube.com/watch?v=mL26rcvLNwo"> Crochet "Spiral Sun" Granny Square</a></li>
+
+                <li><a href="https://www.shelaghlewins.com/tablet_weaving/TW01/TW01.htm">The Ancient Craft of Tablet Weaving</a></li>
             </ul>
         </div>
 
