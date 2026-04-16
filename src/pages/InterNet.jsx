@@ -35,37 +35,70 @@ const InterNet = () => (
                 <div id="nonfiction">
                     <h3>Non-Fiction (life imitates art)</h3>
                     <dl>
-                        <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/002/798/876/large_temp_img.jpg20250817-50-ia4ztv?1755409680" /><a href="https://yourbookstore.io/p/a-vindication-of-the-rights-of-woman-187002">Vindication of the Rights of Woman by Mary Wollstonecraft 1792</a></dt>
+                        <dt>
+                            <a href="https://yourbookstore.io/p/a-vindication-of-the-rights-of-woman-187002">
+                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/002/798/876/large_temp_img.jpg20250817-50-ia4ztv?1755409680" />Vindication of the Rights of Woman by Mary Wollstonecraft 1792</a></dt>
                         <dd>"Education deserves emphatically to be termed cultivation of the mind which teaches young people how to begin to think."</dd>
-                        <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/525/161/large_temp_img.jpg20260319-1-r4cnhj?1773916045" /><a href="https://yourbookstore.io/p/the-master-s-tools-will-never-dismantle-the-master-s-house">The Masters Tools will Never Dismantle the Masters House by Audre Lorde 1979</a></dt>
+                        <dt>
+                            <a href="https://yourbookstore.io/p/the-master-s-tools-will-never-dismantle-the-master-s-house">
+                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/525/161/large_temp_img.jpg20260319-1-r4cnhj?1773916045" />The Masters Tools will Never Dismantle the Masters House by Audre Lorde 1979</a></dt>
                         <dd>"For the master's tools will never dismantle the master's house. They may allow us temporarily to beat him at his own game, but they will never enable us to bring about genuine change. And this fact is only threatening to those women who still define the master's house as their only source of support."</dd>
-                        <dt><img className="book" src="https://cdn11.bigcommerce.com/s-vrffsdcwm/products/223907/images/242460/1086977__63081.1750260648.386.513.jpg?c=2" /><a href="https://www.scribd.com/document/443992025/Brenda-Laurel-Utopian-Entrepreneur-pdf">Utopian Entrepreneur by Brenda Laurel 2001</a></dt>
+                        <dt>
+                            <a href="https://www.scribd.com/document/443992025/Brenda-Laurel-Utopian-Entrepreneur-pdf">
+                            <img className="book" src="https://cdn11.bigcommerce.com/s-vrffsdcwm/products/223907/images/242460/1086977__63081.1750260648.386.513.jpg?c=2" />Utopian Entrepreneur by Brenda Laurel 2001</a></dt>
                         <dd>"The computer ought to be human, too. As human as language. As human as a thumb, a talisman, a fairy tale, a song... Yes, we made the computer, but in its role as a cultural symbol, the computer also defines us."</dd>
-                        <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/605/860/large_9780241532539.jpg?1774349129" /><a href="https://yourbookstore.io/p/caliban-and-the-witch-women-the-body-and-primitive-accumulation-2142013">Caliban and the Witch: Women, the Body and Primitive Accumulation by Silvia Federici 2004</a></dt>
+                        <dt>
+                            <a href="https://yourbookstore.io/p/caliban-and-the-witch-women-the-body-and-primitive-accumulation-2142013">
+                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/605/860/large_9780241532539.jpg?1774349129" />Caliban and the Witch: Women, the Body and Primitive Accumulation by Silvia Federici 2004</a></dt>
                         <dd>"By denying women control over their bodies, the state deprived them of the most fundamental condition for physical and psychological integrity and degraded maternity to the status of forced labour."
                             <br /> Key Takeaway: Capitalism is an economic system based on the private ownership (man) of the means of production (women) and their operation for profit (mother).
                         </dd>
-                        <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/001/942/373/large_temp_img.jpg20251031-44-oxwwib?1761869050" /><a href="https://yourbookstore.io/p/the-will-to-change-men-masculinity-and-love">The Will to Change by bell hooks 2004</a></dt>
+                        <dt>
+                            <a href="https://yourbookstore.io/p/the-will-to-change-men-masculinity-and-love">
+                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/001/942/373/large_temp_img.jpg20251031-44-oxwwib?1761869050" />The Will to Change by bell hooks 2004</a></dt>
                         <dd>"Asked to give up the true self in order to realize the patriarchal ideal, boys learn self-betrayal early and are rewarded for these acts of soul murder.”</dd>
-                        <dt><img className="book" src="https://www.quarterlyessay.com.au/sites/default/files/styles/cover_large/public/covers/qe29_0.jpg?itok=_tJl9U75" /><a href="https://www.quarterlyessay.com.au/essay/2008/03/love-and-money">Quarterly Essay 29 Love and Money by Anne Manne 2008</a></dt>
+                        <dt>
+                            <a href="https://www.quarterlyessay.com.au/essay/2008/03/love-and-money">
+                            <img className="book" src="https://www.quarterlyessay.com.au/sites/default/files/styles/cover_large/public/covers/qe29_0.jpg?itok=_tJl9U75" />Quarterly Essay 29 Love and Money by Anne Manne 2008</a></dt>
                         <dd>"In a nutshell, we have foolishly arrived at a society where there is an economic disincentive to have and care for children, but an economic incentive to restrict fertility and instead invest in one's own skills and income. It is the irrationality of rational economics. It is falling fertility, however, above all else, which gives women a political bargaining chip of a new and powerful kind. Policy makers, formerly deaf to mothers' needs, will have no choice but to listen."</dd>
-                        <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/187/536/large_9781803414300.jpg?1768777214" /><a href="https://yourbookstore.io/p/capitalist-realism-is-there-no-alternative-2503977">Capitalist Realism by Mark Fisher 2009</a></dt>
+                        <dt>
+                            <a href="https://yourbookstore.io/p/capitalist-realism-is-there-no-alternative-2503977">
+                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/187/536/large_9781803414300.jpg?1768777214" />Capitalist Realism by Mark Fisher 2009</a></dt>
                         <dd>"The fact that capitalism has colonized the dreaming life of the population is so taken for granted that it is no longer worthy of comment."</dd>
-                        <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/002/686/152/large_9781408857694.jpg?1718161254" /><a href="https://yourbookstore.io/p/unspeakable-things-sex-lies-and-revolution">Unspeakable Things by Laurie Penny 2014</a></dt>
+                        <dt>
+                            <a href="https://yourbookstore.io/p/unspeakable-things-sex-lies-and-revolution">
+                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/002/686/152/large_9781408857694.jpg?1718161254" />Unspeakable Things by Laurie Penny 2014</a></dt>
                         <dd>"What the stereotype of the bra-burning, hairy-legged feminist is really supposed to suggest is that feminism, that politics itself, makes a woman ugly."</dd>
-                        <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/953/023/large_temp_img.jpg20260214-33-hlmowl?1771046834" /><a href="https://yourbookstore.io/p/come-as-you-are-the-surprising-new-science-that-will-transform-your-sex-life">Come As You Are by Emily Nagoski 2015</a></dt>
+                        <dt>
+                            <a href="https://yourbookstore.io/p/come-as-you-are-the-surprising-new-science-that-will-transform-your-sex-life">
+                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/953/023/large_temp_img.jpg20260214-33-hlmowl?1771046834" />Come As You Are by Emily Nagoski 2015</a></dt>
                         <dd>"The day you were born, the world had a choice about what to teach you about your body... I'm working to create a world that doesn't lie to women about their bodies anymore."</dd>
-                        <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/566/790/large_temp_img.jpg20220322-1-17mzfhf?1718166081" /><a href="https://yourbookstore.io/p/why-women-have-better-sex-under-socialism-and-other-arguments-for-economic-independence-1670855">Why Women Have Better Sex Under Socialism by Kristen Ghodsee 2018</a></dt>
+                        <dt>
+                            <a href="https://yourbookstore.io/p/why-women-have-better-sex-under-socialism-and-other-arguments-for-economic-independence-1670855">
+                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/566/790/large_temp_img.jpg20220322-1-17mzfhf?1718166081" />Why Women Have Better Sex Under Socialism by Kristen Ghodsee 2018</a></dt>
                         <dd>"In general state socialist governments reduced women's economic dependence on men by making men and women equal recipients of services from the socialist state. These policies helped to decouple love and intimacy from economic considerations."<br /> "Although they may not realize it, sexual economics theorists basically embrace a long-standing socialist critique of capitalism: that it commodifies all human interactions and reduces women to chattel."</dd>
-                        <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/956/705/large_temp_img.jpg20240517-1-vmadm3?1718167100" /><a href="https://yourbookstore.io/p/man-made-how-the-bias-of-the-past-is-being-built-into-the-future">Man-Made: How the bias of the past is being built into the future by Tracey Spicer 2023</a></dt>
+                        <dt>
+                            <a href="https://yourbookstore.io/p/man-made-how-the-bias-of-the-past-is-being-built-into-the-future">
+                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/956/705/large_temp_img.jpg20240517-1-vmadm3?1718167100" />
+                            Man-Made: How the bias of the past is being built into the future by Tracey Spicer 2023</a></dt>
                         <dd>"Intersectional bias is being built into the machines runnning our futures. Consequently our activism <i>must</i> be focused at the confluence of technology, race, gender, age, sexuality and disability."</dd>
-                        <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/335/764/large_9780241721308.jpg?1760308510" /><a href="https://yourbookstore.io/p/the-serviceberry-an-economy-of-gifts-and-abundance">The Serviceberry by Robin Wall Kimmerer 2024</a></dt>
+                        <dt>
+                            <a href="https://yourbookstore.io/p/the-serviceberry-an-economy-of-gifts-and-abundance">
+                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/335/764/large_9780241721308.jpg?1760308510" />The Serviceberry by Robin Wall Kimmerer 2024</a></dt>
                         <dd>"The Serviceberries show us another model, one based upon reciprocity rather than accumulation, where wealth and security come from the quality of our relationships, not from the illusion of self-sufficiency."</dd>
-                        <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/356/364/large_temp_img.jpg20260118-28-gy6fiv?1768778430" /><a href="https://yourbookstore.io/p/girl-on-girl-how-pop-culture-turned-women-against-themselves">Girl on Girl: How Pop Culture Turned a Generation of Women Against Themselves by Sophie Gilbert 2025</a></dt>
+                        <dt>
+                            <a href="https://yourbookstore.io/p/girl-on-girl-how-pop-culture-turned-women-against-themselves">
+                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/356/364/large_temp_img.jpg20260118-28-gy6fiv?1768778430" />
+                            Girl on Girl: How Pop Culture Turned a Generation of Women Against Themselves by Sophie Gilbert 2025</a></dt>
                         <dd>"Culture teaches us everything. And what I keep coming back to now is how few cultural representations there still are of women seeking and wielding power."</dd>
-                        <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/353/330/large_9781471190490.jpg?1760918400" /><a href="https://yourbookstore.io/p/the-new-age-of-sexism-how-the-ai-revolution-is-reinventing-misogyny">The New Age of Sexism: How the AI Revolution is Reinventing Misogyny by Laura Bates 2025</a></dt>
+                        <dt>
+                            <a href="https://yourbookstore.io/p/the-new-age-of-sexism-how-the-ai-revolution-is-reinventing-misogyny">
+                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/353/330/large_9781471190490.jpg?1760918400" />The New Age of Sexism: How the AI Revolution is Reinventing Misogyny by Laura Bates 2025</a></dt>
                         <dd>"On the surface, this is a book about technology. But, at its root, it isn't about technology at all."</dd>
-                        <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/278/788/original_temp_img.jpg20260218-44-jvxnw6?1771383581" /><a href="https://yourbookstore.io/p/vulture-capitalism-corporate-crimes-backdoor-bailouts-and-the-death-of-freedom-2834172">Vulture Capitalism by Grace Blakeley 2025</a></dt>
+                        <dt>
+                            <a href="https://yourbookstore.io/p/vulture-capitalism-corporate-crimes-backdoor-bailouts-and-the-death-of-freedom-2834172">
+                            <img className="book" src="https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_360,c_scale,dpr_1.5/jackets/9781526638069.jpg" />
+                            Vulture Capitalism by Grace Blakeley 2025</a></dt>
                         <dd>"The choice isn't 'free markets' or 'planning'. Planning and free markets exist alongside one another in capitalist societies - indeed in any society. The choice is whether the planning that inevitably does take place in any complex social system is democratic or oligarchic... Capitalism is a hybrid system based on a fusion between markets and planning."</dd>
                     </dl>
 
@@ -99,6 +132,11 @@ const InterNet = () => (
                 <div id="memoir">
                     <h3>Biography (life is art)</h3>
                     <dl>
+                        <dt>
+                            <a href="https://yourbookstore.io/p/an-everlasting-meal-cooking-with-economy-and-grace-2643388">
+                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/040/444/large_9781800751637.jpg?1727228626" />
+                            An Everlasting Meal by Tamar Adler 2011</a>
+                        </dt>
                         <dt>
                             <a href="https://yourbookstore.io/p/thick-and-other-essays">
                             <img className="book" src="https://m.media-amazon.com/images/I/61h3TdW1eYL._AC_UF1000,1000_QL80_.jpg" />
