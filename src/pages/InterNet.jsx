@@ -23,9 +23,9 @@ const InterNet = () => (
                 <li><HashLink to="#memoir">Biography (life is art)</HashLink></li>
             </ul>
             <li className="blue"><HashLink to="#articles">Articles</HashLink></li>
+            <li><HashLink to="#websites">Websites</HashLink></li>
+            <li className="blue"><HashLink to="#people">People</HashLink></li>
             <li><HashLink to="#worldbuildings">Worldbuildings</HashLink></li>
-            <li className="blue"><HashLink to="#websites">Websites</HashLink></li>
-            <li><HashLink to="#people">People</HashLink></li>
             <li><HashLink to="#crafts">Crafts</HashLink></li>
         </ul>
 
@@ -183,6 +183,11 @@ const InterNet = () => (
                             Raising Hare by Chloe Dalton 2025</a>
                         </dt>
                         <dt>
+                            <a href="https://yourbookstore.io/p/dead-and-alive-2986318">
+                            <img className="book" src="https://cdn2.penguin.com.au/covers/original/9780241729601.jpg" />
+                            Dead and Alive: Essays by Zadie Smith 2025</a>
+                        </dt>
+                        <dt>
                             <a href="https://www.threadings.io/the-uses-of-insanity-an-overture/">
                             <img className="book" src="/images/ismatu.png" />
                             The Uses of Insanity by Ismatu Gwendolyn 2026</a>
@@ -230,6 +235,62 @@ const InterNet = () => (
                 
             </dl>
         </div>
+        <div id="websites">
+            <h2>Websites</h2>
+            <ul>
+
+                <li className="pink"><a href="https://maggieappleton.com/garden-history">Maggie Appleton</a></li>
+                <li className="pink"><a href="https://inkcaps.neocities.org/home/">Inkcaps</a></li>
+                <li className="pink"><a href="https://petrapixel.neocities.org/">PetraPixel</a></li>
+                <li className="pink"><a href="https://maxbo.me/html-in-hyde/index.html">HTML in Hyde</a></li>
+                <li className="pink"><a href="https://localghost.dev/links/">LocalGhost</a></li>
+
+                <li className="red"><a href="https://commonslibrary.org/">The Commons Social Change Library</a></li>
+                <li className="red"><a href="https://ossinsight.io/">Open Source Software Insight</a></li>
+                <li className="red"><a href="https://www.theconsciouscitizens.org/">The Conscious Citizens (US focus)</a></li>
+                <li className="red"><a href="https://noncompliant.fun/">noncompliantfun (US focus)</a></li>
+
+                <li className="orange"><a href="https://www.mcsweeneys.net/">McSweeney's Internet Tendency</a></li>
+                <li className="orange"><a href="https://theshovel.com.au/">The Shovel</a></li>
+                <li className="orange"><a href="https://theonion.com/">The Onion</a></li>
+                <li className="orange"><a href="https://30u30.fyi/">The Forbes 30 Under 30 Fraud Watch</a></li>
+                
+                <li className="yellow"><a href="https://www.door.link/">[ door ]</a></li>
+                
+                <li className="green"><a href="https://annas-abode.net/">Anna's Abode</a></li>
+                <li className="green"><a href="https://www.maternalgifteconomymovement.org/">Maternal Gift Economy Movement</a></li>
+
+                <li className="blue"><a href="https://www.liberationtoolbox.io/">Liberation Toolbox</a></li>
+                <li className="blue"><a href="https://www.computerhistory.org/timeline/computers/">Computer Timeline History</a></li>
+                <li className="blue"><a href="https://bubbles.town/">Bubbles</a></li>
+                <li className="blue"><a href="https://susam.net/wander/">Wander the Small Web by Susam</a></li>
+                <li className="blue"><a href="https://marginalia-search.com/">Marginalia Search</a></li>
+
+                
+                
+                <li className="purple"><a href="https://theskylive.com/planetarium">The Sky Live</a></li>
+                <li className="purple"><a href="https://structuredlabs.github.io/threebodyproblem/">Three Body Problem Sandbox</a></li>
+                
+            </ul>
+        </div>
+
+
+        <div className="blue" id="people">
+            <h2>People</h2>
+            <ul>
+                <li><a href="https://www.threadings.io/">Ismatu Gwendolyn</a></li>
+                <li><a href="https://abiawomosu.substack.com/">Abi Awomosu</a></li>
+                <li><a href="https://perimeterinstitute.ca/people/sabrina-pasterski">Sabrina Gonzalez-Pasterski</a></li>
+                <li><a href="https://woemaniyah.substack.com/">Swarna Bhatnagar</a></li>
+                <li><a href="https://carolinesinders.com/">Caroline Sinders</a></li>
+                <li><a href="https://www.lizthe.dev/">LizTheDeveloper</a></li>
+                <li><a href="https://www.tiktok.com/@aarchor/video/7553809097213136142">AArchor</a></li>
+                <li><a href="https://www.instagram.com/inspiredtowrite/">Amie McNee</a></li>
+                <li><a href="https://www.instagram.com/exploreyourcore_/">Elise Marcianti</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Lina_Khan">Lina Khan</a></li>
+            </ul>
+        </div>
+
         <div id="worldbuildings">
             <h2>Worldbuildings</h2>
             <h3>Melbourne/Naarm</h3>
@@ -250,52 +311,7 @@ const InterNet = () => (
                 <li><a href="https://www.dair-institute.org/"><img src="https://cdn.sanity.io/images/wc2kmxvk/rebrand/d6387b27a49793826f94fc79416482bf8f9ec3a7-54x56.svg" style={{ maxWidth: "25px" }} /> Dair Institute</a></li>
                 <li><a href="https://shado-mag.com/education/toolkits/"><img src="https://shado-mag.com/wp-content/uploads/2026/01/040725-shado-Radical-Futures-toolkits-banner-1.png" style={{ maxWidth: "25px", height: "25px" }} /> Shado Mag's Radical Futures Toolkits</a></li>
             </ul>
-        </div>
-
-
-        <div className="blue" id="websites">
-            <h2>Websites</h2>
-            <ul>
-                <li><a href="https://maggieappleton.com/garden-history">Maggie Appleton</a></li>
-                <li><a href="https://inkcaps.neocities.org/home/">Inkcaps</a></li>
-                <li><a href="https://petrapixel.neocities.org/">PetraPixel</a></li>
-                <li><a href="https://maxbo.me/html-in-hyde/index.html">HTML in Hyde</a></li>
-                <li><a href="https://localghost.dev/links/">LocalGhost</a></li>
-                <li className="orange"><a href="https://www.mcsweeneys.net/">McSweeney's Internet Tendency</a></li>
-                <li className="orange"><a href="https://theshovel.com.au/">The Shovel</a></li>
-                <li className="orange"><a href="https://theonion.com/">The Onion</a></li>
-                <li><a href="https://30u30.fyi/">The Forbes 30 Under 30 Fraud Watch</a></li>
-                <li><a href="https://www.liberationtoolbox.io/">Liberation Toolbox</a></li>
-                <li><a href="https://www.computerhistory.org/timeline/computers/">Computer Timeline History</a></li>
-                <li className="green"><a href="https://annas-abode.net/">Anna's Abode</a></li>
-                <li><a href="https://noncompliant.fun/">noncompliantfun</a></li>
-                <li className="purple"><a href="https://theskylive.com/planetarium">The Sky Live</a></li>
-                <li className="purple"><a href="https://structuredlabs.github.io/threebodyproblem/">Three Body Problem Sandbox</a></li>
-                <li><a href="https://susam.net/wander/">Wander the Small Web by Susam</a></li>
-                <li><a href="https://marginalia-search.com/">Marginalia Search</a></li>
-                
-                <li className="red"><a href="https://commonslibrary.org/">The Commons Social Change Library</a></li>
-                <li className="red"><a href="https://ossinsight.io/">Open Source Software Insight</a></li>
-                <li className="red"><a href="https://www.theconsciouscitizens.org/">The Conscious Citizens (US focus)</a></li>
-
-                <li><a href="https://www.door.link/">[ door ]</a></li>
-            </ul>
-        </div>
-
-        <div id="people">
-            <h2>People</h2>
-            <ul>
-                <li><a href="https://www.threadings.io/">Ismatu Gwendolyn</a></li>
-                <li><a href="https://abiawomosu.substack.com/">Abi Awomosu</a></li>
-                <li><a href="https://woemaniyah.substack.com/">Swarna Bhatnagar</a></li>
-                <li><a href="https://carolinesinders.com/">Caroline Sinders</a></li>
-                <li><a href="https://www.lizthe.dev/">LizTheDeveloper</a></li>
-                <li><a href="https://www.tiktok.com/@aarchor/video/7553809097213136142">AArchor</a></li>
-                <li><a href="https://www.instagram.com/inspiredtowrite/">Amie McNee</a></li>
-                <li><a href="https://www.instagram.com/exploreyourcore_/">Elise Marcianti</a></li>
-                <li><a href="https://en.wikipedia.org/wiki/Lina_Khan">Lina Khan</a></li>
-            </ul>
-        </div>
+        </div>   
 
         <div id="crafts" className="blue">
             <h2>Crafts</h2>
