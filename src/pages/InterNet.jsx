@@ -18,9 +18,9 @@ const InterNet = () => (
         <ul>
             <li>Books</li>
             <ul>
-                <li><HashLink to="#nonfiction">Non-Fiction (life imitates art)</HashLink></li>
-                <li className="blue"><HashLink to="#fiction">Fiction (art imitates life)</HashLink></li>
-                <li><HashLink to="#memoir">Biography (life is art)</HashLink></li>
+                <li><HashLink to="#nonfiction">Life imitates Art</HashLink></li>
+                <li className="blue"><HashLink to="#fiction">Art imitates Life</HashLink></li>
+                <li><HashLink to="#memoir">Life is Art</HashLink></li>
             </ul>
             <li className="blue"><HashLink to="#articles">Articles</HashLink></li>
             <li><HashLink to="#websites">Websites</HashLink></li>
@@ -33,7 +33,7 @@ const InterNet = () => (
             <h2>Books (chronological)</h2>
             <div className="threeCol">
                 <div id="nonfiction">
-                    <h3>Non-Fiction (life imitates art)</h3>
+                    <h3>Non-Fiction (Life imitates Art)</h3>
                     <dl>
                         <dt>
                             <a href="https://yourbookstore.io/p/a-vindication-of-the-rights-of-woman-187002">
@@ -104,7 +104,7 @@ const InterNet = () => (
 
                 </div>
                 <div className="blue" id="fiction">
-                    <h3>Fiction (art imitates life)</h3>
+                    <h3>Fiction (Art imitates Life)</h3>
                     <dl>
                         <dt><img className="book" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Christie%27s_auction_scan_of_Frankenstein_1818.jpg/500px-Christie%27s_auction_scan_of_Frankenstein_1818.jpg" /><a href="https://yourbookstore.io/p/frankenstein-popular-penguins">Frankenstein: or, The Modern Prometheus by Mary Wollstonecraft Shelley 1818</a></dt>
                         <dd>obsession creates reality, despite compassion in the face of cruelty.</dd>
@@ -130,7 +130,7 @@ const InterNet = () => (
                 
                 </div>
                 <div id="memoir">
-                    <h3>Biography (life is art)</h3>
+                    <h3>Biography (Life is Art)</h3>
                     <dl>
                         <dt>
                             <a href="https://yourbookstore.io/p/an-everlasting-meal-cooking-with-economy-and-grace-2643388">
@@ -149,7 +149,7 @@ const InterNet = () => (
                         </dt>
                         <dt>
                             <a href="https://yourbookstore.io/p/braiding-sweetgrass-indigenous-wisdom-scientific-knowledge-and-the-teachings-of-plants">
-                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/018/468/large_temp_img.jpg20260314-1-odm4ho?1773455881" />
+                            <img className="book" src="https://images.thenile.io/r1000/9780141991955.webp" />
                             Braiding Sweetgrass by Robin Wall Kimmerer 2020</a>
                         </dt>
                         <dt>
@@ -300,6 +300,7 @@ const InterNet = () => (
                 <li><a href="https://www.instagram.com/subtlebodies.space/">Tea in ceremony</a></li>
                 <li><a href="https://www.eclecticahub.com/">Eclectica Hub</a></li>
                 <li><a href="https://www.generationwomenaus.com/next-show/melbourne">Generation Women</a></li>
+                <li><a href="https://www.reprouncensored.org/all-events?category=Australia">Repro Uncensored</a></li>
             </ul>
             <h3>Online/Digital</h3>
             <ul style={{"listStyleType": "none", margin: 0, padding: 0}}>
@@ -320,6 +321,9 @@ const InterNet = () => (
                 <li><a href="https://www.youtube.com/watch?v=mL26rcvLNwo"> Crochet "Spiral Sun" Granny Square</a></li>
 
                 <li><a href="https://www.shelaghlewins.com/tablet_weaving/TW01/TW01.htm">The Ancient Craft of Tablet Weaving</a></li>
+                <li><a href="https://www.instagram.com/reel/DWiHfJMDA4z/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">Crochet is the OG 3D Printing</a></li>
+                <li><a href="https://www.instagram.com/p/DW0bt-akQFy/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">Programming was born from Weaving</a></li>
+                
             </ul>
         </div>
 

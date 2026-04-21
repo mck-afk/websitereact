@@ -22,7 +22,7 @@ const Home = () => {
           id="noteABOUT"
           className="note pink"
           title="annabelle grace mckenzie"
-          lastUpdated="15/04/2026"
+          lastUpdated="21/04/2026"
         >
           <p>seeing the <span id="seeme" style={{ textDecoration: 'underline', color: '#0000EE'}}>technology</span> in front of me</p>
           <Tooltip anchorSelect="#seeme" place="bottom" style={{ width: '250px', textAlign: 'center'}}>a medium for interpreting and interacting with the world... computers, internet, literacy, home, bodies, astrology, woman</Tooltip>
@@ -52,10 +52,10 @@ const Home = () => {
           id="noteINTERNET"
           className="note blue left"
           title="InterNet"
-          lastUpdated="15/04/2026"
+          lastUpdated="21/04/2026"
         >
           <p>
-            treasured connections and digital reciprocations 🔗 <br /><br />links to 📖 books, newsletters, communities, articles, media, movements, people, and other cool things I think you should explore
+            treasured connections and digital reciprocations 🔗 <br /><br />links to 📖 books, newsletters, communities, worlds, articles, media, movements, people, crafts, and other cool things to explore
           </p>
           <p style={{ textAlign: "right" }} ><br /><img src="https://blob.gifcities.org/gifcities/RYZXTD3B7A23HN45HI47DKN2EV5D465M.gif" /></p>
         </PostItNote>
@@ -73,13 +73,13 @@ const Home = () => {
           id="noteFBL"
           className="note yellow right"
           title="Feminine Literacy"
-          lastUpdated="15/04/2026"
+          lastUpdated="21/04/2026"
         >
           <p>
-            resources for:
-            <br /><br />- exploring the female experience
-            <br />- interpreting the signals of the body
-            <br />- appreciating 🌻
+            resources for everyone to:
+            <br /><br />- explore the female experience
+            <br />- interpret the signals of the female body
+            <br />- appreciate the resilience of the feminine 🌻
             <br /><br />
             <p style={{ textAlign: "right" }} ><br /><br /><img src="https://blob.gifcities.org/gifcities/LKDMD44G2M5KCZDNP3CB3C6XT46F7N2V.gif" /></p>
           </p>
