@@ -100,7 +100,12 @@ const InterNet = () => (
                             <img className="book" src="https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_360,c_scale,dpr_1.5/jackets/9781526638069.jpg" />
                             Vulture Capitalism by Grace Blakeley 2025</a></dt>
                         <dd>"The choice isn't 'free markets' or 'planning'. Planning and free markets exist alongside one another in capitalist societies - indeed in any society. The choice is whether the planning that inevitably does take place in any complex social system is democratic or oligarchic... Capitalism is a hybrid system based on a fusion between markets and planning."</dd>
+                        <dt>
+                            <a href="https://yourbookstore.io/p/how-to-die-in-the-21st-century">
+                            <img className="book" src="https://thamesandhudson.com.au/cdn/shop/files/9781760765309.jpg?v=1774902564" />How to Die in the 21st Century by Hannah Gould 2026</a></dt>
+                        <dd>"Contemplating death is aimed at living better, not dying sooner."<br />"Modern death denialism is therefore a system that can only function for some. Even then, it does not seem to be functioning very well."</dd>
                     </dl>
+
 
                 </div>
                 <div className="blue" id="fiction">
@@ -265,7 +270,7 @@ const InterNet = () => (
                 <li className="blue"><a href="https://bubbles.town/">Bubbles</a></li>
                 <li className="blue"><a href="https://susam.net/wander/">Wander the Small Web by Susam</a></li>
                 <li className="blue"><a href="https://marginalia-search.com/">Marginalia Search</a></li>
-
+                <li className="blue"><a href="https://www.themahjongproject.com/how-to-play">The Mahjong Project</a></li>
                 
                 
                 <li className="purple"><a href="https://theskylive.com/planetarium">The Sky Live</a></li>
