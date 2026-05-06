@@ -207,6 +207,8 @@ const InterNet = () => (
         <div className="blue" id="articles">
             <h2>Articles</h2>
             <dl>
+                <dt><a href="https://substack.com/app-link/post?publication_id=4058639&post_id=196408964&isFreemail=true&r=1kta6v&token=eyJ1c2VyX2lkIjo5NTQyNDcyNywicG9zdF9pZCI6MTk2NDA4OTY0LCJpYXQiOjE3Nzc5MTQxMDUsImV4cCI6MTc4MDUwNjEwNSwiaXNzIjoicHViLTQwNTg2MzkiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.fd0j9cpdjQmOkVQqBYY8qUjpuhSeFcHb7Q11ScWV6MU">Reese Witherspoon Was Right About Women and AI. But women need to move Like Elle Woods. Not Vivian.</a></dt>
+                <dd>Abi Awomosu</dd>
                 <dt><a href="https://davidoks.blog/p/how-the-spreadsheet-reshaped-america">Seeing like a spreadsheet: How the commercial spreadsheet reshaped America</a></dt>
                 <dd>David Oks</dd>
                 <dt><a href="https://woemaniyah.substack.com/p/why-brown-daughters-dont-burn-the">Why Brown Daughters Don’t Burn The House Down</a></dt>
@@ -249,6 +251,7 @@ const InterNet = () => (
                 <li className="pink"><a href="https://petrapixel.neocities.org/">PetraPixel</a></li>
                 <li className="pink"><a href="https://maxbo.me/html-in-hyde/index.html">HTML in Hyde</a></li>
                 <li className="pink"><a href="https://localghost.dev/links/">LocalGhost</a></li>
+                <li className="pink"><a href="https://pilk.website/1/i-want-you-to-create-something-original">PILK!</a></li>
 
                 <li className="red"><a href="https://commonslibrary.org/">The Commons Social Change Library</a></li>
                 <li className="red"><a href="https://ossinsight.io/">Open Source Software Insight</a></li>
@@ -271,6 +274,7 @@ const InterNet = () => (
                 <li className="blue"><a href="https://susam.net/wander/">Wander the Small Web by Susam</a></li>
                 <li className="blue"><a href="https://marginalia-search.com/">Marginalia Search</a></li>
                 <li className="blue"><a href="https://www.themahjongproject.com/how-to-play">The Mahjong Project</a></li>
+                <li className="blue"><a href="https://cyberdeck.cafe/">The Cyberdeck Cafe</a></li>
                 
                 
                 <li className="purple"><a href="https://theskylive.com/planetarium">The Sky Live</a></li>
