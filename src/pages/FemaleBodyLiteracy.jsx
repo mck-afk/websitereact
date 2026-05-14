@@ -4,11 +4,13 @@ import PostItNote from "../components/PostItNote";
 
 const FemaleBodyLiteracy = () => (
   <PageLayout>
-    <h1 className="yellow">Feminine Literacy</h1>
-    <div id="noticeboard">
+    <div className="threeCol">
+      <div style={{margin: "auto"}}>
+        <h1 className="orange">Female Body Literacy</h1>
+        <div id="noticeboard">
         <PostItNote
           id="noteVICRESOURCES"
-          className="note yellow"
+          className="note orange"
           title="In Victoria, Australia"
           lastUpdated=""
         >
@@ -32,7 +34,7 @@ const FemaleBodyLiteracy = () => (
         </PostItNote>
         <PostItNote
           id="noteINTRESOURCES"
-          className="note yellow"
+          className="note orange"
           title="International/Virtual"
           lastUpdated=""
         >
@@ -55,7 +57,7 @@ const FemaleBodyLiteracy = () => (
         </PostItNote>
         <PostItNote
           id="noteWORKSHOP"
-          className="note yellow"
+          className="note orange"
           title="Female Body Literacy Workshop"
           lastUpdated=""
         >
@@ -67,7 +69,7 @@ const FemaleBodyLiteracy = () => (
         
         <a href="https://yourbookstore.io/p/vagina-a-new-biography"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/001/962/309/large_9781844086887.jpg?1770413625" /></a>
         <a href="https://yourbookstore.io/p/what-s-my-body-telling-me-your-body-isn-t-the-problem-it-s-the-solution"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/230/359/large_temp_img.jpg20260331-61-i8mpuz?1774926221" /></a>
-        <a href="https://yourbookstore.io/p/come-as-you-are-the-surprising-new-science-that-will-transform-your-sex-life"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/953/023/large_temp_img.jpg20260214-33-hlmowl?1771046834" /></a>
+        <a href="https://yourbookstore.io/p/come-as-you-are-the-surprising-new-science-that-will-transform-your-sex-life"><img className="book" src="https://m.media-amazon.com/images/I/71GiGPP99fS.jpg" /></a>
         <a href="https://yourbookstore.io/p/existential-kink-unmask-your-shadow-and-embrace-your-power"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/925/033/large_9781578636471.jpg?1760403821" /></a>
         <a href="https://www.press.uillinois.edu/books/?id=p078767"><img className="book" src="https://m.media-amazon.com/images/I/71R9I2s+MWL._SL1500_.jpg" /></a>
         
@@ -79,7 +81,7 @@ const FemaleBodyLiteracy = () => (
         <a href="https://yourbookstore.io/p/the-night-house-a-curious-course-in-mysteries-for-the-wise-and-wild"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/384/623/large_9781608689798.jpg?1744511197" /></a>
         
         
-        <a href="https://yourbookstore.io/p/the-barefoot-investor-2022-edition"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/166/473/large_temp_img.jpg20260225-33-abv2wz?1771989804" /></a>
+        
         <a href="https://www.parentsworkcollective.org.au/product-page/all-mothers-work"><img className="book" src="https://m.media-amazon.com/images/I/61edzRcw+bL._SL1360_.jpg" /></a>
         
         <a href="https://yourbookstore.io/p/your-driver-is-waiting-a-novel-2917244"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/475/745/large_cover.jpg?1755816500" /></a>
@@ -93,6 +95,65 @@ const FemaleBodyLiteracy = () => (
         <a href="https://yourbookstore.io/p/frankenstein-popular-penguins"><img className="book" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Christie%27s_auction_scan_of_Frankenstein_1818.jpg/500px-Christie%27s_auction_scan_of_Frankenstein_1818.jpg" /></a>
       </div>
       
+      </div>
+      <div>
+        <h1 className="orange">Male Body Literacy</h1>
+        <div id="noticeboard">
+        <PostItNote
+          id="noteORGANISATIONRESOURCES"
+          className="note orange"
+          title=""
+          lastUpdated=""
+        >
+          <ul style={{"listStyleType": "none", margin: 0, padding: 0}}>
+            <li><a href="https://themancave.life/"><img style={{width: "100px"}} src="https://logos-world.net/wp-content/uploads/2024/12/The-Man-Cave-Logo-New.png" alt="The Man Cave Australia" /></a></li>
+            <li><a href="https://healthymale.org.au/"><img style={{width: "100px"}} src="https://healthymale.org.au/_next/image?url=https%3A%2F%2Fwp.healthymale.org.au%2Fwp-content%2Fuploads%2F2024%2F05%2FHealthy-Male-Logo-Teal-1.gif&w=384&q=75" alt="healthy male" /></a></li>
+            <li><a href="https://www.raising-fathers.com/"><img style={{width: "100px"}} src="images/raising_fathers.png" alt="Raising Fathers" /></a></li>
+
+          </ul>
+          
+        </PostItNote>
+        <PostItNote
+          id="noteROLEMODELRESOURCES"
+          className="note orange"
+          title=""
+          lastUpdated=""
+        >
+          
+            <a href="https://www.instagram.com/aarchor/?hl=en"><img style={{width: "100px"}} src="https://yt3.googleusercontent.com/rEtWEvplhbpfIQ-w2UUcNf4hRU_ixcsWv4NifoiFpWW5ejWTh9l7zFH4nTYDY9dZc2gGfgZbv9I=s160-c-k-c0x00ffffff-no-rj" alt="aarchor" /></a>
+            <a href="https://linktr.ee/neilshyminsky"><img style={{width: "100px"}} src="https://ugc.production.linktr.ee/05ccb609-ffeb-4ec7-ba88-401243e25974_Neil-Shyminsky---portrait-shot.jpeg?io=true&size=avatar-v3_0" alt="Professer Neil" /></a>
+            <a href="https://linktr.ee/chriskohlernews"><img style={{width: "100px"}} src="https://ugc.production.linktr.ee/f58076fe-6e5e-4410-82e9-d8e43c5eff9d_PROFILE-PIC.jpeg?io=true&size=avatar-v3_0" alt="Chris Kohler" /></a>
+            <a href="https://beacons.ai/remywanders"><img style={{width: "100px"}} src="https://cdn.beacons.ai/user_content/EGrXbxFUlxSP5dKcWmfGp5Ylr5V2/profile_jeremyandrewdavis.png" alt="Remy Wanders" /></a>
+            <a href="https://www.instagram.com/jonathanhiebert/?hl=en"><img style={{width: "100px"}} src="https://tse3.mm.bing.net/th/id/OIP.80S3ui1EcE1oAwEs3k9I_AHaHa?pid=Api" alt="Jonathan Hiebert" /></a>
+            <a href="https://linktr.ee/thedadbriefs"><img style={{width: "100px"}} src="https://substackcdn.com/image/fetch/$s_!JwUq!,w_80,h_80,c_fill,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa369951e-f8b8-4f85-943e-ac4610ed3904_150x150.jpeg" alt="Slade Wentworth" /></a>
+            <a href="https://cam-fraser.com/"><img style={{width: "100px"}} src="https://tse1.mm.bing.net/th/id/OIP.KxXSEsXrTA5WWzuZPnsN3gHaHa?pid=Api" alt="Cam Fraser" /></a>
+            <a href="https://www.tiktok.com/@louisdavis_"><img style={{width: "100px"}} src="https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/ffd68d7eec7b0c155ba0f990e4117db6~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=ae13c7eb&x-expires=1778374800&x-signature=zyIWhTWaUpZwzABla1R45SS9uJs%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2" alt="Louis Davis" /></a>
+            <a href="https://www.jacobcollier.com/#/"><img style={{width: "100px"}} src="https://www.jacobcollier.com/wp-content/uploads/sites/2030/2025/09/JC_TLFD_COVER_TEXT-1000px-compressed-995x1024.jpg" alt="Jacob Collier" /></a>
+            
+          </PostItNote>
+          <div className="bookshelf">
+            <a href="https://yourbookstore.io/p/the-will-to-change-men-masculinity-and-love"><img className="book" src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9780743480338/the-will-to-change-9780743480338_hr.jpg" /></a>
+            <a href="https://yourbookstore.io/p/hero-with-a-thousand-faces-3rd-edition"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/116/719/large_9781577315933.jpg?1767498731" /></a>
+            
+          </div>
+          
+        
+        
+      </div>
+      
+      </div>
+      <div className="orange">
+        <h1>21st Century Life Literacy</h1>
+        <div className="bookshelf">
+            <a href="https://yourbookstore.io/p/the-barefoot-investor-2022-edition"><img className="book" src="https://m.media-amazon.com/images/I/61+zH4S3leL._UF894,1000_QL80_.jpg" /></a>
+            <a href="https://yourbookstore.io/p/the-body-keeps-the-score-mind-brain-and-body-in-the-transformation-of-trauma"><img className="book" src="https://cdn2.penguin.com.au/covers/original/9780141978611.jpg" /></a>
+            <a href="https://yourbookstore.io/p/we-need-your-art-stop-messing-around-and-make-something"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/326/587/large_9781761347627.jpg?1747284713" /></a>
+          </div>
+      </div>
+    </div>
+    
+    
+    
                         
   </PageLayout>
 );

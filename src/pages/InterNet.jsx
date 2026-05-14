@@ -43,10 +43,7 @@ const InterNet = () => (
                             <a href="https://yourbookstore.io/p/the-master-s-tools-will-never-dismantle-the-master-s-house">
                             <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/525/161/large_temp_img.jpg20260319-1-r4cnhj?1773916045" />The Masters Tools will Never Dismantle the Masters House by Audre Lorde 1979</a></dt>
                         <dd>"For the master's tools will never dismantle the master's house. They may allow us temporarily to beat him at his own game, but they will never enable us to bring about genuine change. And this fact is only threatening to those women who still define the master's house as their only source of support."</dd>
-                        <dt>
-                            <a href="https://www.scribd.com/document/443992025/Brenda-Laurel-Utopian-Entrepreneur-pdf">
-                            <img className="book" src="https://cdn11.bigcommerce.com/s-vrffsdcwm/products/223907/images/242460/1086977__63081.1750260648.386.513.jpg?c=2" />Utopian Entrepreneur by Brenda Laurel 2001</a></dt>
-                        <dd>"The computer ought to be human, too. As human as language. As human as a thumb, a talisman, a fairy tale, a song... Yes, we made the computer, but in its role as a cultural symbol, the computer also defines us."</dd>
+                        
                         <dt>
                             <a href="https://yourbookstore.io/p/caliban-and-the-witch-women-the-body-and-primitive-accumulation-2142013">
                             <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/605/860/large_9780241532539.jpg?1774349129" />Caliban and the Witch: Women, the Body and Primitive Accumulation by Silvia Federici 2004</a></dt>
@@ -55,27 +52,27 @@ const InterNet = () => (
                         </dd>
                         <dt>
                             <a href="https://yourbookstore.io/p/the-will-to-change-men-masculinity-and-love">
-                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/001/942/373/large_temp_img.jpg20251031-44-oxwwib?1761869050" />The Will to Change by bell hooks 2004</a></dt>
+                            <img className="book" src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9780743480338/the-will-to-change-9780743480338_hr.jpg" />The Will to Change: Men, Masculinity, and Love by bell hooks 2004</a></dt>
                         <dd>"Asked to give up the true self in order to realize the patriarchal ideal, boys learn self-betrayal early and are rewarded for these acts of soul murder.”</dd>
                         <dt>
                             <a href="https://www.quarterlyessay.com.au/essay/2008/03/love-and-money">
-                            <img className="book" src="https://www.quarterlyessay.com.au/sites/default/files/styles/cover_large/public/covers/qe29_0.jpg?itok=_tJl9U75" />Quarterly Essay 29 Love and Money by Anne Manne 2008</a></dt>
+                            <img className="book" src="https://www.quarterlyessay.com.au/sites/default/files/styles/cover_large/public/covers/qe29_0.jpg?itok=_tJl9U75" />Quarterly Essay 29 Love and Money: The family and the free market by Anne Manne 2008</a></dt>
                         <dd>"In a nutshell, we have foolishly arrived at a society where there is an economic disincentive to have and care for children, but an economic incentive to restrict fertility and instead invest in one's own skills and income. It is the irrationality of rational economics. It is falling fertility, however, above all else, which gives women a political bargaining chip of a new and powerful kind. Policy makers, formerly deaf to mothers' needs, will have no choice but to listen."</dd>
                         <dt>
                             <a href="https://yourbookstore.io/p/capitalist-realism-is-there-no-alternative-2503977">
-                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/187/536/large_9781803414300.jpg?1768777214" />Capitalist Realism by Mark Fisher 2009</a></dt>
+                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/187/536/large_9781803414300.jpg?1768777214" />Capitalist Realism: Is There No Alternative? by Mark Fisher 2009</a></dt>
                         <dd>"The fact that capitalism has colonized the dreaming life of the population is so taken for granted that it is no longer worthy of comment."</dd>
                         <dt>
                             <a href="https://yourbookstore.io/p/unspeakable-things-sex-lies-and-revolution">
-                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/002/686/152/large_9781408857694.jpg?1718161254" />Unspeakable Things by Laurie Penny 2014</a></dt>
+                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/002/686/152/large_9781408857694.jpg?1718161254" />Unspeakable Things: sex, lies and revolution by Laurie Penny 2014</a></dt>
                         <dd>"What the stereotype of the bra-burning, hairy-legged feminist is really supposed to suggest is that feminism, that politics itself, makes a woman ugly."</dd>
                         <dt>
                             <a href="https://yourbookstore.io/p/come-as-you-are-the-surprising-new-science-that-will-transform-your-sex-life">
-                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/953/023/large_temp_img.jpg20260214-33-hlmowl?1771046834" />Come As You Are by Emily Nagoski 2015</a></dt>
+                            <img className="book" src="https://m.media-amazon.com/images/I/71GiGPP99fS.jpg" />Come As You Are: the surprising new science that will transform your sex life by Emily Nagoski 2015</a></dt>
                         <dd>"The day you were born, the world had a choice about what to teach you about your body... I'm working to create a world that doesn't lie to women about their bodies anymore."</dd>
                         <dt>
                             <a href="https://yourbookstore.io/p/why-women-have-better-sex-under-socialism-and-other-arguments-for-economic-independence-1670855">
-                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/566/790/large_temp_img.jpg20220322-1-17mzfhf?1718166081" />Why Women Have Better Sex Under Socialism by Kristen Ghodsee 2018</a></dt>
+                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/566/790/large_temp_img.jpg20220322-1-17mzfhf?1718166081" />Why Women Have Better Sex Under Socialism: and other arguements for economic indepdendence by Kristen Ghodsee 2018</a></dt>
                         <dd>"In general state socialist governments reduced women's economic dependence on men by making men and women equal recipients of services from the socialist state. These policies helped to decouple love and intimacy from economic considerations."<br /> "Although they may not realize it, sexual economics theorists basically embrace a long-standing socialist critique of capitalism: that it commodifies all human interactions and reduces women to chattel."</dd>
                         <dt>
                             <a href="https://yourbookstore.io/p/man-made-how-the-bias-of-the-past-is-being-built-into-the-future">
@@ -84,7 +81,7 @@ const InterNet = () => (
                         <dd>"Intersectional bias is being built into the machines runnning our futures. Consequently our activism <i>must</i> be focused at the confluence of technology, race, gender, age, sexuality and disability."</dd>
                         <dt>
                             <a href="https://yourbookstore.io/p/the-serviceberry-an-economy-of-gifts-and-abundance">
-                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/335/764/large_9780241721308.jpg?1760308510" />The Serviceberry by Robin Wall Kimmerer 2024</a></dt>
+                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/335/764/large_9780241721308.jpg?1760308510" />The Serviceberry: An economy of gifts and abundance by Robin Wall Kimmerer 2024</a></dt>
                         <dd>"The Serviceberries show us another model, one based upon reciprocity rather than accumulation, where wealth and security come from the quality of our relationships, not from the illusion of self-sufficiency."</dd>
                         <dt>
                             <a href="https://yourbookstore.io/p/girl-on-girl-how-pop-culture-turned-women-against-themselves">
@@ -93,12 +90,12 @@ const InterNet = () => (
                         <dd>"Culture teaches us everything. And what I keep coming back to now is how few cultural representations there still are of women seeking and wielding power."</dd>
                         <dt>
                             <a href="https://yourbookstore.io/p/the-new-age-of-sexism-how-the-ai-revolution-is-reinventing-misogyny">
-                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/353/330/large_9781471190490.jpg?1760918400" />The New Age of Sexism: How the AI Revolution is Reinventing Misogyny by Laura Bates 2025</a></dt>
+                            <img className="book" src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781471190483/the-new-age-of-sexism-9781471190483_hr.jpg" />The New Age of Sexism: How the AI Revolution is Reinventing Misogyny by Laura Bates 2025</a></dt>
                         <dd>"On the surface, this is a book about technology. But, at its root, it isn't about technology at all."</dd>
                         <dt>
                             <a href="https://yourbookstore.io/p/vulture-capitalism-corporate-crimes-backdoor-bailouts-and-the-death-of-freedom-2834172">
                             <img className="book" src="https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_360,c_scale,dpr_1.5/jackets/9781526638069.jpg" />
-                            Vulture Capitalism by Grace Blakeley 2025</a></dt>
+                            Vulture Capitalism: How to Survive in an Age of Corporate Greed by Grace Blakeley 2025</a></dt>
                         <dd>"The choice isn't 'free markets' or 'planning'. Planning and free markets exist alongside one another in capitalist societies - indeed in any society. The choice is whether the planning that inevitably does take place in any complex social system is democratic or oligarchic... Capitalism is a hybrid system based on a fusion between markets and planning."</dd>
                         <dt>
                             <a href="https://yourbookstore.io/p/how-to-die-in-the-21st-century">
@@ -111,25 +108,40 @@ const InterNet = () => (
                 <div className="blue" id="fiction">
                     <h3>Fiction (Art imitates Life)</h3>
                     <dl>
-                        <dt><img className="book" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Christie%27s_auction_scan_of_Frankenstein_1818.jpg/500px-Christie%27s_auction_scan_of_Frankenstein_1818.jpg" /><a href="https://yourbookstore.io/p/frankenstein-popular-penguins">Frankenstein: or, The Modern Prometheus by Mary Wollstonecraft Shelley 1818</a></dt>
+                        <dt>
+                            <a href="https://yourbookstore.io/p/frankenstein-popular-penguins">
+                                <img className="book" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Christie%27s_auction_scan_of_Frankenstein_1818.jpg/500px-Christie%27s_auction_scan_of_Frankenstein_1818.jpg" />
+                                Frankenstein: or, The Modern Prometheus by Mary Wollstonecraft Shelley 1818
+                            </a>
+                        </dt>
                         <dd>obsession creates reality, despite compassion in the face of cruelty.</dd>
-                        <dt><img className="book" src="https://upload.wikimedia.org/wikipedia/en/5/57/OctaviaEButler_Kindred.jpg"/><a href="https://yourbookstore.io/p/kindred-1348590"> Kindred by Octavia E. Butler 1979</a></dt>
+                        <dt>
+                            <a href="https://yourbookstore.io/p/kindred-1348590"><img className="book" src="https://upload.wikimedia.org/wikipedia/en/5/57/OctaviaEButler_Kindred.jpg"/> Kindred by Octavia E. Butler 1979</a></dt>
                         <dd>our stories are, and have always been, intertwined.</dd>
                         
-                        <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/077/368/large_9781328869333.jpg?1718101170" /><a href="https://yourbookstore.io/p/1984-hb">1984</a> by George <a href="https://www.goodreads.com/book/show/62802741-wifedom">and</a> <a href="https://www.goodreads.com/book/show/52745524-eileen">Eileen</a> Orwell 1949</dt>
+                        <dt>
+                            <a href="https://yourbookstore.io/p/1984-hb"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/077/368/large_9781328869333.jpg?1718101170" />1984</a> by George <a href="https://www.goodreads.com/book/show/62802741-wifedom">and</a> <a href="https://www.goodreads.com/book/show/52745524-eileen">Eileen</a> Orwell 1949</dt>
                         <dd>astounding, relevant, haunting.</dd>
-                        <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/593/785/large_temp_img.jpg20240315-1-jyh0m?1718129702" /><a href="https://yourbookstore.io/p/nervous-conditions">Nervous Conditions by Tsitsi Dangarembga 1988</a></dt>
+                        <dt>
+                            <a href="https://yourbookstore.io/p/nervous-conditions"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/593/785/large_temp_img.jpg20240315-1-jyh0m?1718129702" />Nervous Conditions by Tsitsi Dangarembga 1988</a></dt>
                         <dd>the richness and horror of the female body coming-of-age within cultural imperialism.</dd>
-                        <dt><img className="book" src="https://m.media-amazon.com/images/I/81cccWWMQmL._AC_UF1000,1000_QL80_.jpg" /><a href="https://yourbookstore.io/p/parable-of-the-sower-a-powerful-tale-of-a-dark-and-dystopian-future">Parable of The Sower by Octavia E. Butler 1993</a></dt>
+                        <dt>
+                            <a href="https://yourbookstore.io/p/parable-of-the-sower-a-powerful-tale-of-a-dark-and-dystopian-future"><img className="book" src="https://m.media-amazon.com/images/I/81cccWWMQmL._AC_UF1000,1000_QL80_.jpg" />Parable of The Sower by Octavia E. Butler 1993</a></dt>
                         <dd>set in 2024-2027, Olamina leads with compassion while a president called Donner destroys the country.</dd>
-                        <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/347/128/large_9780439023528.jpg?1773177171" /><a href="https://yourbookstore.io/catalog/search?utf8=%E2%9C%93&keyword=the+hunger+games&search_type=core%5Ekeyword">The Hunger Games by Suzanne Collins 2008-</a></dt>
+                        <dt>
+                            <a href="https://yourbookstore.io/catalog/search?utf8=%E2%9C%93&keyword=the+hunger+games&search_type=core%5Ekeyword"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/347/128/large_9780439023528.jpg?1773177171" />The Hunger Games by Suzanne Collins 2008-</a></dt>
                         <dd>just war politics, social contracts, propaganda.</dd>
-                        <dt><img className="book" src="https://m.media-amazon.com/images/I/81fhL0ZJ2WL._AC_UF1000,1000_QL80_.jpg"/><a href="https://yourbookstore.io/p/walkaway">Walkaway by Cory Doctorow 2017</a></dt>
+                        <dt>
+                            <a href="https://yourbookstore.io/p/walkaway"><img className="book" src="https://m.media-amazon.com/images/I/81fhL0ZJ2WL._AC_UF1000,1000_QL80_.jpg"/>Walkaway by Cory Doctorow 2017</a></dt>
                         <dd>keep one eye on the meta-commentary.</dd>
-                        <dt><img className="book" src="https://m.media-amazon.com/images/I/B1eAVSHxJ4L._AC_UF1000,1000_QL80_.jpg" /><a href="https://yourbookstore.io/p/circe-1584057">Circe by Madeline Miller 2018</a></dt>
-                        <dd>everything you need is within you. you have your gift and you have what it costs.</dd>
-                        
-                        <dt><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/139/425/large_9781529920567.jpg?1752736479" /><a href="https://yourbookstore.io/p/chain-gang-all-stars-a-novel">Chain-Gang All-Stars by Nana Kwame Adjei-Brenyah 2023</a></dt>
+                        <dt>
+                            <a href="https://yourbookstore.io/p/circe-1584057"><img className="book" src="https://m.media-amazon.com/images/I/B1eAVSHxJ4L._AC_UF1000,1000_QL80_.jpg" />Circe by Madeline Miller 2018</a></dt>
+                        <dd>you have your gift and you have what it costs.</dd>
+                        <dt>
+                            <a href="https://yourbookstore.io/p/lessons-in-chemistry-2479787"><img className="book" src="https://cdn2.penguin.com.au/covers/original/9781804990926.jpg" />Lessons in Chemistry by Bonnie Garmus 2022</a></dt>
+                        <dd>defining for yourself who you are equips you to with the fortitude to face everything that comes.</dd>
+                        <dt>
+                            <a href="https://yourbookstore.io/p/chain-gang-all-stars-a-novel"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/139/425/large_9781529920567.jpg?1752736479" />Chain-Gang All-Stars by Nana Kwame Adjei-Brenyah 2023</a></dt>
                         <dd>powerful commentary on the sickening spectacle that is violence.</dd>
                     </dl>
                 
@@ -137,6 +149,10 @@ const InterNet = () => (
                 <div id="memoir">
                     <h3>Biography (Life is Art)</h3>
                     <dl>
+                        <dt>
+                            <a href="https://www.scribd.com/document/443992025/Brenda-Laurel-Utopian-Entrepreneur-pdf">
+                            <img className="book" src="https://cdn11.bigcommerce.com/s-vrffsdcwm/products/223907/images/242460/1086977__63081.1750260648.386.513.jpg?c=2" />Utopian Entrepreneur by Brenda Laurel 2001</a></dt>
+                        <dd>"The computer ought to be human, too. As human as language. As human as a thumb, a talisman, a fairy tale, a song... Yes, we made the computer, but in its role as a cultural symbol, the computer also defines us."</dd>
                         <dt>
                             <a href="https://yourbookstore.io/p/an-everlasting-meal-cooking-with-economy-and-grace-2643388">
                             <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/040/444/large_9781800751637.jpg?1727228626" />

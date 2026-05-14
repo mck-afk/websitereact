@@ -3,7 +3,7 @@ import PageLayout from "../components/PageLayout";
 
 const TechNewsSynth = () => (
     <PageLayout>
-        <div className="orange">
+        <div className="yellow">
             <h1>TechNews Synthesis</h1>
             <p>writing the history I see 👩‍💻</p>
         </div>

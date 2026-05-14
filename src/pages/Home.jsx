@@ -22,7 +22,7 @@ const Home = () => {
           id="noteABOUT"
           className="note pink"
           title="annabelle grace mckenzie"
-          lastUpdated="21/04/2026"
+          lastUpdated="15/05/2026"
         >
           <p>seeing the <span id="seeme" style={{ textDecoration: 'underline', color: '#0000EE'}}>technology</span> in front of me</p>
           <Tooltip anchorSelect="#seeme" place="bottom" style={{ width: '250px', textAlign: 'center'}}>a medium for interpreting and interacting with the world... computers, internet, literacy, home, bodies, astrology, woman</Tooltip>
@@ -52,7 +52,7 @@ const Home = () => {
           id="noteINTERNET"
           className="note blue left"
           title="InterNet"
-          lastUpdated="21/04/2026"
+          lastUpdated="15/05/2026"
         >
           <p>
             treasured connections and digital reciprocations 🔗 <br /><br />links to 📖 books, newsletters, communities, worlds, articles, media, movements, people, crafts, and other cool things to explore
@@ -71,17 +71,17 @@ const Home = () => {
         >
         <PostItNote
           id="noteFBL"
-          className="note yellow right"
-          title="Feminine Literacy"
-          lastUpdated="21/04/2026"
+          className="note orange right"
+          title="Body Literacy"
+          lastUpdated="15/05/2026"
         >
           <p>
             resources for everyone to:
-            <br /><br />- explore the female experience
-            <br />- interpret the signals of the female body
-            <br />- appreciate the resilience of the feminine 🌻
-            <br /><br />
-            <p style={{ textAlign: "right" }} ><br /><br /><img src="https://blob.gifcities.org/gifcities/LKDMD44G2M5KCZDNP3CB3C6XT46F7N2V.gif" /></p>
+            <br /><br />- explore the female/male bodied experience
+            <br />- interpret the signals of the female body for reproductive empowerment
+            <br />- engineer meaning and purpose into every aspect of our lives
+            <br />
+            <p style={{ textAlign: "right" }} ><br /><img src="https://blob.gifcities.org/gifcities/LKDMD44G2M5KCZDNP3CB3C6XT46F7N2V.gif" /></p>
           </p>
         </PostItNote>
         </motion.div>
@@ -119,7 +119,7 @@ const Home = () => {
         >
         <PostItNote
           id="noteTechNewsSynth"
-          className="note orange left"
+          className="note yellow left"
           title="TechNews Synthesis"
           lastUpdated="14/02/2026" 
         >
