@@ -7,6 +7,15 @@ import { image } from "framer-motion/client";
 // Article data array
 const articlesData = [
   {
+    id: "articleSPMA",
+    color: "yellow",
+    title: "imagination fight",
+    text: "the normalisation of media consumption trains acceptance of disjointed narratives of reality",
+    date: "27 May 2026",
+    themes: ["technology, capitalism, mother"],
+    redirectPath: "/Blog_SPMA",
+    image: ""
+  },{
     id: "articleTRMR",
     color: "blue",
     title: "Tumblr Mother",

@@ -27,6 +27,7 @@ const InterNet = () => (
             <li className="blue"><HashLink to="#people">People</HashLink></li>
             <li><HashLink to="#worldbuildings">Worldbuildings</HashLink></li>
             <li><HashLink to="#crafts">Crafts</HashLink></li>
+            <li><HashLink to="#recipes">Recipes</HashLink></li>
         </ul>
 
         <div>
@@ -41,7 +42,7 @@ const InterNet = () => (
                         <dd>"Education deserves emphatically to be termed cultivation of the mind which teaches young people how to begin to think."</dd>
                         <dt>
                             <a href="https://yourbookstore.io/p/the-master-s-tools-will-never-dismantle-the-master-s-house">
-                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/525/161/large_temp_img.jpg20260319-1-r4cnhj?1773916045" />The Masters Tools will Never Dismantle the Masters House by Audre Lorde 1979</a></dt>
+                            <img className="book" src="https://cdn2.penguin.com.au/covers/original/9780241339725.jpg" />The Masters Tools will Never Dismantle the Masters House by Audre Lorde 1979</a></dt>
                         <dd>"For the master's tools will never dismantle the master's house. They may allow us temporarily to beat him at his own game, but they will never enable us to bring about genuine change. And this fact is only threatening to those women who still define the master's house as their only source of support."</dd>
                         
                         <dt>
@@ -156,7 +157,7 @@ const InterNet = () => (
                         <dt>
                             <a href="https://yourbookstore.io/p/an-everlasting-meal-cooking-with-economy-and-grace-2643388">
                             <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/040/444/large_9781800751637.jpg?1727228626" />
-                            An Everlasting Meal by Tamar Adler 2011</a>
+                            An Everlasting Meal: Cooking With Economy and Grace by Tamar Adler 2011</a>
                         </dt>
                         <dt>
                             <a href="https://yourbookstore.io/p/thick-and-other-essays">
@@ -171,12 +172,12 @@ const InterNet = () => (
                         <dt>
                             <a href="https://yourbookstore.io/p/braiding-sweetgrass-indigenous-wisdom-scientific-knowledge-and-the-teachings-of-plants">
                             <img className="book" src="https://images.thenile.io/r1000/9780141991955.webp" />
-                            Braiding Sweetgrass by Robin Wall Kimmerer 2020</a>
+                            Braiding Sweetgrass: Indigenous Wisdom, Scientific Knowledge and the Teachings of Plants by Robin Wall Kimmerer 2020</a>
                         </dt>
                         <dt>
                             <a href="https://yourbookstore.io/p/my-grandmother-s-hands-racialized-trauma-and-the-pathway-to-mending-our-hearts-and-bodies">
                             <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/589/096/large_9780141996479.jpg?1757214930" />
-                            My Grandmother's Hands by Resmaa Menakem 2021</a>
+                            My Grandmother's Hands: Racialised Trauma and the Pathway to Mending our Hearts and Bodies by Resmaa Menakem 2021</a>
                         </dt>
                         <dt>
                             <a href="https://yourbookstore.io/p/black-friend-essays-2812977">
@@ -192,6 +193,11 @@ const InterNet = () => (
                             <a href="https://yourbookstore.io/p/paris-the-memoir-2739102">
                             <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/149/625/large_temp_img.jpg20240807-1-gz6jnq?1722994347" />
                             Paris: The Memoir by Paris Hilton 2024</a>
+                        </dt>
+                        <dt>
+                            <a href="https://yourbookstore.io/p/because-i-m-not-myself-you-see-a-memoir-of-motherhood-madness-and-coming-back-from-the-brink">
+                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/099/434/large_temp_img.jpg20250825-44-621g7m?1756098153" />
+                            Because I'm Not Myself, You See: A Memoir of Motherhood, Madness and Coming Back From the Brink by Ariane Beeston 2024</a>
                         </dt>
                         <dt>
                             <a href="https://yourbookstore.io/p/one-day-everyone-will-have-always-been-against-this">
@@ -348,6 +354,15 @@ const InterNet = () => (
                 <li><a href="https://www.shelaghlewins.com/tablet_weaving/TW01/TW01.htm">The Ancient Craft of Tablet Weaving</a></li>
                 <li><a href="https://www.instagram.com/reel/DWiHfJMDA4z/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">Crochet is the OG 3D Printing</a></li>
                 <li><a href="https://www.instagram.com/p/DW0bt-akQFy/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">Programming was born from Weaving</a></li>
+                
+            </ul>
+        </div>
+
+        <div id="recipes" className="">
+            <h2>Recipes</h2>
+            <ul>
+                <li><a href="https://capilanohoney.com/recipe/honey-anzac-biscuits/"> Honey Anzac Biscuits</a></li>
+                <li><a href="https://www.youtube.com/watch?v=vcqXRAi9vrs"> Bolognaise with Marco Pierre White</a></li>
                 
             </ul>
         </div>

@@ -76,6 +76,16 @@ table, th, td {
 
 /* Sticky Notes */
 
+.noticeboardBackground {
+  border-top: 10px solid #9c4f02;
+  border-left: 10px solid #9c4f02;
+  border-right: 10px solid #c66503;
+  border-bottom: 10px solid #c66503;
+  background-image: url(https://www.publicdomainpictures.net/pictures/30000/velka/cork-board.jpg);
+  background-size: 50%;
+  background-position: center;
+}
+
 #noticeboard {
   margin-top: 10px;
   display: flex;
@@ -87,10 +97,11 @@ table, th, td {
   width: 300px;
   height: 300px;
   margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
   padding: 20px;
   box-shadow: 0 10px 10px 2px rgba(0,0,0,0.3);
   font-family: 'GI';
-  margin-bottom: 40px;
 }
 .actions {
   display: block;
@@ -132,35 +143,63 @@ table, th, td {
   padding: 5px 5px;
 }
 
-.red {
-  background: #ffa0a0;
-}
-
-.orange {
-  background: #ffb169;
-}
-
-.yellow {
-  background: #ffd861;
-}
-
-.green {
-  background: #98dc9b;
-}
-
-.blue {
-  background: #b8e3ff;
-}
-
-.purple {
-  background: #d9b8ff;
-}
-
-.pink {
-  background: #fbb8ff;
-}
-
 .icon {
   width: 15px;
   height: 15px;
+}
+
+.red {
+  background-color: #d44141;
+}
+
+.redlight {
+  background-color: #ffa0a0;
+}
+
+.orange {
+  background-color: #ed7b12;
+}
+
+.orangelight {
+  background-color: #ffb169;
+}
+
+.yellow {
+  background-color: #ffcc00;
+}
+
+.yellowlight {
+  background-color: #ffd861;
+}
+
+.green {
+  background-color: #66bd6a;
+}
+
+.greenlight {
+  background-color: #98dc9b;
+}
+
+.blue {
+  background-color: #3aa6ed;
+}
+
+.bluelight {
+  background-color: #b8e3ff;
+}
+
+.purple {
+  background-color: #ad6cf8;
+}
+
+.purplelight {
+  background-color: #d9b8ff;
+}
+
+.pink {
+  background-color: #e55bed;
+}
+
+.pinklight {
+  background-color: #fbb8ff;
 }

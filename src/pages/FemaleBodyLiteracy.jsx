@@ -123,7 +123,7 @@ const FemaleBodyLiteracy = () => (
             <a href="https://www.instagram.com/aarchor/?hl=en"><img style={{width: "100px"}} src="https://yt3.googleusercontent.com/rEtWEvplhbpfIQ-w2UUcNf4hRU_ixcsWv4NifoiFpWW5ejWTh9l7zFH4nTYDY9dZc2gGfgZbv9I=s160-c-k-c0x00ffffff-no-rj" alt="aarchor" /></a>
             <a href="https://linktr.ee/neilshyminsky"><img style={{width: "100px"}} src="https://ugc.production.linktr.ee/05ccb609-ffeb-4ec7-ba88-401243e25974_Neil-Shyminsky---portrait-shot.jpeg?io=true&size=avatar-v3_0" alt="Professer Neil" /></a>
             <a href="https://linktr.ee/chriskohlernews"><img style={{width: "100px"}} src="https://ugc.production.linktr.ee/f58076fe-6e5e-4410-82e9-d8e43c5eff9d_PROFILE-PIC.jpeg?io=true&size=avatar-v3_0" alt="Chris Kohler" /></a>
-            <a href="https://beacons.ai/remywanders"><img style={{width: "100px"}} src="https://cdn.beacons.ai/user_content/EGrXbxFUlxSP5dKcWmfGp5Ylr5V2/profile_jeremyandrewdavis.png" alt="Remy Wanders" /></a>
+            <a href="https://www.instagram.com/streetlighteyesdontdie/"><img style={{width: "100px"}} src="https://tse2.mm.bing.net/th/id/OIP.hrncCdBGmyRyyiwF3Cjx9wAAAA?pid=Api" alt="Andrew Bailey" /></a>
             <a href="https://www.instagram.com/jonathanhiebert/?hl=en"><img style={{width: "100px"}} src="https://tse3.mm.bing.net/th/id/OIP.80S3ui1EcE1oAwEs3k9I_AHaHa?pid=Api" alt="Jonathan Hiebert" /></a>
             <a href="https://linktr.ee/thedadbriefs"><img style={{width: "100px"}} src="https://substackcdn.com/image/fetch/$s_!JwUq!,w_80,h_80,c_fill,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa369951e-f8b8-4f85-943e-ac4610ed3904_150x150.jpeg" alt="Slade Wentworth" /></a>
             <a href="https://cam-fraser.com/"><img style={{width: "100px"}} src="https://tse1.mm.bing.net/th/id/OIP.KxXSEsXrTA5WWzuZPnsN3gHaHa?pid=Api" alt="Cam Fraser" /></a>
@@ -134,6 +134,16 @@ const FemaleBodyLiteracy = () => (
           <div className="bookshelf">
             <a href="https://yourbookstore.io/p/the-will-to-change-men-masculinity-and-love"><img className="book" src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9780743480338/the-will-to-change-9780743480338_hr.jpg" /></a>
             <a href="https://yourbookstore.io/p/hero-with-a-thousand-faces-3rd-edition"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/116/719/large_9781577315933.jpg?1767498731" /></a>
+            
+            
+            
+          </div>
+          <div>
+            <ul>Videos
+              <li><a href="https://www.instagram.com/p/DSmu1pDCD_s/" >Patriarchy and Male Childhood Trauma</a></li>
+              <li><a href="https://www.instagram.com/p/DYPidsgsAdU/" >Men are not in Crisis</a></li>
+              <li><a href="https://www.instagram.com/p/DTQWkFWkexJ/" >Stop making the argument that women should be forced to pair up with incels</a></li>
+            </ul>
             
           </div>
           
