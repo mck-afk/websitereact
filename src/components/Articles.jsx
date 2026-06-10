@@ -7,6 +7,15 @@ import { image } from "framer-motion/client";
 // Article data array
 const articlesData = [
   {
+    id: "articleATBC",
+    color: "green",
+    title: "After 'The Beginning Comes After the End'",
+    text: "reflections on Rebecca Solnit's latest work",
+    date: "08 June 2026",
+    themes: ["literature", "feminism", "narrative"],
+    redirectPath: "/Blog_ATBC",
+    image: "https://storage.googleapis.com/circlesoft/document/photos/004/646/775/large_temp_img.jpg20260528-25-oayvg?1779944182"
+  },{
     id: "articleWN-CTMBM",
     color: "orange",
     title: "Caring to Make Big Money",
@@ -86,7 +95,7 @@ const articlesData = [
     title: "cyber goose on the digital commons",
     text: "till they go and steal it back",
     date: "20 October 2025",
-    themes: ["capitalism", "technology", "englishclass"],
+    themes: ["capitalism", "technology", "literature"],
     redirectPath: "/Blog_TGAC",
     image: "http://www.thegoosesmother.com/sitebuildercontent/sitebuilderpictures/.pond/Maggiecomputer.jpg.w300h232.jpg"
   },

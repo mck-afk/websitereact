@@ -9,7 +9,7 @@ const TGAC = () => {
             <div className="red" style={{ paddingBottom: "5px" }}>
                 <h1 className="blue">cyber goose on the digital commons</h1>
                 <h2>till they go and steal it back</h2>
-                <h4>20 October 2025 | capitalism, technology, englishclass</h4>
+                <h4>20 October 2025 | capitalism, technology, literature</h4>
                 <button className="red" onClick={() => navigate(-1)}>back</button>
             </div>
             <p>An analysis of the anonymous 18th century English poem 'The Goose and the Common' in the context of the digitally interwoven landscape of the 21st century.</p>
