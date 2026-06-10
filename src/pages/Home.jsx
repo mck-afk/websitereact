@@ -23,17 +23,17 @@ const Home = () => {
           id="noteABOUT"
           className="note pink"
           title="annabelle grace mckenzie"
-          lastUpdated="27/05/2026"
+          lastUpdated="08/06/2026"
         >
-          <p>seeing the <span id="seeme" style={{ textDecoration: 'underline', color: '#0000EE'}}>technology</span> in front of me 👩‍💻</p>
+          <p>seeing the <span id="seeme" style={{ textDecoration: 'underline', color: '#0000EE'}}>technology</span> in front of me 👩‍💻<br /><i>all opinions are my own</i></p>
           <Tooltip anchorSelect="#seeme" place="bottom" style={{ width: '250px', textAlign: 'center'}}>a medium for interpreting and interacting with the world... computers, internet, literacy, home, bodies, astrology, woman</Tooltip>
           <p>
             📍 Melbourne/Naarm, Australia
-            <br /> 📚 reader of {" "} <a href="#/InterNet">literature</a> & <a href="#/TechNewsSynth">critiques</a>
+            <br /> 📖 reader of {" "} <a href="#/InterNet">literature</a> & <a href="#/InterNet#articles">critiques</a>
             <br /> ✍️ writer for <a href="#/weblog">humans</a> & {" "} <a href="https://github.com/mck-afk">computers</a>
-            <br /><i>all opinions are my own</i>
+            <br /> 🪡 crafter in the {" "} <a href="#/InterNet#crafts">physical</a> & <a href="https://annas-abode.net/">digital</a> 
           </p>
-          <p>
+          <p style={{ display: "none" }} >
             <img className="icon" src="https://img.icons8.com/?size=100&id=W77GEN8wSCBv&format=png&color=000000" alt="now" />
             <span style={{ fontWeight: "bold"}}> now: </span>
             voracious for vitality
@@ -52,8 +52,8 @@ const Home = () => {
           <PostItNote
             id="noteWEBLOG"
             className="note red right"
-            title="Blog"
-            lastUpdated="27/05/2026"
+            title="WeBlog"
+            lastUpdated="08/06/2026"
           >
             <p>
               

@@ -7,12 +7,31 @@ import { image } from "framer-motion/client";
 // Article data array
 const articlesData = [
   {
+    id: "articleWN-CTMBM",
+    color: "orange",
+    title: "Caring to Make Big Money",
+    text: "submission to WhyNot",
+    date: "08 June 2026",
+    themes: ["economic", "family", "external"],
+    external: "true",
+    redirectPath: "https://www.whynot.org.au/voice/community-connection/caring-to-make-big-money/",
+    image: "https://www.whynot.org.au/wp-content/uploads/2023/11/WN_Logo_NEW_Crop-2.png"
+  },{
+    id: "articleCOOR",
+    color: "green",
+    title: "cooperative reality",
+    text: "a short story from a dream",
+    date: "04 June 2026",
+    themes: ["shortstory", "technology", "narrative"],
+    redirectPath: "/Blog_COOR",
+    image: ""
+  },{
     id: "articleSPMA",
     color: "yellow",
     title: "imagination fight",
     text: "the normalisation of media consumption trains acceptance of disjointed narratives of reality",
     date: "27 May 2026",
-    themes: ["technology, capitalism, mother"],
+    themes: ["technology", "capitalism", "narrative"],
     redirectPath: "/Blog_SPMA",
     image: ""
   },{
@@ -35,7 +54,7 @@ const articlesData = [
     redirectPath: "/Blog_26PS"
   },
   {
-    id: "articleDFD",
+    id: "articleWN-DFD",
     color: "orange",
     title: "Dear Future Daughter",
     text: "submission to WhyNot",
@@ -50,7 +69,7 @@ const articlesData = [
     title: "Could AI coding assistants be privatising code repair?",
     text: "I wonder whose labour they are training on?",
     date: "10 November 2025",
-    themes: ["artificialintelligence", "technology", "classwar"],
+    themes: ["coding", "technology", "work"],
     redirectPath: "/Blog_AICR"
   }, {
     id: "articleWITC",

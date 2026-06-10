@@ -100,8 +100,12 @@ const InterNet = () => (
                         <dd>"The choice isn't 'free markets' or 'planning'. Planning and free markets exist alongside one another in capitalist societies - indeed in any society. The choice is whether the planning that inevitably does take place in any complex social system is democratic or oligarchic... Capitalism is a hybrid system based on a fusion between markets and planning."</dd>
                         <dt>
                             <a href="https://yourbookstore.io/p/how-to-die-in-the-21st-century">
-                            <img className="book" src="https://thamesandhudson.com.au/cdn/shop/files/9781760765309.jpg?v=1774902564" />How to Die in the 21st Century by Hannah Gould 2026</a></dt>
+                            <img className="book" src="https://thamesandhudson.com.au/cdn/shop/files/9781760765309.jpg?v=1774902564" />How to Die in the 21st Century: A Whole New Way to Talk About Death by Hannah Gould 2026</a></dt>
                         <dd>"Contemplating death is aimed at living better, not dying sooner."<br />"Modern death denialism is therefore a system that can only function for some. Even then, it does not seem to be functioning very well."</dd>
+                        <dt>
+                            <a href="https://yourbookstore.io/p/the-beginning-comes-after-the-end-notes-on-a-radically-changed-and-changing-world">
+                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/646/775/large_temp_img.jpg20260528-25-oayvg?1779944182" />The Beginning Comes After the End: Notes on a Radically Changed and Changing World by Rebecca Solnit 2026</a></dt>
+                        <dd>"This is a long essay in the form of a short book about the profound changes of the past several decades, about those who planted and tended to seeds, about how ideas became actualities... This is a reminder that you do not have to picture the destination to reach it or at laest draw closer to it, you just need to choose a direction and keep on walking-though that metaphor makes it sound as though it already exists, if at a distance, rather than that the process itself creates it and covers the distance between the idea and the actuality."</dd>
                     </dl>
 
 
@@ -363,8 +367,19 @@ const InterNet = () => (
             <ul>
                 <li><a href="https://capilanohoney.com/recipe/honey-anzac-biscuits/"> Honey Anzac Biscuits</a></li>
                 <li><a href="https://www.youtube.com/watch?v=vcqXRAi9vrs"> Bolognaise with Marco Pierre White</a></li>
-                
+                <li><a href="https://www.seriouseats.com/bravetart-glossy-fudge-brownies"> Bravetart Brownies</a></li>
+                <li><a href="https://www.seasonsandsuppers.ca/2-banana-banana-bread/"> Banana Loaf</a></li>
+                <li><a href="https://www.nzic.org.nz/unsecure_files/book/6D.pdf"> The Chemistry of Baking</a></li>
             </ul>
+            <p>Baking Tips:</p>
+            <dl>
+                <dt>airy, springy</dt>
+                <dd>whisk eggs + sugar</dd> 
+                <dt>tender, rich with tight crumb</dt>
+                <dd>cream butter + sugar</dd> 
+                <dt>both?</dt>
+                <dd>foam eggs + sugar, then gently incorporate butter</dd> 
+            </dl>
         </div>
 
     </PageLayout>

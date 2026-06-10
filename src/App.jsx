@@ -17,6 +17,7 @@ import WITC from './pages/Blog_WITC';
 import Blog_26PS from './pages/Blog_26PS';
 import TRMR from './pages/Blog_TRMR';
 import SPMA from './pages/Blog_SPMA';
+import COOR from './pages/Blog_COOR';
 
 function App() {
   return (
@@ -37,7 +38,7 @@ function App() {
       <Route path="/Blog_26PS" element={<Blog_26PS />} />
       <Route path="/Blog_TRMR" element={<TRMR />} />
       <Route path="/Blog_SPMA" element={<SPMA />} />
-
+      <Route path="/Blog_COOR" element={<COOR />} />
     </Routes>
   );
 }

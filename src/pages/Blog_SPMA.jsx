@@ -9,7 +9,7 @@ const SPMA = () => {
             <div className="red" style={{ paddingBottom: "5px" }}>
                 <h1 className="yellow">imagination fight</h1>
                 <h2>the normalisation of media consumption trains acceptance of disjointed narratives of reality</h2>
-                <h4>27 May 2026 | technology, capitalism, mother</h4>
+                <h4>27 May 2026 | technology, capitalism, narrative</h4>
                 <button className="red" onClick={() => navigate(-1)}>back</button>
             </div>
 
