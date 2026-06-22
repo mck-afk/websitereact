@@ -7,7 +7,7 @@ const FWFM = () => {
     return (
         <PageLayout>
             <div className="red" style={{ paddingBottom: "5px" }}>
-                <h1 className="orange">fifth wave feminism: motherwork</h1>
+                <h1 className="yellow">fifth wave feminism: motherwork</h1>
                 <h2>motherwork is the root of all capital</h2>
                 <h4>07 August 2025 | mother, work, feminism</h4>
                 <button className="red" onClick={() => navigate(-1)}>back</button>

@@ -84,9 +84,6 @@ table, th, td {
   background-image: url(https://www.publicdomainpictures.net/pictures/30000/velka/cork-board.jpg);
   background-size: 50%;
   background-position: center;
-}
-
-#noticeboard {
   margin-top: 10px;
   display: flex;
   flex-wrap: wrap;
