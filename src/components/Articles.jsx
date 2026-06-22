@@ -7,6 +7,26 @@ import { image } from "framer-motion/client";
 // Article data array
 const articlesData = [
   {
+    id: "articleWN-RHBC",
+    color: "orange",
+    title: "A Relationship to Hope when there’s Bread and Circuses",
+    text: "submission to WhyNot",
+    date: "21 June 2026",
+    themes: ["hope", "change", "external"],
+    external: "true",
+    redirectPath: "https://www.whynot.org.au/voice/youth-leadership/unfiltered-thoughts-hope/#:~:text=A%20Relationship%20to%20Hope%20When%20There's%20bread%20and%20circuses",
+    image: "https://www.whynot.org.au/wp-content/uploads/2023/11/WN_Logo_NEW_Crop-2.png"
+  },{
+    id: "articleWN-HIH",
+    color: "orange",
+    title: "Hope Is Here",
+    text: "submission to WhyNot",
+    date: "21 June 2026",
+    themes: ["hope", "change", "external"],
+    external: "true",
+    redirectPath: "https://www.whynot.org.au/voice/youth-leadership/unfiltered-thoughts-hope/#:~:text=Hope%20Is%20Here",
+    image: "https://www.whynot.org.au/wp-content/uploads/2023/11/WN_Logo_NEW_Crop-2.png"
+  },{
     id: "articleATBC",
     color: "green",
     title: "After 'The Beginning Comes After the End'",
@@ -120,7 +140,7 @@ const articlesData = [
   },
   {
     id: "articleFWFM",
-    color: "orange",
+    color: "yellow",
     title: "fifth wave feminism: motherwork",
     text: "motherwork is the root of all capital",
     date: "07 August 2025",

@@ -11,7 +11,7 @@ const Home = () => {
 
   return (
     <PageLayout>
-      <div id="noticeboard" className="noticeboardBackground">
+      <div className="noticeboardBackground">
         <img
           src="/images/profile_pinned.png"
           alt="Profile Picture"
