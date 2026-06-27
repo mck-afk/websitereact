@@ -42,7 +42,7 @@ const AstroProgram = () => (
         <div id="part1">
             <h2 className="purple">Part 1 - Seeing from another Perspective</h2>
             <h3>1.1 Similarities</h3>
-            <table>
+            <table className="table">
                 <thead>
                     <tr>
                         <th className="purple" style={{textAlign: "center"}}>Programming</th>
@@ -101,7 +101,7 @@ const AstroProgram = () => (
             <p>Programming languages are structured around two essential components: <span className="green">what it is (data)</span> and <span className="blue">manipulations of what it is (functions)</span>.</p>
         
             
-            <table id="simpleTable">
+            <table className="table" id="simpleTable">
                 <tbody>
                 <tr className="simpleRow">
                     <th className="purple"></th>
