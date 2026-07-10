@@ -21,6 +21,9 @@ import SPMA from './pages/Blog_SPMA';
 import COOR from './pages/Blog_COOR';
 import ATBC from './pages/Blog_ATBC';
 import ALCT from './pages/Blog_ALCT';
+import HIWW from './pages/Blog_HIWW';
+import RBSS from './pages/Blog_RBSS';
+import ESTATE from './pages/Blog_Estate';
 import CheckoutProducts from './pages/CheckoutProducts';
 import CheckoutSuccess from './pages/CheckoutSuccess';
 import CheckoutCancel from './pages/CheckoutCancel';
@@ -33,6 +36,7 @@ function App() {
       <Route path="/femalebodyliteracy" element={<FemaleBodyLiteracy />} />
       <Route path="/internet" element={<InterNet />} />
       <Route path="/weblog" element={<Weblog />} />
+      <Route path="/TechNewsSynth" element={<TechNewsSynth />} />
       <Route path="/CrochetComputer" element={<CrochetComputer />} />
       <Route path="/Blog_BYDH" element={<BYDH />} />
       <Route path="/Blog_WWWW" element={<WWWW />} />
@@ -47,6 +51,9 @@ function App() {
       <Route path="/Blog_COOR" element={<COOR />} />
       <Route path="/Blog_ATBC" element={<ATBC />} />
       <Route path="/Blog_ALCT" element={<ALCT />} />
+      <Route path="/Blog_HIWW" element={<HIWW />} />
+      <Route path="/Blog_RBSS" element={<RBSS />} />
+      <Route path="/Blog_Estate" element={<ESTATE />} />
       <Route path="/checkout" element={<CheckoutProducts />} />
       <Route path="/checkout/success" element={<CheckoutSuccess />} />
       <Route path="/checkout/cancel" element={<CheckoutCancel />} />

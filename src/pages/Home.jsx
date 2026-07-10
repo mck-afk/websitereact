@@ -23,7 +23,7 @@ const Home = () => {
           id="noteABOUT"
           className="note pink"
           title="annabelle grace mckenzie"
-          lastUpdated="27/06/2026"
+          lastUpdated="10/07/2026"
         >
           <p>relating with the <span id="seeme" style={{ textDecoration: 'underline', color: '#0000EE'}}>technology</span> in front of me 👩‍💻<br /></p>
           <Tooltip anchorSelect="#seeme" place="bottom" style={{ width: '250px', textAlign: 'center'}}>a medium for interpreting and interacting with the world... computers, internet, literacy, home, bodies, astrology, woman</Tooltip>
@@ -41,6 +41,32 @@ const Home = () => {
           </p>
         </PostItNote>
 
+        <motion.div
+          initial={{ x: 0, y: -50 }}
+          animate={movingNoteId === "noteWEBLOG" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
+          transition={{ duration: 0.2 }}
+          style={{ cursor: "pointer", margin: "auto", zIndex: 1000, position: "relative" }}
+          whileHover={{ rotate: -5 }}
+          onClick={() => handleNoteClick("noteWEBLOG", "/weblog")}
+        >
+          <PostItNote
+            id="noteWEBLOG"
+            className="note red left"
+            title="WebLog aka Blog"
+            lastUpdated="10/07/2026"
+          >
+            <p>an athenaeum at the itnersection of introspection, investigation, & imagination ✍️
+              <br />
+              <img src="https://blob.gifcities.org/gifcities/4W6TLA2HJNPFMAEBAOY32MTYHCDONYNU.gif" />
+              <br />
+              topics include: internet, technology, literacy, capitalism, writing, homemaking, girl, woman, mother, other
+              <img src="/images/blinking_caret.gif" style={{width: "8px", height: "18px"}}/>
+            </p>
+
+            
+            <p style={{  textAlign: "right" }} ><img src="https://blob.gifcities.org/gifcities/LKDMD44G2M5KCZDNP3CB3C6XT46F7N2V.gif" /></p>
+          </PostItNote>
+        </motion.div>
 
         <motion.div
           initial={{ y: -20 }}
@@ -61,37 +87,12 @@ const Home = () => {
             <img style={{ width: "60px" }} src="https://media.baamboozle.com/uploads/images/388680/1625161883_71705_gif-url.gif"/>
             <p>follow along on my journey</p>
 
-            <p style={{ textAlign: "right" }} ><img src="https://blob.gifcities.org/gifcities/LKDMD44G2M5KCZDNP3CB3C6XT46F7N2V.gif" /></p>
+            <p style={{ display: "none", textAlign: "right" }} ><img src="https://blob.gifcities.org/gifcities/LKDMD44G2M5KCZDNP3CB3C6XT46F7N2V.gif" /></p>
         </PostItNote>
         </motion.div> 
 
 
-        <motion.div
-          initial={{ x: 0, y: -50 }}
-          animate={movingNoteId === "noteWEBLOG" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
-          transition={{ duration: 0.2 }}
-          style={{ cursor: "pointer", margin: "auto", zIndex: 1000, position: "relative" }}
-          whileHover={{ rotate: -5 }}
-          onClick={() => handleNoteClick("noteWEBLOG", "/weblog")}
-        >
-          <PostItNote
-            id="noteWEBLOG"
-            className="note red left"
-            title="WebLog aka Blog"
-            lastUpdated="08/06/2026"
-          >
-            <p>an athenaeum at the itnersection of introspection, investigation, & imagination ✍️
-              <br />
-              <img src="https://blob.gifcities.org/gifcities/4W6TLA2HJNPFMAEBAOY32MTYHCDONYNU.gif" />
-              <br />
-              topics include: internet, technology, literacy, capitalism, writing, homemaking, girl, woman, mother, other
-              <img src="/images/blinking_caret.gif" style={{width: "8px", height: "18px"}}/>
-            </p>
-
-            
-            <p style={{  textAlign: "right" }} ><img src="https://blob.gifcities.org/gifcities/LKDMD44G2M5KCZDNP3CB3C6XT46F7N2V.gif" /></p>
-          </PostItNote>
-        </motion.div>
+        
 
         <motion.div
           initial={{ x: 0, y: -50 }}

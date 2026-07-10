@@ -7,10 +7,53 @@ import { image } from "framer-motion/client";
 // Article data array
 const articlesData = [
   {
+    id: "articleALCT",
+    color: "green",
+    title: "Mother container theory",
+    text: "Moon and Food and Cocoon and Rage",
+    date: "22 July 2026",
+    themes: ["astrology", "technology", "mother"],
+    redirectPath: "/Blog_ALCT",
+  },{
+    id: "articleESTATE",
+    color: "purple",
+    title: "Reclaiming the Estate",
+    text: "m",
+    date: "",
+    themes: ["narrative", "technology", "literacy"],
+    redirectPath: "/Blog_Estate",
+  },{
+    id: "articleHIWW",
+    color: "pink",
+    title: "History is Written by the Writers",
+    text: "so write",
+    date: "14 July 2026",
+    themes: ["narrative", "technology", "literacy"],
+    redirectPath: "/Blog_HIWW",
+  },{
+    id: "articleRBSS",
+    color: "pink",
+    title: "Guinness World Record Holder Sexualised Again",
+    text: "Regressing Back to Smooth and Sexy",
+    date: "10 July 2026",
+    themes: ["feminism", "videogame", "body"],
+    redirectPath: "/Blog_RBSS",
+    image: "https://pbs.twimg.com/media/Eq14XSJVoAAYnAP.jpg"
+  },{
+    id: "articleWN-TPOW",
+    color: "orange",
+    title: "The Promise of Work",
+    text: "publication with WhyNot",
+    date: "07 July 2026",
+    themes: ["work", "capitalism", "external"],
+    external: "true",
+    redirectPath: "https://www.whynot.org.au/voice/youth-leadership/unfiltered-thoughts-future-of-work/#:~:text=The%20Promise%20of%20Work",
+    image: "https://www.whynot.org.au/wp-content/uploads/2023/11/WN_Logo_NEW_Crop-2.png"
+  },{
     id: "articleWN-RHBC",
     color: "orange",
     title: "A Relationship to Hope when there’s Bread and Circuses",
-    text: "submission to WhyNot",
+    text: "publication with WhyNot",
     date: "21 June 2026",
     themes: ["hope", "change", "external"],
     external: "true",
@@ -20,7 +63,7 @@ const articlesData = [
     id: "articleWN-HIH",
     color: "orange",
     title: "Hope Is Here",
-    text: "submission to WhyNot",
+    text: "publication with WhyNot",
     date: "21 June 2026",
     themes: ["hope", "change", "external"],
     external: "true",
@@ -39,7 +82,7 @@ const articlesData = [
     id: "articleWN-CTMBM",
     color: "orange",
     title: "Caring to Make Big Money",
-    text: "submission to WhyNot",
+    text: "publication with WhyNot",
     date: "08 June 2026",
     themes: ["economic", "family", "external"],
     external: "true",
@@ -86,7 +129,7 @@ const articlesData = [
     id: "articleWN-DFD",
     color: "orange",
     title: "Dear Future Daughter",
-    text: "submission to WhyNot",
+    text: "publication with WhyNot",
     date: "01 December 2025",
     themes: ["capitalism", "mother", "external"],
     external: "true",
@@ -153,7 +196,7 @@ const articlesData = [
     title: "stem cells and spiritual journeys",
     text: "a brief overview of woman's life phases",
     date: "02 July 2025",
-    themes: ["menstruation", "spirit", "health"],
+    themes: ["body", "spirit", "health"],
     redirectPath: "/Blog_SCSJ"
   }
 ];

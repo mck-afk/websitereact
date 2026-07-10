@@ -30,7 +30,7 @@ const CrochetComputer = () => (
         <hr />
         <h3>25 June 2026 - Motherboard base complete</h3>
         <p>
-            What I found challenging was holding the right tension when casting on (maintaing the tension across the first row). After that, the knitting built up easily and was very enjoyable to do alongside watchnig/listening to other media. I really appreciated <a href="https://www.youtube.com/playlist?list=PLSZARCc5KSoRQGQY3LfbBgkxXsZEq2r2_">Sheep & Stich's Youtube Tutorials</a> for guiding me through the basic techniques, including casting off. I measured this roughly off of the laptop I am typing this on and attempted to keep the ratios relatively consistent. This is 40 stiches wide and ~60 rows tall. I haven't 'blocked' it yet
+            What I found challenging was holding the right tension when casting on (maintaing the tension across the first row). After that, the knitting built up easily and was very enjoyable to do alongside watchnig/listening to other media. I really appreciated <a href="https://www.youtube.com/playlist?list=PLSZARCc5KSoRQGQY3LfbBgkxXsZEq2r2_">Sheep & Stich's Youtube Tutorials</a> for guiding me through the basic techniques, including casting off. I measured this roughly off of the laptop I am typing this on and attempted to keep the ratios relatively consistent. This is 40 stiches wide and ~60 rows tall. I haven't 'blocked' it yet - that's the next adventure!
             <br /><br />
             <img src="/images/ccmotherboardbase.jpg" alt="Crochet Computer Motherboard" style={{ width: "400px"}} />
         </p>

@@ -5,7 +5,7 @@ import React from "react";
 import { HashLink } from 'react-router-hash-link';
 
 const allThemes = [
-  "technology", "internet", "feminism", "capitalism", "mother", "literature", "health", "astrology", "external",  "predictions", "homemaking", "weaving", "work",  "menstruation", "coding", "narrative", "spirit", "shortstory"
+  "technology", "internet", "feminism", "capitalism", "mother", "literature", "health", "astrology", "videogame", "external",  "predictions", "homemaking", "weaving", "work",  "body", "coding", "narrative", "spirit", "shortstory"
 ];
 const allYears = ["2025", "2026"];
 
