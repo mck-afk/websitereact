@@ -24,9 +24,9 @@ import COOR from './pages/Blog_COOR';
 //import HIWW from './pages/Blog_HIWW';
 import RBSS from './pages/Blog_RBSS';
 //import ESTATE from './pages/Blog_Estate';
-import CheckoutProducts from './pages/CheckoutProducts';
-import CheckoutSuccess from './pages/CheckoutSuccess';
-import CheckoutCancel from './pages/CheckoutCancel';
+// import CheckoutProducts from './pages/CheckoutProducts';
+// import CheckoutSuccess from './pages/CheckoutSuccess';
+// import CheckoutCancel from './pages/CheckoutCancel';
 
 function App() {
   return (
