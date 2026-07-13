@@ -23,15 +23,16 @@ const Home = () => {
           id="noteABOUT"
           className="note pink"
           title="annabelle grace mckenzie"
-          lastUpdated="10/07/2026"
+          lastUpdated="13/07/2026"
         >
           <p>relating with the <span id="seeme" style={{ textDecoration: 'underline', color: '#0000EE'}}>technology</span> in front of me 👩‍💻<br /></p>
           <Tooltip anchorSelect="#seeme" place="bottom" style={{ width: '250px', textAlign: 'center'}}>a medium for interpreting and interacting with the world... computers, internet, literacy, home, bodies, astrology, woman</Tooltip>
           <p>
             📍 Melbourne/Naarm, Australia
-            <br /> 📖 reader of {" "} <a href="#/InterNet">literature</a> & <a href="#/InterNet">critiques</a>
-            <br /> ✍️ writer for <a href="#/weblog">humans</a> & {" "} <a href="https://github.com/mck-afk">computers</a>
-            <br /> 🪡 crafter in the {" "} <a href="#/CrochetComputer">physical</a> & <a href="https://annas-abode.net/">digital</a> 
+            <br /> ✍️ writer for <a className="red" href="#/weblog">humans</a> & {" "} <a href="https://github.com/mck-afk">computers</a>
+            <br /> 📖 inquisitor of {" "} <a className="blue" href="#/InterNet">literature</a> & <a className="purple" href="#/InterNet">esoterica</a>
+            
+            <br /> 🧶 crafter in the {" "} <a className="yellow" href="#/CrochetComputer">physical</a> & <a className="green" href="#/abode">digital</a> 
           </p>
           <p><i>all opinions are my own</i></p>
           <p style={{ display: "none" }} >
@@ -40,6 +41,53 @@ const Home = () => {
             voracious for vitality
           </p>
         </PostItNote>
+
+        <motion.div
+          initial={{ y: -40 }}
+          animate={movingNoteId === "noteABODE" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
+          transition={{ duration: 0.2 }}
+          style={{ cursor: "pointer", margin: "auto", zIndex: 1000, position: "relative" }}
+          whileHover={{ rotate: -5 }}
+          onClick={() => handleNoteClick("noteABODE", "/abode")}
+        >
+        <PostItNote
+          id="noteABODE"
+          className="note green left"
+          title="Anna's Abode"
+          lastUpdated="11/07/2026"
+        >
+          <p>
+            a framework for organising and exploring areas of life and creation<br /> <br />
+            <img src="images/abode.png" style={{ width: '100px'}} />
+            <table className="hiddenTable" style={{display: "none"}}>
+              <tr>
+                <td className="hiddenTable"></td>
+                <td className="hiddenTable"><img src="https://blob.gifcities.org/gifcities/S4TBQT6HDKHUUPY5WJ7UC7QGP74PG3PJ.gif" /></td>
+                <td className="hiddenTable"></td>
+                <td className="hiddenTable"><img src="https://blob.gifcities.org/gifcities/S4TBQT6HDKHUUPY5WJ7UC7QGP74PG3PJ.gif" /></td>
+                <td className="hiddenTable"></td>
+              </tr>
+              <tr>
+                <td className="hiddenTable"><img src="https://blob.gifcities.org/gifcities/S4TBQT6HDKHUUPY5WJ7UC7QGP74PG3PJ.gif" /></td>
+                <td className="hiddenTable"></td>
+                <td className="hiddenTable"><img src="https://blob.gifcities.org/gifcities/S4TBQT6HDKHUUPY5WJ7UC7QGP74PG3PJ.gif" /></td>
+                <td className="hiddenTable"></td>
+                <td className="hiddenTable"><img src="https://blob.gifcities.org/gifcities/S4TBQT6HDKHUUPY5WJ7UC7QGP74PG3PJ.gif" /></td>
+              </tr>
+              <tr>
+                <td className="hiddenTable"></td>
+                <td className="hiddenTable"><img src="https://blob.gifcities.org/gifcities/S4TBQT6HDKHUUPY5WJ7UC7QGP74PG3PJ.gif" /></td>
+                <td className="hiddenTable"></td>
+                <td className="hiddenTable"><img src="https://blob.gifcities.org/gifcities/S4TBQT6HDKHUUPY5WJ7UC7QGP74PG3PJ.gif" /></td>
+                <td className="hiddenTable"></td>
+              </tr>
+            </table>
+            <br />
+            a honeycomb home ⬡ 
+          </p>
+          
+        </PostItNote>
+        </motion.div>
 
         <motion.div
           initial={{ x: 0, y: -50 }}
@@ -51,7 +99,7 @@ const Home = () => {
         >
           <PostItNote
             id="noteWEBLOG"
-            className="note red left"
+            className="note red right"
             title="WebLog aka Blog"
             lastUpdated="10/07/2026"
           >
@@ -104,7 +152,7 @@ const Home = () => {
         >
         <PostItNote
           id="noteINTERNET"
-          className="note blue right"
+          className="note blue left"
           title="InterNet"
           lastUpdated="15/05/2026"
         >
@@ -126,7 +174,7 @@ const Home = () => {
         >
         <PostItNote
           id="noteFBL"
-          className="note orange left"
+          className="note orange right"
           title="Body Literacy"
           lastUpdated="15/05/2026"
         >
@@ -154,7 +202,7 @@ const Home = () => {
         >
         <PostItNote
           id="noteASTROPROGRAM"
-          className="note purple right"
+          className="note purple left"
           title="Astrology for Programmers"
           lastUpdated="03/01/2026"
         >
@@ -167,51 +215,7 @@ const Home = () => {
         </PostItNote>
         </motion.div>
 
-        <motion.div
-          initial={{ y: -40 }}
-          animate={movingNoteId === "noteABODE" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
-          transition={{ duration: 0.2 }}
-          style={{ cursor: "pointer", margin: "auto", zIndex: 1000, position: "relative" }}
-          whileHover={{ rotate: -5 }}
-          onClick={() => handleNoteClick("noteABODE", "https://annas-abode.net/", true)}
-        >
-        <PostItNote
-          id="noteABODE"
-          className="note green left"
-          title="Anna's Abode"
-          lastUpdated="14/09/2025"
-        >
-          <p>
-            a framework for organising and exploring areas of life and creation<br /> <br />
-            <table className="hiddenTable">
-              <tr>
-                <td className="hiddenTable"></td>
-                <td className="hiddenTable"><img src="https://blob.gifcities.org/gifcities/S4TBQT6HDKHUUPY5WJ7UC7QGP74PG3PJ.gif" /></td>
-                <td className="hiddenTable"></td>
-                <td className="hiddenTable"><img src="https://blob.gifcities.org/gifcities/S4TBQT6HDKHUUPY5WJ7UC7QGP74PG3PJ.gif" /></td>
-                <td className="hiddenTable"></td>
-              </tr>
-              <tr>
-                <td className="hiddenTable"><img src="https://blob.gifcities.org/gifcities/S4TBQT6HDKHUUPY5WJ7UC7QGP74PG3PJ.gif" /></td>
-                <td className="hiddenTable"></td>
-                <td className="hiddenTable"><img src="https://blob.gifcities.org/gifcities/S4TBQT6HDKHUUPY5WJ7UC7QGP74PG3PJ.gif" /></td>
-                <td className="hiddenTable"></td>
-                <td className="hiddenTable"><img src="https://blob.gifcities.org/gifcities/S4TBQT6HDKHUUPY5WJ7UC7QGP74PG3PJ.gif" /></td>
-              </tr>
-              <tr>
-                <td className="hiddenTable"></td>
-                <td className="hiddenTable"><img src="https://blob.gifcities.org/gifcities/S4TBQT6HDKHUUPY5WJ7UC7QGP74PG3PJ.gif" /></td>
-                <td className="hiddenTable"></td>
-                <td className="hiddenTable"><img src="https://blob.gifcities.org/gifcities/S4TBQT6HDKHUUPY5WJ7UC7QGP74PG3PJ.gif" /></td>
-                <td className="hiddenTable"></td>
-              </tr>
-            </table>
-            <br />
-            a honeycomb home ⬡ 
-          </p>
-          
-        </PostItNote>
-        </motion.div>
+        
 
         
       </div>

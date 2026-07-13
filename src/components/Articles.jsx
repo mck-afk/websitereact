@@ -7,34 +7,18 @@ import { image } from "framer-motion/client";
 // Article data array
 const articlesData = [
   {
-    id: "articleALCT",
-    color: "green",
-    title: "Mother container theory",
-    text: "Moon and Food and Cocoon and Rage",
-    date: "22 July 2026",
-    themes: ["astrology", "technology", "mother"],
-    redirectPath: "/Blog_ALCT",
-  },{
-    id: "articleESTATE",
-    color: "purple",
-    title: "Reclaiming the Estate",
-    text: "m",
-    date: "",
-    themes: ["narrative", "technology", "literacy"],
-    redirectPath: "/Blog_Estate",
-  },{
     id: "articleHIWW",
     color: "pink",
     title: "History is Written by the Writers",
     text: "so write",
-    date: "14 July 2026",
-    themes: ["narrative", "technology", "literacy"],
+    date: "13 July 2026",
+    themes: ["literature", "technology", "literacy"],
     redirectPath: "/Blog_HIWW",
   },{
     id: "articleRBSS",
-    color: "pink",
+    color: "yellow",
     title: "Guinness World Record Holder Sexualised Again",
-    text: "Regressing Back to Smooth and Sexy",
+    text: "Regressing Back to Smooth and Skinny",
     date: "10 July 2026",
     themes: ["feminism", "videogame", "body"],
     redirectPath: "/Blog_RBSS",

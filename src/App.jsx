@@ -19,9 +19,11 @@ import Blog_26PS from './pages/Blog_26PS';
 import TRMR from './pages/Blog_TRMR';
 import SPMA from './pages/Blog_SPMA';
 import COOR from './pages/Blog_COOR';
+import AbodeHome from './pages/AbodeHome';
+import AbodeRoom from './pages/AbodeRoom';
 //import ATBC from './pages/Blog_ATBC';
 //import ALCT from './pages/Blog_ALCT';
-//import HIWW from './pages/Blog_HIWW';
+import HIWW from './pages/Blog_HIWW';
 import RBSS from './pages/Blog_RBSS';
 //import ESTATE from './pages/Blog_Estate';
 // import CheckoutProducts from './pages/CheckoutProducts';
@@ -49,12 +51,15 @@ function App() {
       <Route path="/Blog_TRMR" element={<TRMR />} />
       <Route path="/Blog_SPMA" element={<SPMA />} />
       <Route path="/Blog_COOR" element={<COOR />} />
+      <Route path="/Blog_RBSS" element={<RBSS />} />
+      <Route path="/Blog_HIWW" element={<HIWW />} />
+
+      <Route path="/abode" element={<AbodeHome />} />
+      <Route path="/abode/:roomId" element={<AbodeRoom />} />
       
       <Route path="/Blog_RBSS" element={<RBSS />} />
       
-      <Route path="/checkout" element={<CheckoutProducts />} />
-      <Route path="/checkout/success" element={<CheckoutSuccess />} />
-      <Route path="/checkout/cancel" element={<CheckoutCancel />} />
+      
     </Routes>
   );
 }

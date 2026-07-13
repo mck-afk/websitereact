@@ -27,6 +27,15 @@ const CrochetComputer = () => (
     
         <h2 className="yellow">Creative Log</h2>
 
+
+        <hr />
+        <h3>11 July 2026 - Motherboard base blocked and Keyboard progress</h3>
+        <p>
+            The internet if a maginfiicent place for learning! I really enjoyed this video demonstration of <a href="https://www.youtube.com/watch?v=hEc3LTX1e0Y">How to Block Knits by Interweave Craft</a>. I have also been making progress on the Keyboard (image below). You can see the scraps of yarn I am using to count the rows and sections. This is still in draft phase, because keyboards are aligned but off center, in the way that bricks are stacked in a wall. I'm exctied to see how I'm going to bring that to life in crochet. 
+            <br /><br />
+            <img src="/images/cckeyboardstart.jpg" alt="Crochet Computer Keyboard start" style={{ width: "400px"}} />
+        </p>
+
         <hr />
         <h3>25 June 2026 - Motherboard base complete</h3>
         <p>

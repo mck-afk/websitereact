@@ -2,6 +2,7 @@ import React from "react";
 import PageLayout from "../components/PageLayout";
 import ZodiacWheel from "../components/ZodiacWheel";
 import PostItNote from "../components/PostItNote";
+import { HashLink } from 'react-router-hash-link';
 
 const AstroProgram = () => (
     <PageLayout>
@@ -29,9 +30,9 @@ const AstroProgram = () => (
             </ul>
             <h2>Table of Contents</h2>
             <ul>
-                <li><a href="#part1">Part 1 - Seeing from another Perspective</a></li>
-                <li><a href="#part2">Part 2 - The Building Blocks</a></li>
-                <li><a href="#part3">Part 3 - Application for Pattern Recognition</a></li>
+                <li><HashLink to="#part1">Part 1 - Seeing from another Perspective</HashLink></li>
+                <li><HashLink to="#part2">Part 2 - The Building Blocks</HashLink></li>
+                <li><HashLink to="#part3">Part 3 - Application for Pattern Recognition</HashLink></li>
             </ul>
             <h2>Disclaimer</h2>
             <p>This article focuses on Western Astrology as defined by <a href="https://en.wikipedia.org/wiki/Zodiac">Wikipedia</a>.

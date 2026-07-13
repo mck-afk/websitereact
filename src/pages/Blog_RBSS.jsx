@@ -8,21 +8,21 @@ const RBSS = () => {
     return (
         <PageLayout>
             <div className="red" style={{ paddingBottom: "5px" }}>
-                <h1 className="pink">Guinness World Record Holder Sexualised Again</h1>
-                <h2>Regressing Back to Smooth and Sexy</h2>
+                <h1 className="yellow">Guinness World Record Holder Sexualised Again</h1>
+                <h2>Regressing Back to Smooth and Skinny</h2>
                 <h4>10 July 2026 | feminism, videogame, body</h4>
                 <button className="red" onClick={() => navigate(-1)}>back</button>
             </div>
             
                 <PostItNote 
                 id="noteLaraCroftGuiness"
-                className="note pink"
+                className="note yellow"
                 title="'Guinness World Record recognises [Lara Croft] as the most successful human video game heroine.'"
                 lastUpdated="">
                     
                     <cite className="actions"><a href="https://web.archive.org/web/20070929135538/http://uk.gamespot.com/news/6147291.html">Guy Cocker, GameSpot UK, Posted Apr 7, 2006</a></cite>
                 </PostItNote>
-                <img src="https://pbs.twimg.com/media/Eq14XSJVoAAYnAP.jpg" style={{ width: "300px" }} />
+                <img src="https://pbs.twimg.com/media/Eq14XSJVoAAYnAP.jpg" style={{ width: "500px" }} />
                     <p><a href="https://archive.org/details/guinnessworldrec00guin_0/page/58/mode/2up">Guinness World Record 2008 page available through the Internet Archive</a></p>
 
                 <p>I am grieving the bimboification of <a href="https://en.wikipedia.org/wiki/Lara_Croft">Lara Croft</a>, the female protagonist from the series 'Tomb Raider'. In this essay I present the case that we should care about the dramatic change in body shape from 'Tomb Raider: Legacy of Atlantis' (2027 - unreleased at time of writing) to the <a href="https://en.wikipedia.org/wiki/Tomb_Raider#Survivor_trilogy">'Survivor Trilogy'</a>: Tomb Raider (2013), Rise of the Tomb Raider (2015), and Shadow of the Tomb Raider (2018)</p> 
@@ -33,7 +33,7 @@ const RBSS = () => {
                 <p>Outside of the canon material, there is the fandom who takes the characters/world/ideas/material and spins them into headcanons and fanfictions. As a teenage girl, this was one of the only ways my creativity was validated — that I felt I had control over something, where I could control the narrative. I could imagine my romantic relationships and explore the dynamics that come with them. I could imagine my characters in a different light. It was a reclamation: here is the material, already strong, powerful, full of personality and vitality. I wanted to be just like them.</p>
                 <PostItNote 
                 id="noteLaraCroftG"
-                className="note pink"
+                className="note yellow"
                 title="'The sexualization of women is only appealing if it’s nonconsensual.'"
                 lastUpdated="">
                     
@@ -63,6 +63,8 @@ const RBSS = () => {
                 </p> 
                 <p>The way women's bodies are presented tells us about the societal attitudes of the time. Surprise: authoritarian regimes are back in power and controlling women's bodies by idealising smaller, thinner, smoother bodies. It is the first step in every regime. They obliterated the triceps, shaved her biceps to the barest of bumps, and smoothed over the shoulder. Lara Croft's body has <a href="https://www.infinitefrontiers.org.uk/no-lara-crofts-body-didnt-get-a-150-enhancement-and-it-shouldnt-matter/">always been a statement piece, whether you believe the rumours or not</a>, especially considering the creator Toby Gard soon left the studio because <a href="https://tombraider.fandom.com/wiki/Toby_Gard">"Lara was becoming too much of a sex symbol rather than the independent strong female heroine he had intended her to be".</a></p>
                 <p>Also, in LOA, why did they design her to have the face of a mature woman but the body of an 18 year old? At least in the earlier games, we knew she was a young woman and her body and face matched.</p>
+                <p><b>July 13 2026 addition -</b> Upon further consideration, I understand where this chimera comes from. It's the moulding of <a href="https://culturevulture.substack.com/p/on-keeping-women-skinny-so-they-dont">authoritarian</a> and <a href="https://finalgirldigital.substack.com/p/pretty-babies-exploring-epstein-and">pedophiliac</a> beauty ideals (thin, toned, smooth, flawless).
+                <br /> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR6qO699clLR7VL_otNjnMsletYS7Fq27djbBYs8FWpr9BDmTEVpBX6Lg&s=10" style={{ width: "400px" }} /></p>
 
                 <h2>Exhibit 3: Promo Material - Title Screen</h2>
                 <p>
@@ -76,7 +78,6 @@ const RBSS = () => {
                 <p>Lara Croft is not just any female protagonist. What does it mean when we humanise a "sex symbol" and give her personality, guilt, shame, fear, arrogance, joy, revelation, healing, peace — only to take it away again? I see the <a href="https://www.britannica.com/event/Roe-v-Wade">pattern of rolling back women's rights</a> — I can't shake the feeling that this, being so blatant, is another assault.</p>
                 <p>Of course Lara became a sex symbol precisely because she was intended to not be. Isn't this all painfully obvious — like bringing hot tea to your lips that was too hot to sip a mere moment ago. </p>
                 <p>Bodies - epseically the bodies that are presented in media - impact us. They communicate what kinds of bodies are safe where. The bimboification of Lara Croft doesn't make my body feel safe. How does it make yours?</p>
-
 
             <div className="red" style={{ paddingBottom: "5px" }}>
                 <h1>thank you for reading</h1>
