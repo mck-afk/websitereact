@@ -7,6 +7,14 @@ import { image } from "framer-motion/client";
 // Article data array
 const articlesData = [
   {
+    id: "articleALCT",
+    color: "green",
+    title: "The Carrier Bag during Cancer Season",
+    text: "The Mother within the Moon, Food, Cocoon, Book, Cockatoo, Soothsaying, Room",
+    date: "22 July 2026",
+    themes: ["astrology", "technology", "mother"],
+    redirectPath: "/Blog_ALCT",
+  },{
     id: "articleHIWW",
     color: "pink",
     title: "History is Written by the Writers",

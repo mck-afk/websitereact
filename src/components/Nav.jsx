@@ -45,7 +45,7 @@ const Nav = () => {
                         </li>
                         <li role="menuitem">
                             <img src="https://img.icons8.com/?size=100&id=j48RtSRtbrYi&format=png&color=66bd6a" style={{ left: 3, width: 18, height: 18 }}/>
-                            <a href="https://annas-abode.net/">Anna'sAbode</a>
+                            <a href="/#/abode">Anna's Abode</a>
                         </li>
                         <li role="menuitem">
                             <img src="https://img.icons8.com/?size=100&id=101354&format=png&color=ad6cf8" style={{ left: 5, width: 15, height: 15 }}/>

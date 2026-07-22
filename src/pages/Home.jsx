@@ -23,7 +23,7 @@ const Home = () => {
           id="noteABOUT"
           className="note pink"
           title="annabelle grace mckenzie"
-          lastUpdated="13/07/2026"
+          lastUpdated="22/07/2026"
         >
           <p>relating with the <span id="seeme" style={{ textDecoration: 'underline', color: '#0000EE'}}>technology</span> in front of me 👩‍💻<br /></p>
           <Tooltip anchorSelect="#seeme" place="bottom" style={{ width: '250px', textAlign: 'center'}}>a medium for interpreting and interacting with the world... computers, internet, literacy, home, bodies, astrology, woman</Tooltip>
@@ -54,12 +54,13 @@ const Home = () => {
           id="noteABODE"
           className="note green left"
           title="Anna's Abode"
-          lastUpdated="11/07/2026"
+          lastUpdated="22/07/2026"
         >
           <p>
-            a framework for organising and exploring areas of life and creation<br /> <br />
+            a framework for organising and exploring areas of life and creation</p>
             <img src="images/abode.png" style={{ width: '100px'}} />
             <table className="hiddenTable" style={{display: "none"}}>
+              <tbody>
               <tr>
                 <td className="hiddenTable"></td>
                 <td className="hiddenTable"><img src="https://blob.gifcities.org/gifcities/S4TBQT6HDKHUUPY5WJ7UC7QGP74PG3PJ.gif" /></td>
@@ -81,10 +82,11 @@ const Home = () => {
                 <td className="hiddenTable"><img src="https://blob.gifcities.org/gifcities/S4TBQT6HDKHUUPY5WJ7UC7QGP74PG3PJ.gif" /></td>
                 <td className="hiddenTable"></td>
               </tr>
+              </tbody>
             </table>
-            <br />
-            a honeycomb home ⬡ 
-          </p>
+            <p>
+            a honeycomb home ⬡ </p>
+          
           
         </PostItNote>
         </motion.div>
@@ -101,7 +103,7 @@ const Home = () => {
             id="noteWEBLOG"
             className="note red right"
             title="WebLog aka Blog"
-            lastUpdated="10/07/2026"
+            lastUpdated="22/07/2026"
           >
             <p>an athenaeum at the itnersection of introspection, investigation, & imagination ✍️
               <br />
