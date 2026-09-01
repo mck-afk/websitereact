@@ -23,13 +23,13 @@ const Home = () => {
           id="noteABOUT"
           className="note pink"
           title="annabelle grace mckenzie"
-          lastUpdated="22/07/2026"
+          lastUpdated="01/09/2026"
         >
           <p>relating with the <span id="seeme" style={{ textDecoration: 'underline', color: '#0000EE'}}>technology</span> in front of me 👩‍💻<br /></p>
           <Tooltip anchorSelect="#seeme" place="bottom" style={{ width: '250px', textAlign: 'center'}}>a medium for interpreting and interacting with the world... computers, internet, literacy, home, bodies, astrology, woman</Tooltip>
           <p>
-            📍 Melbourne/Naarm, Australia
-            <br /> ✍️ writer for <a className="red" href="#/weblog">humans</a> & {" "} <a href="https://github.com/mck-afk">computers</a>
+            
+             ✍️ writer for <a className="red" href="#/weblog">humans</a> & {" "} <a href="https://github.com/mck-afk">computers</a>
             <br /> 📖 inquisitor of {" "} <a className="blue" href="#/InterNet">literature</a> & <a className="purple" href="#/InterNet">esoterica</a>
             
             <br /> 🧶 crafter in the {" "} <a className="yellow" href="#/CrochetComputer">physical</a> & <a className="green" href="#/abode">digital</a> 
@@ -41,6 +41,82 @@ const Home = () => {
             voracious for vitality
           </p>
         </PostItNote>
+
+
+        <motion.div
+          initial={{ x: 0, y: -50 }}
+          animate={movingNoteId === "noteINTERNET" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
+          transition={{ duration: 0.2 }}
+          style={{ cursor: "pointer", margin: "auto", zIndex: 1000, position: "relative" }}
+          whileHover={{ rotate: -5 }}
+          onClick={() => handleNoteClick("noteINTERNET", "/InterNet")}
+        >
+        <PostItNote
+          id="noteINTERNET"
+          className="note blue left"
+          title="InterNet"
+          lastUpdated="01/09/2026"
+        >
+          <p>
+            collections of links 🔗 <br /><br /> <img src="https://blob.gifcities.org/gifcities/OKHS3RM5QESWDRYPYFD2LZXHCU5UQAGI.gif" /><br /><br /> to books, newsletters, communities, worlds, articles, recipes, media, people, crafts & more 
+            
+          </p>
+          <p style={{ textAlign: "right" }} ><img src="https://blob.gifcities.org/gifcities/RYZXTD3B7A23HN45HI47DKN2EV5D465M.gif" /></p>
+        </PostItNote>
+        </motion.div>
+
+        <motion.div
+          initial={{ x: 0, y: -50 }}
+          animate={movingNoteId === "noteWEBLOG" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
+          transition={{ duration: 0.2 }}
+          style={{ cursor: "pointer", margin: "auto", zIndex: 1000, position: "relative" }}
+          whileHover={{ rotate: -5 }}
+          onClick={() => handleNoteClick("noteWEBLOG", "/weblog")}
+        >
+          <PostItNote
+            id="noteWEBLOG"
+            className="note red right"
+            title="WebLog aka Blog"
+            lastUpdated="22/07/2026"
+          >
+            <p>an athenaeum of introspection, investigation, & imagination ✍️
+              <br />
+              <img src="https://blob.gifcities.org/gifcities/4W6TLA2HJNPFMAEBAOY32MTYHCDONYNU.gif" />
+              <br />
+              topics include: internet, technology, literacy, capitalism, writing, body, spirit, home, girl, woman, mother, other
+              <img src="/images/blinking_caret.gif" style={{width: "8px", height: "18px"}}/>
+            </p>
+
+            
+            <p style={{  display: "none", textAlign: "right" }} ><img src="https://blob.gifcities.org/gifcities/367RXTPFSHLBBRS6PGTJQEHMTDEXP2HC.gif" /></p>
+            <p style={{  display: "none", textAlign: "right" }} ><img src="https://blob.gifcities.org/gifcities/LKDMD44G2M5KCZDNP3CB3C6XT46F7N2V.gif" /></p>
+            
+          </PostItNote>
+        </motion.div>
+
+
+        <motion.div
+          initial={{ y: -20 }}
+          animate={movingNoteId === "noteTechNewsSynth" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
+          transition={{ duration: 0.2 }}
+          style={{ cursor: "pointer", margin: "auto", zIndex: 1000, position: "relative" }}
+          whileHover={{ rotate: -5 }}
+          onClick={() => handleNoteClick("noteTechNewsSynth", "/CrochetComputer")}
+        >
+        <PostItNote
+          id="noteTechNewsSynth"
+          className="note yellow right"
+          title="Crochet Computer"
+          lastUpdated="28/08/2026" 
+        >
+            
+            <p>the making of an idol of a computer through the textile techniques of knitting, crocheting, and sewing</p>
+            <img style={{ width: "60px" }} src="https://media.baamboozle.com/uploads/images/388680/1625161883_71705_gif-url.gif"/>
+            <p>follow along on my journey</p>
+
+            <p style={{ display: "none", textAlign: "right" }} ><img src="https://blob.gifcities.org/gifcities/LKDMD44G2M5KCZDNP3CB3C6XT46F7N2V.gif" /></p>
+        </PostItNote>
+        </motion.div> 
 
         <motion.div
           initial={{ y: -40 }}
@@ -92,81 +168,6 @@ const Home = () => {
         </motion.div>
 
         <motion.div
-          initial={{ x: 0, y: -50 }}
-          animate={movingNoteId === "noteWEBLOG" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
-          transition={{ duration: 0.2 }}
-          style={{ cursor: "pointer", margin: "auto", zIndex: 1000, position: "relative" }}
-          whileHover={{ rotate: -5 }}
-          onClick={() => handleNoteClick("noteWEBLOG", "/weblog")}
-        >
-          <PostItNote
-            id="noteWEBLOG"
-            className="note red right"
-            title="WebLog aka Blog"
-            lastUpdated="22/07/2026"
-          >
-            <p>an athenaeum at the itnersection of introspection, investigation, & imagination ✍️
-              <br />
-              <img src="https://blob.gifcities.org/gifcities/4W6TLA2HJNPFMAEBAOY32MTYHCDONYNU.gif" />
-              <br />
-              topics include: internet, technology, literacy, capitalism, writing, homemaking, girl, woman, mother, other
-              <img src="/images/blinking_caret.gif" style={{width: "8px", height: "18px"}}/>
-            </p>
-
-            
-            <p style={{  textAlign: "right" }} ><img src="https://blob.gifcities.org/gifcities/LKDMD44G2M5KCZDNP3CB3C6XT46F7N2V.gif" /></p>
-          </PostItNote>
-        </motion.div>
-
-        <motion.div
-          initial={{ y: -20 }}
-          animate={movingNoteId === "noteTechNewsSynth" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
-          transition={{ duration: 0.2 }}
-          style={{ cursor: "pointer", margin: "auto", zIndex: 1000, position: "relative" }}
-          whileHover={{ rotate: -5 }}
-          onClick={() => handleNoteClick("noteTechNewsSynth", "/CrochetComputer")}
-        >
-        <PostItNote
-          id="noteTechNewsSynth"
-          className="note yellow right"
-          title="Crochet Computer"
-          lastUpdated="27/06/2026" 
-        >
-            
-            <p>the making of an idol of a computer through the textile techniques of knitting, crocheting, and sewing</p>
-            <img style={{ width: "60px" }} src="https://media.baamboozle.com/uploads/images/388680/1625161883_71705_gif-url.gif"/>
-            <p>follow along on my journey</p>
-
-            <p style={{ display: "none", textAlign: "right" }} ><img src="https://blob.gifcities.org/gifcities/LKDMD44G2M5KCZDNP3CB3C6XT46F7N2V.gif" /></p>
-        </PostItNote>
-        </motion.div> 
-
-
-        
-
-        <motion.div
-          initial={{ x: 0, y: -50 }}
-          animate={movingNoteId === "noteINTERNET" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
-          transition={{ duration: 0.2 }}
-          style={{ cursor: "pointer", margin: "auto", zIndex: 1000, position: "relative" }}
-          whileHover={{ rotate: -5 }}
-          onClick={() => handleNoteClick("noteINTERNET", "/InterNet")}
-        >
-        <PostItNote
-          id="noteINTERNET"
-          className="note blue left"
-          title="InterNet"
-          lastUpdated="15/05/2026"
-        >
-          <p>
-            collections of links 🔗 <br /><br /><img src="https://blob.gifcities.org/gifcities/PJF3QGAT3JERTMI45BITUCH4BE76NC5Z.gif"/><br /><br /> to books, newsletters, communities, worlds, articles, recipes, media, movements, people, crafts, and other cool things to explore 
-            
-          </p>
-          <p style={{ display: "none", textAlign: "right" }} ><img src="https://blob.gifcities.org/gifcities/RYZXTD3B7A23HN45HI47DKN2EV5D465M.gif" /></p>
-        </PostItNote>
-        </motion.div>
-
-        <motion.div
           initial={{ y: -20 }}
           animate={movingNoteId === "noteFBL" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
           transition={{ duration: 0.2 }}
@@ -209,7 +210,7 @@ const Home = () => {
           lastUpdated="03/01/2026"
         >
           <p>
-            ✧☊ <img src="https://blob.gifcities.org/gifcities/QOJGTLUK7YFKP26LSJJOTPNGSWKXT67C.gif" />  &gt; |
+            ✧☊ <img src="https://blob.gifcities.org/gifcities/QOJGTLUK7YFKP26LSJJOTPNGSWKXT67C.gif" />  &gt; | <img src="https://blob.gifcities.org/gifcities/PJF3QGAT3JERTMI45BITUCH4BE76NC5Z.gif"/>
             <br />
             <br />to interpret (and manipulate) patterns, through the application of rules/calculations, we start with learning the basics of the language
             <br /><br />hear me out

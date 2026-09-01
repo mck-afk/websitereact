@@ -27,6 +27,23 @@ const CrochetComputer = () => (
     
         <h2 className="yellow">Creative Log</h2>
 
+        <h3>28 August 2026 - RAM finished and PSU started</h3>
+        <p>Repeat RAM stitches. Use a second type of yarn to differentiate and reverse the direction of the stitches. Leave one whole stitch between the two pairs. To add the tabs at each end, sc from one row to the other, then half double crochet and build back across. <br />For the PSU, count 14 stitches long (12 gaps + one on each side for the edging = 14). Use double crochet to achieve desired height. </p>
+        
+        <img src="images/ccRAM.JPG" style={{ width: "400px"}}/>
+
+        <hr />
+        
+        <h3>13 August 2026 - RAM started</h3>
+        <p>RAM 22 sc. Start in the same loop on the next stitch. Hold the working yarn on the same side for the length of the RAM. </p>
+        
+        <img src="images/ccRAM1.JPG" style={{ width: "400px"}}/>
+
+        <hr />
+
+        <h3>25 July 2026 - Motherboard base mapping</h3>
+        
+        <img src="images/ccmotherboardplan.jpg" style={{ width: "400px"}}/>
 
         <hr />
         <h3>11 July 2026 - Motherboard base blocked and Keyboard progress</h3>
@@ -39,9 +56,9 @@ const CrochetComputer = () => (
         <hr />
         <h3>25 June 2026 - Motherboard base complete</h3>
         <p>
-            What I found challenging was holding the right tension when casting on (maintaing the tension across the first row). After that, the knitting built up easily and was very enjoyable to do alongside watchnig/listening to other media. I really appreciated <a href="https://www.youtube.com/playlist?list=PLSZARCc5KSoRQGQY3LfbBgkxXsZEq2r2_">Sheep & Stich's Youtube Tutorials</a> for guiding me through the basic techniques, including casting off. I measured this roughly off of the laptop I am typing this on and attempted to keep the ratios relatively consistent. This is 40 stiches wide and ~60 rows tall. I haven't 'blocked' it yet - that's the next adventure!
+            What I found challenging was holding the right tension when casting on (maintaing the tension across the first row). After that, the knitting built up easily and was very enjoyable to do alongside watchnig/listening to other media. I really appreciated <a href="https://www.youtube.com/playlist?list=PLSZARCc5KSoRQGQY3LfbBgkxXsZEq2r2_">Sheep & Stich's Youtube Tutorials</a> for guiding me through the basic techniques, including casting off. I measured this roughly off of the laptop I am typing this on and attempted to keep the ratios relatively consistent. This is 40 stiches wide and 58 rows tall. I haven't 'blocked' it yet - that's the next adventure!
             <br /><br />
-            <img src="/images/ccmotherboardbase.jpg" alt="Crochet Computer Motherboard" style={{ width: "400px"}} />
+            <img src="/images/ccmotherboardbase.jpg" alt="Crochet Computer Motherboard base" style={{ width: "400px"}} />
         </p>
 
         <hr />
@@ -55,11 +72,27 @@ const CrochetComputer = () => (
         <hr />
         <h3>23 May 2026 - Idea on paper</h3>
         <p>
-            Inspired by <a href="https://youtu.be/aumh4oknVuM?si=pdFCbcln1NEWqxq0">Cyberdecks</a> and <a href="https://www.instagram.com/reels/DFsuAPrT7bL/">MoodyJuiceCrochet</a>, the idea sparks alight. I know that it will be a long project and I am excited to document it for all of us. I start with <a href="https://youtu.be/YxcTBB6_bws?si=oWIQgFTvgf8p3tYn">understanding the core components</a>. Then I sketch their respective ports on the motherboard. I colour coded based on <a href="https://annas-abode.net/">The Estate framework I developed prior.</a>
+            Inspired by <a href="https://youtu.be/aumh4oknVuM?si=pdFCbcln1NEWqxq0">Cyberdecks</a>, <a href="https://www.reddit.com/r/pcmasterrace/comments/qh0kjv/why_cant_we_go_back_to_colored_motherboards_and/">colored motherboards</a>, and the below <a href="https://www.instagram.com/reels/DFsuAPrT7bL/">Keyboard Gloves by MoodyJuiceCrochet</a>, the idea sparks alight. I know that it will be a long project and I am excited to document it for all of us. I start with researching the core components <a href="https://youtu.be/YxcTBB6_bws?si=oWIQgFTvgf8p3tYn">on Youtube</a>, alongside <a href="https://quizlet.com/gb/411444891/motherboard-components-diagram/">Quizlet</a>, and <a href="https://commons.wikimedia.org/wiki/File:Motherboard_Components.svg">Wikimedia</a> diagrams. Then I sketch their respective ports on the motherboard. I colour coded based on <a href="https://annas-abode.net/">The Estate framework I developed prior.</a> 
             <br /><br />
+            
             <img src="/images/ccsketch.jpg" alt="Crochet Computer Sketch" style={{ width: "400px"}}/>
+            
+            <div className="red"><p>PSU</p>
+            <img src="https://static0.makeuseofimages.com/wordpress/wp-content/uploads/2023/04/2023_z-cze_zasilania_atx-1.jpg?w=1200&h=628&fit=crop" alt="Crochet Computer PSU" style={{ width: "400px"}}/></div>
+            <div className="orange"><p>CPU</p>
+            <img src="https://cdn.shopify.com/s/files/1/0028/7509/7153/files/4_593fbf54-de46-46a6-a8c8-4f567cc196b1.jpg?v=1621420057" alt="Crochet Computer CPU" style={{ width: "400px"}}/></div>
+            <div className="yellow"><p>RAM</p>
+            <img src="https://i.sstatic.net/RYLH4.jpg" alt="Crochet Computer RAM" style={{ width: "400px"}}/></div>
+            <div className="blue"><p>GPU/PCI</p>
+            <img src="https://globalamericaninc.com/wp-content/uploads/2021/07/PCI_und_PCIe_Slots.jpeg" alt="Crochet Computer PCI" style={{ width: "400px"}}/></div>
+            <div className="purple"><p>SATA</p>
+            <img src="https://pc-builder.io/blog/wp-content/uploads/2023/07/SATA-slots.jpg" alt="Crochet Computer SATA" style={{ width: "400px"}}/></div>
+            <div className="pink"><p>Keyboard</p>
+            <a href="https://www.instagram.com/reels/DFsuAPrT7bL/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ8LE0wZhEx5FYfuGZt73Grheq8hIQrz1K5c9xO_rODBUxBcJozh5uQgY&s=10" alt="Crochet Keyboard Gloves by MoodyJuiceCrochet" style={{ width: "400px"}} /></a></div>
         </p>
 
+        
+        
         <hr />
         <p></p>
         

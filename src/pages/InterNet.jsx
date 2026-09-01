@@ -38,7 +38,7 @@ const InterNet = () => (
                     <dl>
                         <dt>
                             <a href="https://yourbookstore.io/p/a-vindication-of-the-rights-of-woman-187002">
-                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/002/798/876/large_temp_img.jpg20250817-50-ia4ztv?1755409680" />Vindication of the Rights of Woman by Mary Wollstonecraft 1792</a></dt>
+                            <img className="book" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/A_Vindication_of_the_Rights_of_Woman_title_page.jpg/500px-A_Vindication_of_the_Rights_of_Woman_title_page.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" />Vindication of the Rights of Woman by Mary Wollstonecraft 1792</a></dt>
                         <dd>"Education deserves emphatically to be termed cultivation of the mind which teaches young people how to begin to think."</dd>
                         <dt>
                             <a href="https://yourbookstore.io/p/the-master-s-tools-will-never-dismantle-the-master-s-house">
@@ -104,7 +104,7 @@ const InterNet = () => (
                         <dd>"Contemplating death is aimed at living better, not dying sooner."<br />"Modern death denialism is therefore a system that can only function for some. Even then, it does not seem to be functioning very well."</dd>
                         <dt>
                             <a href="https://yourbookstore.io/p/the-beginning-comes-after-the-end-notes-on-a-radically-changed-and-changing-world">
-                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/646/775/large_temp_img.jpg20260528-25-oayvg?1779944182" />The Beginning Comes After the End: Notes on a Radically Changed and Changing World by Rebecca Solnit 2026</a></dt>
+                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/646/775/large_temp_img.jpg20260819-39-xot2b9?1787098217" />The Beginning Comes After the End: Notes on a Radically Changed and Changing World by Rebecca Solnit 2026</a></dt>
                         <dd>"This is a long essay in the form of a short book about the profound changes of the past several decades, about those who planted and tended to seeds, about how ideas became actualities... This is a reminder that you do not have to picture the destination to reach it or at laest draw closer to it, you just need to choose a direction and keep on walking-though that metaphor makes it sound as though it already exists, if at a distance, rather than that the process itself creates it and covers the distance between the idea and the actuality."</dd>
                     </dl>
 
@@ -147,7 +147,11 @@ const InterNet = () => (
                         <dd>defining for yourself who you are equips you to with the fortitude to face everything that comes.</dd>
                         <dt>
                             <a href="https://yourbookstore.io/p/chain-gang-all-stars-a-novel"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/139/425/large_9781529920567.jpg?1752736479" />Chain-Gang All-Stars by Nana Kwame Adjei-Brenyah 2023</a></dt>
-                        <dd>powerful commentary on the sickening spectacle that is violence.</dd>
+                        <dd>powerful commentary on the sickening spectacle that is violence. it was the friends we made along the way.</dd>
+                        <dt>
+                            <a href="https://yourbookstore.io/p/hexes-of-the-deadwood-forest-bold-surreal-feminist-ferociously-funny-service95">
+                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/637/982/large_temp_img.jpg20260603-29-762i8j?1780461800" />Hexes of the Deadwood Forest by Agnieszka Szpila 2026</a></dt>
+                        <dd>a funny, enthralling fever dream. remembering that humour is the medium through which kernels of truth are transported.</dd>
                     </dl>
                 
                 </div>
@@ -184,13 +188,18 @@ const InterNet = () => (
                             My Grandmother's Hands: Racialised Trauma and the Pathway to Mending our Hearts and Bodies by Resmaa Menakem 2021</a>
                         </dt>
                         <dt>
+                            <a href="https://yourbookstore.io/p/nothing-but-my-body">
+                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/601/644/large_9781761065149.jpg?1719532293" />
+                            Nothing But My Body by Tilly Lawless 2021</a>
+                        </dt>
+                        <dt>
                             <a href="https://yourbookstore.io/p/black-friend-essays-2812977">
                             <img className="book" src="https://m.media-amazon.com/images/I/51TAwpIbIDL._AC_UF1000,1000_QL80_.jpg" />
                             Black Friend: Essays by Ziwe Fumudoh 2023</a>
                         </dt>
                         <dt>
                             <a href="https://yourbookstore.io/p/the-woman-in-me">
-                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/019/756/large_temp_img.jpg20241219-1-zcbppn?1734584454" />
+                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/019/756/large_9781761107627.jpg?1785640615" />
                             The Woman in Me by Britney Spears 2023</a>
                         </dt>
                         <dt>
@@ -200,7 +209,7 @@ const InterNet = () => (
                         </dt>
                         <dt>
                             <a href="https://yourbookstore.io/p/because-i-m-not-myself-you-see-a-memoir-of-motherhood-madness-and-coming-back-from-the-brink">
-                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/099/434/large_temp_img.jpg20250825-44-621g7m?1756098153" />
+                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/099/434/large_9781760644505.jpg?1782779929" />
                             Because I'm Not Myself, You See: A Memoir of Motherhood, Madness and Coming Back From the Brink by Ariane Beeston 2024</a>
                         </dt>
                         <dt>
@@ -210,7 +219,7 @@ const InterNet = () => (
                         </dt>
                         <dt>
                             <a href="https://yourbookstore.io/p/raising-hare-the-heart-warming-true-story-of-an-unlikely-friendship-2923089">
-                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/388/436/large_9781837260867.jpg?1771552050" />
+                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/388/436/large_temp_img.jpg20260728-1-vkktxt?1785281361" />
                             Raising Hare by Chloe Dalton 2025</a>
                         </dt>
                         <dt>
