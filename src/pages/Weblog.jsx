@@ -53,12 +53,25 @@ const Weblog = () => {
             </div>
             <p><HashLink to="#thoughts">Thought Wall</HashLink></p>
           </div>
+
+              
+
           </div>
               <Articles filterTheme={theme} filterYear={year} filterColor={color} />
-            </div>
+          </div>
         
         <div id="thoughts" className="noticeboardBackground" style={{ padding: "2rem", marginBottom: "2rem" }}>
         <h1>Thought Wall</h1>
+        <PostItNote 
+          id="noteONDECENTERINGMEN"
+          className="note red"
+          title="On Decentering Men"
+          lastUpdated="15/09/2026">
+            <p>De-centering men actually means re-centering the parts of you that are investing in men. <br /><br /> All the love, attention, devotion, anticipation. 
+            <br />All the skepticism, disappointment, grief. <br /> All the affection. All the attention. 
+            <br /><br />All that and a lot more. 
+            <br /><br />That’s all you babe.</p>
+        </PostItNote>
         <PostItNote 
           id="noteONMONEY"
           className="note red"

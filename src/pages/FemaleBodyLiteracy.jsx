@@ -109,7 +109,12 @@ const FemaleBodyLiteracy = () => (
             <li><a href="https://themancave.life/"><img style={{width: "100px"}} src="https://logos-world.net/wp-content/uploads/2024/12/The-Man-Cave-Logo-New.png" alt="The Man Cave Australia" /></a></li>
             <li><a href="https://healthymale.org.au/"><img style={{width: "100px"}} src="https://healthymale.org.au/_next/image?url=https%3A%2F%2Fwp.healthymale.org.au%2Fwp-content%2Fuploads%2F2024%2F05%2FHealthy-Male-Logo-Teal-1.gif&w=384&q=75" alt="healthy male" /></a></li>
             <li><a href="https://www.raising-fathers.com/"><img style={{width: "100px"}} src="images/raising_fathers.png" alt="Raising Fathers" /></a></li>
-
+            
+<ul>Videos
+              <li><a href="https://www.instagram.com/p/DSmu1pDCD_s/" >Patriarchy and Male Childhood Trauma</a></li>
+              <li><a href="https://www.instagram.com/p/DYPidsgsAdU/" >Men are not in Crisis</a></li>
+              <li><a href="https://www.instagram.com/p/DTQWkFWkexJ/" >Stop making the argument that women should be forced to pair up with incels</a></li>
+            </ul>
           </ul>
           
         </PostItNote>
@@ -127,25 +132,18 @@ const FemaleBodyLiteracy = () => (
             <a href="https://www.instagram.com/jonathanhiebert/?hl=en"><img style={{width: "100px"}} src="https://tse3.mm.bing.net/th/id/OIP.80S3ui1EcE1oAwEs3k9I_AHaHa?pid=Api" alt="Jonathan Hiebert" /></a>
             <a href="https://linktr.ee/thedadbriefs"><img style={{width: "100px"}} src="https://substackcdn.com/image/fetch/$s_!JwUq!,w_80,h_80,c_fill,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa369951e-f8b8-4f85-943e-ac4610ed3904_150x150.jpeg" alt="Slade Wentworth" /></a>
             <a href="https://cam-fraser.com/"><img style={{width: "100px"}} src="https://tse1.mm.bing.net/th/id/OIP.KxXSEsXrTA5WWzuZPnsN3gHaHa?pid=Api" alt="Cam Fraser" /></a>
-            <a href="https://www.tiktok.com/@louisdavis_"><img style={{width: "100px"}} src="https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/ffd68d7eec7b0c155ba0f990e4117db6~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=ae13c7eb&x-expires=1778374800&x-signature=zyIWhTWaUpZwzABla1R45SS9uJs%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2" alt="Louis Davis" /></a>
+            <a href="https://www.raising-fathers.com/"><img style={{width: "100px", height: "100px"}} src="https://images.squarespace-cdn.com/content/v1/687c7878d0d8dc6e24ffa86c/75295841-37db-4321-a9a7-90f3adb7bf80/jason1.png?format=1500w" alt="Jason Seeman" /></a>
             <a href="https://www.jacobcollier.com/#/"><img style={{width: "100px"}} src="https://www.jacobcollier.com/wp-content/uploads/sites/2030/2025/09/JC_TLFD_COVER_TEXT-1000px-compressed-995x1024.jpg" alt="Jacob Collier" /></a>
             
           </PostItNote>
           <div className="bookshelf">
             <a href="https://yourbookstore.io/p/the-will-to-change-men-masculinity-and-love"><img className="book" src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9780743480338/the-will-to-change-9780743480338_hr.jpg" /></a>
-            <a href="https://yourbookstore.io/p/hero-with-a-thousand-faces-3rd-edition"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/116/719/large_9781577315933.jpg?1767498731" /></a>
             
             
             
-          </div>
-          <div>
-            <ul>Videos
-              <li><a href="https://www.instagram.com/p/DSmu1pDCD_s/" >Patriarchy and Male Childhood Trauma</a></li>
-              <li><a href="https://www.instagram.com/p/DYPidsgsAdU/" >Men are not in Crisis</a></li>
-              <li><a href="https://www.instagram.com/p/DTQWkFWkexJ/" >Stop making the argument that women should be forced to pair up with incels</a></li>
-            </ul>
             
           </div>
+          
           
         
         
@@ -155,9 +153,11 @@ const FemaleBodyLiteracy = () => (
       <div className="orange">
         <h1>21st Century Life Literacy</h1>
         <div className="bookshelf">
-            <a href="https://yourbookstore.io/p/the-barefoot-investor-2022-edition"><img className="book" src="https://m.media-amazon.com/images/I/61+zH4S3leL._UF894,1000_QL80_.jpg" /></a>
+            <a href="https://yourbookstore.io/p/my-grandmother-s-hands-racialized-trauma-and-the-pathway-to-mending-our-hearts-and-bodies"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/589/096/large_9780141996479.jpg?1757214930" /></a>
             <a href="https://yourbookstore.io/p/the-body-keeps-the-score-mind-brain-and-body-in-the-transformation-of-trauma"><img className="book" src="https://cdn2.penguin.com.au/covers/original/9780141978611.jpg" /></a>
             <a href="https://yourbookstore.io/p/we-need-your-art-stop-messing-around-and-make-something"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/326/587/large_9781761347627.jpg?1747284713" /></a>
+            
+            <a href="https://yourbookstore.io/p/the-barefoot-investor-2022-edition"><img className="book" src="https://m.media-amazon.com/images/I/61+zH4S3leL._UF894,1000_QL80_.jpg" /></a>
           </div>
       </div>
     </div>

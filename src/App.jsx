@@ -22,10 +22,12 @@ import Blog_26PS from './pages/Blog_26PS';
 import TRMR from './pages/Blog_TRMR';
 import SPMA from './pages/Blog_SPMA';
 import COOR from './pages/Blog_COOR';
-//import ATBC from './pages/Blog_ATBC';
+import ATBC from './pages/Blog_ATBC';
 import ALCT from './pages/Blog_ALCT';
 import HIWW from './pages/Blog_HIWW';
 import RBSS from './pages/Blog_RBSS';
+import TBUC from './pages/Blog_TBUC';
+import GZSA from './pages/Blog_GZSA';
 //import ESTATE from './pages/Blog_Estate';
 // import CheckoutProducts from './pages/CheckoutProducts';
 // import CheckoutSuccess from './pages/CheckoutSuccess';
@@ -55,11 +57,14 @@ function App() {
       <Route path="/Blog_TRMR" element={<TRMR />} />
       <Route path="/Blog_SPMA" element={<SPMA />} />
       <Route path="/Blog_COOR" element={<COOR />} />
+      <Route path="/Blog_ATBC" element={<ATBC />} />
       <Route path="/Blog_RBSS" element={<RBSS />} />
       <Route path="/Blog_HIWW" element={<HIWW />} />
       <Route path="/Blog_RBSS" element={<RBSS />} />
       <Route path="/Blog_ALCT" element={<ALCT />} />
-      
+      <Route path="/Blog_TBUC" element={<TBUC />} />
+      <Route path="/Blog_TUBC" element={<TBUC />} />
+      <Route path="/Blog_GZSA" element={<GZSA />} />
       
     </Routes>
   );

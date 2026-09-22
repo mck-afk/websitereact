@@ -7,6 +7,32 @@ import { image } from "framer-motion/client";
 // Article data array
 const articlesData = [
   {
+    id: "articleATBC",
+    color: "green",
+    title: "After 'The Beginning Comes After the End'",
+    text: "reflections on Rebecca Solnit's latest work",
+    date: "20 September 2026",
+    themes: ["literature", "feminism", "narrative"],
+    redirectPath: "/Blog_ATBC",
+    image: "https://storage.googleapis.com/circlesoft/document/photos/004/646/775/large_temp_img.jpg20260819-39-xot2b9?1787098217"
+  },{
+    id: "articleGZSA",
+    color: "purple",
+    title: "Why did Gen Z's play pretend as Secret Agents?",
+    text: "longing to be acknowledged for bridging worlds",
+    date: "20 September 2026",
+    themes: ["gen z", "work", "astrology"],
+    redirectPath: "/Blog_GZSA",
+    image: ""
+  },{
+    id: "articleTUBC",
+    color: "yellow",
+    title: "Misdirected Longings for Body Literacy",
+    text: "anorexia and bodybuilding come from the same wound",
+    date: "19 September 2026",
+    themes: ["body", "feminism", "capitalism"],
+    redirectPath: "/Blog_TBUC"
+  },{
     id: "articleALCT",
     color: "green",
     title: "The Carrier Bag during Cancer Season",

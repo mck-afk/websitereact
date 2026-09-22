@@ -128,7 +128,7 @@ const InterNet = () => (
                             <a href="https://yourbookstore.io/p/1984-hb"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/077/368/large_9781328869333.jpg?1718101170" />1984</a> by George <a href="https://www.goodreads.com/book/show/62802741-wifedom">and</a> <a href="https://www.goodreads.com/book/show/52745524-eileen">Eileen</a> Orwell 1949</dt>
                         <dd>astounding, relevant, haunting.</dd>
                         <dt>
-                            <a href="https://yourbookstore.io/p/nervous-conditions"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/593/785/large_temp_img.jpg20240315-1-jyh0m?1718129702" />Nervous Conditions by Tsitsi Dangarembga 1988</a></dt>
+                            <a href="https://yourbookstore.io/p/nervous-conditions"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/003/593/785/large_temp_img.jpg20260903-1-fsyb5f?1788408660" />Nervous Conditions by Tsitsi Dangarembga 1988</a></dt>
                         <dd>the richness and horror of the female body coming-of-age within cultural imperialism.</dd>
                         <dt>
                             <a href="https://yourbookstore.io/p/parable-of-the-sower-a-powerful-tale-of-a-dark-and-dystopian-future"><img className="book" src="https://m.media-amazon.com/images/I/81cccWWMQmL._AC_UF1000,1000_QL80_.jpg" />Parable of The Sower by Octavia E. Butler 1993</a></dt>
@@ -146,11 +146,11 @@ const InterNet = () => (
                             <a href="https://yourbookstore.io/p/lessons-in-chemistry-2479787"><img className="book" src="https://cdn2.penguin.com.au/covers/original/9781804990926.jpg" />Lessons in Chemistry by Bonnie Garmus 2022</a></dt>
                         <dd>defining for yourself who you are equips you to with the fortitude to face everything that comes.</dd>
                         <dt>
-                            <a href="https://yourbookstore.io/p/chain-gang-all-stars-a-novel"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/139/425/large_9781529920567.jpg?1752736479" />Chain-Gang All-Stars by Nana Kwame Adjei-Brenyah 2023</a></dt>
+                            <a href="https://yourbookstore.io/p/chain-gang-all-stars-a-novel"><img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/139/425/large_temp_img.jpg20260919-38-3l07k3?1789793249" />Chain-Gang All-Stars by Nana Kwame Adjei-Brenyah 2023</a></dt>
                         <dd>powerful commentary on the sickening spectacle that is violence. it was the friends we made along the way.</dd>
                         <dt>
                             <a href="https://yourbookstore.io/p/hexes-of-the-deadwood-forest-bold-surreal-feminist-ferociously-funny-service95">
-                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/637/982/large_temp_img.jpg20260603-29-762i8j?1780461800" />Hexes of the Deadwood Forest by Agnieszka Szpila 2026</a></dt>
+                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/637/982/large_9781804443972.jpg?1788385131" />Hexes of the Deadwood Forest by Agnieszka Szpila 2026</a></dt>
                         <dd>a funny, enthralling fever dream. remembering that humour is the medium through which kernels of truth are transported.</dd>
                     </dl>
                 

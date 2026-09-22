@@ -23,14 +23,14 @@ const Home = () => {
           id="noteABOUT"
           className="note pink"
           title="annabelle grace mckenzie"
-          lastUpdated="01/09/2026"
+          lastUpdated="22/09/2026"
         >
           <p>relating with the <span id="seeme" style={{ textDecoration: 'underline', color: '#0000EE'}}>technology</span> in front of me 👩‍💻<br /></p>
           <Tooltip anchorSelect="#seeme" place="bottom" style={{ width: '250px', textAlign: 'center'}}>a medium for interpreting and interacting with the world... computers, internet, literacy, home, bodies, astrology, woman</Tooltip>
           <p>
             
              ✍️ writer for <a className="red" href="#/weblog">humans</a> & {" "} <a href="https://github.com/mck-afk">computers</a>
-            <br /> 📖 inquisitor of {" "} <a className="blue" href="#/InterNet">literature</a> & <a className="purple" href="#/InterNet">esoterica</a>
+            <br /> 📖 inquisitor of {" "} <a className="blue" href="#/InterNet">literature</a> & <a className="purple" href="#/AstroProgram">esoterica</a>
             
             <br /> 🧶 crafter in the {" "} <a className="yellow" href="#/CrochetComputer">physical</a> & <a className="green" href="#/abode">digital</a> 
           </p>
@@ -41,7 +41,34 @@ const Home = () => {
             voracious for vitality
           </p>
         </PostItNote>
+        
 
+        <motion.div
+          initial={{ x: 0, y: -50 }}
+          animate={movingNoteId === "noteWEBLOG" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
+          transition={{ duration: 0.2 }}
+          style={{ cursor: "pointer", margin: "auto", zIndex: 1000, position: "relative" }}
+          whileHover={{ rotate: -5 }}
+          onClick={() => handleNoteClick("noteWEBLOG", "/weblog")}
+        >
+          <PostItNote
+            id="noteWEBLOG"
+            className="note red right"
+            title="WebLog aka Blog"
+            lastUpdated="22/09/2026"
+          >
+            <p>an athenaeum of introspection, investigation, & imagination ✍️
+              <br />
+              <img src="https://blob.gifcities.org/gifcities/4W6TLA2HJNPFMAEBAOY32MTYHCDONYNU.gif" />
+              <br />
+              topics include: internet, technology, literacy, capitalism, writing, body, spirit, home, girl, woman, mother, other
+              <img src="/images/blinking_caret.gif" style={{width: "8px", height: "18px"}}/>
+            </p>
+
+            <p style={{  textAlign: "right" }} ><img src="https://blob.gifcities.org/gifcities/LKDMD44G2M5KCZDNP3CB3C6XT46F7N2V.gif" /></p>
+            
+          </PostItNote>
+        </motion.div>
 
         <motion.div
           initial={{ x: 0, y: -50 }}
@@ -61,38 +88,10 @@ const Home = () => {
             collections of links 🔗 <br /><br /> <img src="https://blob.gifcities.org/gifcities/OKHS3RM5QESWDRYPYFD2LZXHCU5UQAGI.gif" /><br /><br /> to books, newsletters, communities, worlds, articles, recipes, media, people, crafts & more 
             
           </p>
-          <p style={{ textAlign: "right" }} ><img src="https://blob.gifcities.org/gifcities/RYZXTD3B7A23HN45HI47DKN2EV5D465M.gif" /></p>
+          <p style={{ display: "none", textAlign: "right" }} ><img src="https://blob.gifcities.org/gifcities/RYZXTD3B7A23HN45HI47DKN2EV5D465M.gif" /></p>
         </PostItNote>
         </motion.div>
 
-        <motion.div
-          initial={{ x: 0, y: -50 }}
-          animate={movingNoteId === "noteWEBLOG" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
-          transition={{ duration: 0.2 }}
-          style={{ cursor: "pointer", margin: "auto", zIndex: 1000, position: "relative" }}
-          whileHover={{ rotate: -5 }}
-          onClick={() => handleNoteClick("noteWEBLOG", "/weblog")}
-        >
-          <PostItNote
-            id="noteWEBLOG"
-            className="note red right"
-            title="WebLog aka Blog"
-            lastUpdated="22/07/2026"
-          >
-            <p>an athenaeum of introspection, investigation, & imagination ✍️
-              <br />
-              <img src="https://blob.gifcities.org/gifcities/4W6TLA2HJNPFMAEBAOY32MTYHCDONYNU.gif" />
-              <br />
-              topics include: internet, technology, literacy, capitalism, writing, body, spirit, home, girl, woman, mother, other
-              <img src="/images/blinking_caret.gif" style={{width: "8px", height: "18px"}}/>
-            </p>
-
-            
-            <p style={{  display: "none", textAlign: "right" }} ><img src="https://blob.gifcities.org/gifcities/367RXTPFSHLBBRS6PGTJQEHMTDEXP2HC.gif" /></p>
-            <p style={{  display: "none", textAlign: "right" }} ><img src="https://blob.gifcities.org/gifcities/LKDMD44G2M5KCZDNP3CB3C6XT46F7N2V.gif" /></p>
-            
-          </PostItNote>
-        </motion.div>
 
 
         <motion.div

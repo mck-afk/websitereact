@@ -50,6 +50,13 @@
   color: #000000 !important;
 }
 
+.ascii-flowchart pre {
+  font-family: "Courier New", monospace;
+  white-space: pre;
+  line-height: 1.2;
+  margin: 0;
+}
+
 /*@font-face {
   font-family: "BC";
   src: local("BodoniCondC"), url("./fonts/BodoniCondC.otf") format("opentype");
