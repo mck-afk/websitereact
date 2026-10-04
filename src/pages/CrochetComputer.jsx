@@ -8,9 +8,11 @@ const CrochetComputer = () => (
             <h1>Crochet Computer</h1>
             <p></p>
         </div>
+
+        <p><img src="images/ccFINAL.JPG" style={{ width: "400px"}}/></p>
         
         <h2>Objective</h2>
-        <p>I am making an idol of a computer through the textile techniques of knitting, crocheting, and sewing. This is the documentation of said journey.</p>
+        <p>Over 5 months in 2026, I made an idol of a computer motherboard, using the textile techniques of knitting, crocheting, and sewing. This is the documentation of my journey. </p>
         
         <h2>Purposes</h2>
         <ul>
@@ -26,6 +28,39 @@ const CrochetComputer = () => (
 
     
         <h2 className="yellow">Creative Log</h2>
+        
+        <hr />
+        <h3>04 October 2026 - Crochet Computer Complete</h3>
+
+        <hr />
+        
+        
+        <h3>04 October 2026 - CPU container, refactored SATA and CMOS battery, added copper wiring, cleaned up stray threads</h3>
+        <p>After almost 5 months of on and off work, I am proud to say that my Crochet Computer is complete. Today I finished off the last few parts - including refactoring (unpicking and starting over) the SATA and CMOS battery, and spending over 2 hours tidying up all the loose and stray threads. As they say, the hardest part of building a PC is cable management! Sewing the copper thread was a challenge because it was to thin and fickle.</p>
+
+        <p>My favourite part of this journey was that it encouraged my perseverence and creativity. And, serendipitiously, I had an opportunity to put this theory into action!<br /> One thing I would do the same if I were starting over is, I would do the same of equipping myself with all the wool I needed at the beginning so I could focus on the process of trial and error to make the components look like the real things. One thing I would do differently would be to start with the easier components and move onto the harder ones, to build confidence and practice techniques. </p>
+        <p>PS: the I/O components are slotted which makes them interactive!</p>
+        
+        <img src="images/ccFINAL.JPG" style={{ width: "400px"}}/>
+        
+        <hr />
+        
+        <h3>03 October 2026 - I/O, SATA, CMOS battery and CPU container mapping</h3>
+        <p> I felt a burst of energy and motivation to finsh off these last few components. I also added the CMOS battery, which I hadn't planned for earlier but I found there was a perfect space for it. Reference photo:
+            <img src="https://d1q3zw97enxzq2.cloudfront.net/images/biosbattery.width-1000.format-webp.webp" style={{ width: "400px"}} /></p>
+        
+        <p>I mapped out the placement for the CPU container and am excited to continue working on it tomorrow!</p>
+        
+        <img src="images/ccOct3.JPG" style={{ width: "400px"}}/>
+
+        <hr />
+        
+        <h3>24 September 2026 - PCIe started and finished, and CPU made</h3>
+        <p>For the PCI and PCIe, use the same stitches as the RAM. <br />For the CPU, create a square using 6 sc.</p>
+        
+        <img src="images/ccPCIE.JPG" style={{ width: "400px"}}/>
+
+        <hr />
 
         <h3>28 August 2026 - RAM finished and PSU started</h3>
         <p>Repeat RAM stitches. Use a second type of yarn to differentiate and reverse the direction of the stitches. Leave one whole stitch between the two pairs. To add the tabs at each end, sc from one row to the other, then half double crochet and build back across. <br />For the PSU, count 14 stitches long (12 gaps + one on each side for the edging = 14). Use double crochet to achieve desired height. </p>
