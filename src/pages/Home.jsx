@@ -23,7 +23,7 @@ const Home = () => {
           id="noteABOUT"
           className="note pink"
           title="annabelle grace mckenzie"
-          lastUpdated="04/10/2026"
+          lastUpdated="07/11/2026"
         >
           <p>relating with the <span id="seeme" style={{ textDecoration: 'underline', color: '#0000EE'}}>technology</span> in front of me 👩‍💻<br /></p>
           <Tooltip anchorSelect="#seeme" place="bottom" style={{ width: '250px', textAlign: 'center'}}>a medium for interpreting and interacting with the world... computers, internet, literacy, home, bodies, astrology, woman</Tooltip>
@@ -41,29 +41,7 @@ const Home = () => {
             voracious for vitality
           </p>
         </PostItNote>
-        
-        <motion.div
-          initial={{ y: -20 }}
-          animate={movingNoteId === "noteTechNewsSynth" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
-          transition={{ duration: 0.2 }}
-          style={{ cursor: "pointer", margin: "auto", zIndex: 1000, position: "relative" }}
-          whileHover={{ rotate: -5 }}
-          onClick={() => handleNoteClick("noteTechNewsSynth", "/CrochetComputer")}
-        >
-        <PostItNote
-          id="noteTechNewsSynth"
-          className="note yellow right"
-          title="Crochet Computer"
-          lastUpdated="04/10/2026" 
-        >
-            
-            <p>Over 5 months, I made an idol of a computer through the textile techniques of knitting, crocheting, and sewing</p>
-            <img style={{ width: "60px" }} src="https://media.baamboozle.com/uploads/images/388680/1625161883_71705_gif-url.gif"/>
-            <p>explore the journey</p>
 
-            <p style={{ display: "none", textAlign: "right" }} ><img src="https://blob.gifcities.org/gifcities/LKDMD44G2M5KCZDNP3CB3C6XT46F7N2V.gif" /></p>
-        </PostItNote>
-        </motion.div> 
 
         <motion.div
           initial={{ x: 0, y: -50 }}
@@ -77,7 +55,7 @@ const Home = () => {
             id="noteWEBLOG"
             className="note red right"
             title="WebLog aka Blog"
-            lastUpdated="22/09/2026"
+            lastUpdated="07/11/2026"
           >
             <p>an athenaeum of introspection, investigation, & imagination ✍️
               <br />
@@ -104,19 +82,66 @@ const Home = () => {
           id="noteINTERNET"
           className="note blue left"
           title="InterNet"
-          lastUpdated="01/09/2026"
+          lastUpdated="24/10/2026"
         >
           <p>
             collections of links 🔗 <br /><br /> <img src="https://blob.gifcities.org/gifcities/OKHS3RM5QESWDRYPYFD2LZXHCU5UQAGI.gif" /><br /><br /> to books, newsletters, communities, worlds, articles, recipes, media, people, crafts & more 
             
           </p>
-          <p style={{ display: "none", textAlign: "right" }} ><img src="https://blob.gifcities.org/gifcities/RYZXTD3B7A23HN45HI47DKN2EV5D465M.gif" /></p>
+          <p style={{ textAlign: "right" }} ><img src="https://blob.gifcities.org/gifcities/RYZXTD3B7A23HN45HI47DKN2EV5D465M.gif" /></p>
         </PostItNote>
         </motion.div>
 
+        <motion.div
+          initial={{ y: -20 }}
+          animate={movingNoteId === "noteFBL" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
+          transition={{ duration: 0.2 }}
+          style={{ cursor: "pointer", margin: "auto", zIndex: 1000, position: "relative" }}
+          whileHover={{ rotate: -5 }}
+          onClick={() => handleNoteClick("noteFBL", "/femalebodyliteracy")}
+        >
+        <PostItNote
+          id="noteFBL"
+          className="note orange right"
+          title="Body Literacy"
+          lastUpdated="24/10/2026"
+        >
+          <p>
+            
+            resources for everyone to:
+            <br />
+            <img src="https://blob.gifcities.org/gifcities/6IOS74JAJCZEDHQAT65WI3QOHDLCSPVI.gif" />
+            <br />- interpret the female body for reproductive empowerment 
+            <br />- explore the female/male bodied experience, and
+            <br />- engineer purpose into those experiences
+            
+          </p>
+          <p style={{ textAlign: "right" }} ><img src="https://blob.gifcities.org/gifcities/TI6F4JDECJ2M6SOECHH57FR7HPKI3WM3.gif" /></p>
+        </PostItNote>
+        </motion.div>
 
+        <motion.div
+          initial={{ y: -20 }}
+          animate={movingNoteId === "noteTechNewsSynth" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
+          transition={{ duration: 0.2 }}
+          style={{ cursor: "pointer", margin: "auto", zIndex: 1000, position: "relative" }}
+          whileHover={{ rotate: -5 }}
+          onClick={() => handleNoteClick("noteTechNewsSynth", "/CrochetComputer")}
+        >
+        <PostItNote
+          id="noteTechNewsSynth"
+          className="note yellow right"
+          title="Crochet Computer"
+          lastUpdated="04/10/2026" 
+        >
+            
+            <p>Over 5 months, I made an idol of a computer through the textile techniques of knitting, crocheting, and sewing</p>
+            <img style={{ width: "60px" }} src="https://media.baamboozle.com/uploads/images/388680/1625161883_71705_gif-url.gif"/>
+            <p>explore the journey</p>
 
-        
+            <p style={{ display: "none", textAlign: "right" }} ><img src="https://blob.gifcities.org/gifcities/LKDMD44G2M5KCZDNP3CB3C6XT46F7N2V.gif" /></p>
+        </PostItNote>
+        </motion.div> 
 
         <motion.div
           initial={{ y: -40 }}
@@ -167,33 +192,7 @@ const Home = () => {
         </PostItNote>
         </motion.div>
 
-        <motion.div
-          initial={{ y: -20 }}
-          animate={movingNoteId === "noteFBL" ? { x: typeof window !== 'undefined' ? window.innerWidth : 900, y: 600 } : { x: 0, y: 0 }}
-          transition={{ duration: 0.2 }}
-          style={{ cursor: "pointer", margin: "auto", zIndex: 1000, position: "relative" }}
-          whileHover={{ rotate: -5 }}
-          onClick={() => handleNoteClick("noteFBL", "/femalebodyliteracy")}
-        >
-        <PostItNote
-          id="noteFBL"
-          className="note orange right"
-          title="Body Literacy"
-          lastUpdated="15/05/2026"
-        >
-          <p>
-            
-            resources for everyone to:
-            <br /><br />
-            <img src="https://blob.gifcities.org/gifcities/6IOS74JAJCZEDHQAT65WI3QOHDLCSPVI.gif" />
-            <br /><br />- explore the female/male bodied experience
-            <br />- engineer purpose into those experiences, and
-            <br />- interpret the signals of the female body for reproductive empowerment
-            
-          </p>
-          <p style={{ display: "none", textAlign: "right" }} ><br /><img src="https://blob.gifcities.org/gifcities/TI6F4JDECJ2M6SOECHH57FR7HPKI3WM3.gif" /></p>
-        </PostItNote>
-        </motion.div>
+        
         
         <motion.div
           initial={{ y: -60 }}

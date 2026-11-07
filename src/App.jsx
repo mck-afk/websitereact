@@ -28,6 +28,7 @@ import HIWW from './pages/Blog_HIWW';
 import RBSS from './pages/Blog_RBSS';
 import TBUC from './pages/Blog_TBUC';
 import GZSA from './pages/Blog_GZSA';
+//import WSCE from './pages/Blog_WSCE';
 //import ESTATE from './pages/Blog_Estate';
 // import CheckoutProducts from './pages/CheckoutProducts';
 // import CheckoutSuccess from './pages/CheckoutSuccess';
@@ -65,6 +66,8 @@ function App() {
       <Route path="/Blog_TBUC" element={<TBUC />} />
       <Route path="/Blog_TUBC" element={<TBUC />} />
       <Route path="/Blog_GZSA" element={<GZSA />} />
+
+      
       
     </Routes>
   );

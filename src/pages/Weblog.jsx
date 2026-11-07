@@ -61,7 +61,35 @@ const Weblog = () => {
           </div>
         
         <div id="thoughts" className="noticeboardBackground" style={{ padding: "2rem", marginBottom: "2rem" }}>
-        <h1>Thought Wall</h1>
+
+        
+        <PostItNote 
+          id="noteONMOTHERING"
+          className="note red"
+          title="On Guilt"
+          lastUpdated="07/11/2026">
+            <p>Children recognise their mothers as divinity.
+              <br /><br />It's in the Adult world
+              <br />where mothers are simultaneously beneath and beyond recognition and compensation
+              <br />that this dissonance lives.
+              <br />This unique, pervasive, injury. 
+            </p>
+        </PostItNote>
+        <PostItNote 
+          id="noteONRAGEDEFINE"
+          className="note red"
+          title="On Defining Rage"
+          lastUpdated="24/10/2026">
+            <p>The feminine relationship with rage is illicit. In that, it is beyond patriarchal conditioning - the only thing they care about is abstinence. And we all know by now that does stop a relationship growing. If anything, it energises it. While partiarchy demands the annihilation of rage, it also trains us to accept our self-censorship of it. Rage and death alike. And woman knows, the beginning comes after the end.</p>
+        </PostItNote>
+        
+        <PostItNote 
+          id="noteONSOCIETYCOOKING"
+          className="note red"
+          title="On Society"
+          lastUpdated="22/09/2026">
+            <p>I learnt cooking as a temperature gauge for how society was feeling. The more attention I paid to cooking, the more attention I paid to the process of gathering ingredients. I noticed that supermarkets were a reflector of societial forces. When there is instability, people change their buying behaviours - an extra can or two.</p>
+        </PostItNote>
         <PostItNote 
           id="noteONDECENTERINGMEN"
           className="note red"
@@ -71,6 +99,13 @@ const Weblog = () => {
             <br />All the skepticism, disappointment, grief. <br /> All the affection. All the attention. 
             <br /><br />All that and a lot more. 
             <br /><br />That’s all you babe.</p>
+        </PostItNote>
+        <PostItNote 
+          id="noteONTHEWAGE"
+          className="note red"
+          title="On The Wage"
+          lastUpdated="15/07/2026">
+            <p>The wage normalised relationships based in extraction. <br /><br />The exchange of labour for money primes you to base future relationships on what you can extract.</p>
         </PostItNote>
         <PostItNote 
           id="noteONMONEY"

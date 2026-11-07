@@ -7,6 +7,16 @@ import { image } from "framer-motion/client";
 // Article data array
 const articlesData = [
   {
+    id: "articleWN-HYTYM",
+    color: "orange",
+    title: "Have You Thanked Your Mother?",
+    text: "publication with WhyNot",
+    date: "07 November 2026",
+    themes: ["mother", "capitalism", "external"],
+    external: "true",
+    redirectPath: "https://www.whynot.org.au/voice/have-you-thanked-your-mother/",
+    image: "https://www.whynot.org.au/wp-content/uploads/2023/11/WN_Logo_NEW_Crop-2.png"
+  },{
     id: "articleATBC",
     color: "green",
     title: "After 'The Beginning Comes After the End'",
@@ -88,16 +98,6 @@ const articlesData = [
     redirectPath: "https://www.whynot.org.au/voice/youth-leadership/unfiltered-thoughts-hope/#:~:text=Hope%20Is%20Here",
     image: "https://www.whynot.org.au/wp-content/uploads/2023/11/WN_Logo_NEW_Crop-2.png"
   },
-  // {
-  //   id: "articleATBC",
-  //   color: "green",
-  //   title: "After 'The Beginning Comes After the End'",
-  //   text: "reflections on Rebecca Solnit's latest work",
-  //   date: "08 June 2026",
-  //   themes: ["literature", "feminism", "narrative"],
-  //   redirectPath: "/Blog_ATBC",
-  //   image: "https://storage.googleapis.com/circlesoft/document/photos/004/646/775/large_temp_img.jpg20260528-25-oayvg?1779944182"
-  // },
   {
     id: "articleWN-CTMBM",
     color: "orange",

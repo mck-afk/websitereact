@@ -69,12 +69,12 @@ const Nav = () => {
                 <p></p>
                 <div className="win7">
                     <select>
-                        <option>How are you feeling?</option>
-                        <option>5 - Incredible!</option>
-                        <option>4 - Great!</option>
-                        <option>3 - Pretty good</option>
-                        <option>2 - Incredible! (I prefer the number 2)</option>
-                        <option>1 - I hate interactivity</option>
+                        <option>How are you feeling on this fine day?</option>
+                        <option>Incredible!</option>
+                        <option>Great!</option>
+                        <option>Pretty good!</option>
+                        <option>Incredibler!</option>
+                        <option>I am alive!</option>
                     </select>
                     <p></p>
                     <div className="window active" style={{ width: 300, textAlign: "center"}}>
@@ -126,8 +126,8 @@ const Nav = () => {
                 <p>
                     <br />Annabelle Grace McKenzie lives, works, and plays on the land of 
                     <a href="https://www.wurundjeri.com.au/"> the Wurundjeri Woi Wurrung people of the Kulin Nation</a>. She recognises their 
-                    <a href="https://www.nma.gov.au/defining-moments/resources/evidence-of-first-peoples"> 65,000+ years </a>
-                    of sovereignty and reciprocial living, and her duty as a guest upon it today; which includes the amplification of indigenous-oriented organisations including <a href="https://www.commonground.org.au/">Common Ground,</a> <a href="https://www.naccho.org.au/">NACCHO</a>, <a href="https://paytherent.net.au/">Pay The Rent,</a> and <a href="https://www.clothingthegaps.com.au/">Clothing the Gaps</a>.
+                    <a href="https://www.nma.gov.au/defining-moments/resources/evidence-of-first-peoples"> thousands of years </a>
+                    of sovereignty, and her duty as a guest upon it today; which includes the amplifying reparations organisations such as <a href="https://paytherent.net.au/">Pay The Rent</a>, <a href="https://www.commonground.org.au/">Common Ground</a>, <a href="https://www.naccho.org.au/">NACCHO</a>, and <a href="https://www.clothingthegaps.com.au/">Clothing the Gaps</a>.
                     <br /><br />
                     <span style={{ textDecoration: 'italic'}}>All rights reserved © 2026 Annabelle Grace McKenzie</span>
                     <br /><br />

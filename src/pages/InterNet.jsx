@@ -6,6 +6,7 @@ const InterNet = () => (
     <PageLayout>
         <div className="blue">
             <h1>InterNet</h1>
+            
             <p>
                 links to books, articles, inspirations, people, gatherings, media, movements, and other treasured connections 🔗
             </p>
@@ -99,6 +100,10 @@ const InterNet = () => (
                             Vulture Capitalism: How to Survive in an Age of Corporate Greed by Grace Blakeley 2025</a></dt>
                         <dd>"The choice isn't 'free markets' or 'planning'. Planning and free markets exist alongside one another in capitalist societies - indeed in any society. The choice is whether the planning that inevitably does take place in any complex social system is democratic or oligarchic... Capitalism is a hybrid system based on a fusion between markets and planning."</dd>
                         <dt>
+                            <a href="https://yourbookstore.io/p/with-her-own-hands-women-weaving-their-stories">
+                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/444/713/large_9781324074854.jpg?1770701761" />With Her Own Hands: Women Weaving Their Stories by Nicole Nehrig 2025</a></dt>
+                        <dd>"Creating life and creating cloth have been two of women's most critical contributions to human societies, and many paralells have been drawn between them."<br />"Thought is restructured as it is transformed into cloth. It is not expressed but completed in the stitch. The process of creating textiles both express who we are and create who we are." </dd>
+                        <dt>
                             <a href="https://yourbookstore.io/p/how-to-die-in-the-21st-century">
                             <img className="book" src="https://thamesandhudson.com.au/cdn/shop/files/9781760765309.jpg?v=1774902564" />How to Die in the 21st Century: A Whole New Way to Talk About Death by Hannah Gould 2026</a></dt>
                         <dd>"Contemplating death is aimed at living better, not dying sooner."<br />"Modern death denialism is therefore a system that can only function for some. Even then, it does not seem to be functioning very well."</dd>
@@ -106,8 +111,16 @@ const InterNet = () => (
                             <a href="https://yourbookstore.io/p/the-beginning-comes-after-the-end-notes-on-a-radically-changed-and-changing-world">
                             <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/646/775/large_temp_img.jpg20260819-39-xot2b9?1787098217" />The Beginning Comes After the End: Notes on a Radically Changed and Changing World by Rebecca Solnit 2026</a></dt>
                         <dd>"This is a long essay in the form of a short book about the profound changes of the past several decades, about those who planted and tended to seeds, about how ideas became actualities... This is a reminder that you do not have to picture the destination to reach it or at laest draw closer to it, you just need to choose a direction and keep on walking-though that metaphor makes it sound as though it already exists, if at a distance, rather than that the process itself creates it and covers the distance between the idea and the actuality."</dd>
-                    </dl>
 
+                        <dt>
+                            <a href="https://yourbookstore.io/p/i-eat-the-stars-how-to-live-fully-and-beautifully-in-a-collapsing-world">
+                            <img className="book" src="https://m.media-amazon.com/images/I/51HPbxH8JmL._SY445_SX342_ML2_.jpg" />i eat the stars: how to live fully and beautifully in a collapsing world by sarah wilson 2026</a></dt>
+                        <dd>"In the past, as a climate activist, I went about creating change by championing almighty collective upheavals... but increasingly I think the transformation we are all aching for must be emergent, just as collapse is... all our small intentions and interventions - and moments of intentional collaboration, cooperation and communication"</dd>
+
+
+
+
+                    </dl>
 
                 </div>
                 <div className="blue" id="fiction">
@@ -232,6 +245,11 @@ const InterNet = () => (
                             <img className="book" src="/images/ismatu.png" />
                             The Uses of Insanity by Ismatu Gwendolyn 2026</a>
                         </dt>
+                        <dt>
+                            <a href="https://yourbookstore.io/p/beginning-middle-end">
+                            <img className="book" src="https://storage.googleapis.com/circlesoft/document/photos/004/654/016/large_9780008804817.jpg?1788384596" />
+                            Beginning Middle End by Valeria Luiselli 2026</a>
+                        </dt>
                         
                     </dl>
                 </div>
@@ -299,6 +317,7 @@ const InterNet = () => (
                 <li className="orange"><a href="https://30u30.fyi/">The Forbes 30 Under 30 Fraud Watch</a></li>
                 
                 <li className="yellow"><a href="https://www.door.link/">[ door ]</a></li>
+                <li className="yellow"><a href="https://heritagecrafts.org.uk/">Heritage Crafts</a></li>
                 
                 <li className="green"><a href="https://annas-abode.net/">Anna's Abode</a></li>
                 <li className="green"><a href="https://www.maternalgifteconomymovement.org/">Maternal Gift Economy Movement</a></li>
@@ -310,7 +329,7 @@ const InterNet = () => (
                 <li className="blue"><a href="https://marginalia-search.com/">Marginalia Search</a></li>
                 <li className="blue"><a href="https://www.themahjongproject.com/how-to-play">The Mahjong Project</a></li>
                 <li className="blue"><a href="https://cyberdeck.cafe/">The Cyberdeck Cafe</a></li>
-                
+                <li className="blue"><a href="https://spelunkr.tv/">Spelunkr TV</a></li>
                 
                 <li className="purple"><a href="https://theskylive.com/planetarium">The Sky Live</a></li>
                 <li className="purple"><a href="https://structuredlabs.github.io/threebodyproblem/">Three Body Problem Sandbox</a></li>
